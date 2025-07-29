@@ -3,11 +3,14 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 from fastapi import Depends
 import os
+from dotenv import load_dotenv
 
-DATABASE_URL = os.getenv(
-    "DATABASE_URL",
-    "postgresql+asyncpg://fastapi_user:fastapi123@localhost:5432/career_compass_db"
-)
+# Load environment variables from .env file
+load_dotenv()
+
+DATABASE_URL = os.getenv("DATABASE_URL")
+if not DATABASE_URL:
+    raise ValueError("DATABASE_URL environment variable is required")
 
 engine = create_async_engine(DATABASE_URL, echo=True)
 

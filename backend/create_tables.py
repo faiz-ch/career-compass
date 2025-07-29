@@ -2,11 +2,14 @@ import asyncio
 from sqlalchemy.ext.asyncio import create_async_engine
 from app.db.models import Base
 import os
+from dotenv import load_dotenv
 
-DATABASE_URL = os.getenv(
-    "DATABASE_URL",
-    "postgresql+asyncpg://user:password@localhost:5432/career_compass_db"
-)
+# Load environment variables from .env file
+load_dotenv()
+
+DATABASE_URL = os.getenv("DATABASE_URL")
+if not DATABASE_URL:
+    raise ValueError("DATABASE_URL environment variable is required")
 
 async def create_tables():
     """Create all database tables."""

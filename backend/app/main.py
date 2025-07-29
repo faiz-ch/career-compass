@@ -23,6 +23,8 @@ from app.api.v1 import careers
 app.include_router(careers.router, prefix="/api/v1/careers", tags=["careers"])
 from app.api.v1 import admissions
 app.include_router(admissions.router, prefix="/api/v1/admissions", tags=["admissions"])
+from app.api.v1 import ai
+app.include_router(ai.router, prefix="/api/v1/ai", tags=["ai"])
 
 @app.get("/")
 def root():
