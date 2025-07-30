@@ -11,13 +11,14 @@ const apiRequest = async (
   options: RequestInit = {}
 ): Promise<any> => {
   const token = getAuthToken();
-  const headers: HeadersInit = {
+  // Ensure headers is a Record<string, string>
+  const headers: Record<string, string> = {
     'Content-Type': 'application/json',
-    ...options.headers,
+    ...(options.headers as Record<string, string>),
   };
 
   if (token) {
-    headers.Authorization = `Bearer ${token}`;
+    headers['Authorization'] = `Bearer ${token}`;
   }
 
   const response = await fetch(`${API_BASE_URL}${endpoint}`, {
@@ -142,25 +143,58 @@ export const admissionsAPI = {
       body: JSON.stringify(admissionData),
     });
   },
-
   getMyAdmissions: async () => {
     return apiRequest('/admissions/me');
   },
-
   getById: async (id: number) => {
     return apiRequest(`/admissions/${id}`);
   },
-
   updateStatus: async (id: number, statusData: any) => {
     return apiRequest(`/admissions/${id}`, {
       method: 'PATCH',
       body: JSON.stringify(statusData),
     });
   },
-
   delete: async (id: number) => {
     return apiRequest(`/admissions/${id}`, {
       method: 'DELETE',
+    });
+  },
+};
+
+// AI API
+export const aiAPI = {
+  generateInterviewQuestions: async ({ interests }: { interests: string }) => {
+    return apiRequest('/ai/interview/questions', {
+      method: 'POST',
+      body: JSON.stringify({ interests }),
+    });
+  },
+  analyzeInterviewResponses: async (payload: {
+    interests: string;
+    responses: string[];
+  }) => {
+    return apiRequest('/ai/interview/analyze', {
+      method: 'POST',
+      body: JSON.stringify(payload),
+    });
+  },
+  // Dynamic interview endpoints
+  startDynamicInterview: async ({ interests }: { interests: string }) => {
+    return apiRequest('/ai/interview/dynamic/start', {
+      method: 'POST',
+      body: JSON.stringify({ interests }),
+    });
+  },
+  getNextDynamicQuestion: async (payload: {
+    interests: string;
+    previous_questions: string[];
+    previous_responses: string[];
+    current_question_number: number;
+  }) => {
+    return apiRequest('/ai/interview/dynamic/next', {
+      method: 'POST',
+      body: JSON.stringify(payload),
     });
   },
 }; 

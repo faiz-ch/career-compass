@@ -4,61 +4,64 @@ import { AuthProvider, useAuth } from './context/AuthContext';
 import LoginForm from './components/LoginForm';
 import RegisterForm from './components/RegisterForm';
 import Dashboard from './components/Dashboard';
+import AIInterview from './components/AIInterview';
 import './App.css';
 
 // Protected Route Component
 const ProtectedRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const { isAuthenticated, isLoading } = useAuth();
-
-  if (isLoading) {
-    return <div className="min-h-screen flex items-center justify-center">Loading...</div>;
-  }
-
-  return isAuthenticated ? <>{children}</> : <Navigate to="/login" replace />;
+  const { isAuthenticated } = useAuth();
+  return isAuthenticated ? <>{children}</> : <Navigate to="/login" />;
 };
 
-// Public Route Component (redirects to dashboard if already authenticated)
-const PublicRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const { isAuthenticated, isLoading } = useAuth();
+// Main App Component
+const AppContent: React.FC = () => {
+  const { isAuthenticated } = useAuth();
 
-  if (isLoading) {
-    return <div className="min-h-screen flex items-center justify-center">Loading...</div>;
-  }
-
-  return isAuthenticated ? <Navigate to="/dashboard" replace /> : <>{children}</>;
-};
-
-const AppRoutes: React.FC = () => {
   return (
     <Router>
-      <Routes>
-        <Route path="/login" element={
-          <PublicRoute>
-            <LoginForm />
-          </PublicRoute>
-        } />
-        <Route path="/register" element={
-          <PublicRoute>
-            <RegisterForm />
-          </PublicRoute>
-        } />
-        <Route path="/dashboard" element={
-          <ProtectedRoute>
-            <Dashboard />
-          </ProtectedRoute>
-        } />
-        <Route path="/" element={<Navigate to="/dashboard" replace />} />
-      </Routes>
+      <div className="App">
+        <Routes>
+          <Route 
+            path="/login" 
+            element={isAuthenticated ? <Navigate to="/dashboard" /> : <LoginForm />} 
+          />
+          <Route 
+            path="/register" 
+            element={isAuthenticated ? <Navigate to="/dashboard" /> : <RegisterForm />} 
+          />
+          <Route 
+            path="/dashboard" 
+            element={
+              <ProtectedRoute>
+                <Dashboard />
+              </ProtectedRoute>
+            } 
+          />
+          <Route 
+            path="/ai-interview" 
+            element={
+              <ProtectedRoute>
+                <AIInterview />
+              </ProtectedRoute>
+            } 
+          />
+          <Route 
+            path="/" 
+            element={<Navigate to={isAuthenticated ? "/dashboard" : "/login"} />} 
+          />
+        </Routes>
+      </div>
     </Router>
   );
 };
 
-function App() {
+// App Component with AuthProvider
+const App: React.FC = () => {
   return (
     <AuthProvider>
-      <AppRoutes />
+      <AppContent />
     </AuthProvider>
   );
-}
+};
 
 export default App;

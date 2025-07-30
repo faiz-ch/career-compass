@@ -27,13 +27,17 @@ class SkillAnalysisResponse(BaseModel):
     career_interests: List[str]
     confidence_level: str
 
-class ProgramRankingRequest(BaseModel):
-    career: str
-    programs: List[Dict[str, Any]]
-    student_skills: Dict[str, Any]
+class DynamicInterviewRequest(BaseModel):
+    interests: str
+    previous_questions: List[str] = []
+    previous_responses: List[str] = []
+    current_question_number: int = 1
 
-class ProgramRankingResponse(BaseModel):
-    ranked_programs: List[Dict[str, Any]]
+class DynamicInterviewResponse(BaseModel):
+    question: str
+    reasoning: str
+    focus_area: str
+    is_final_question: bool
 
 @router.post("/interview/questions", response_model=InterviewResponse)
 async def generate_interview_questions(
@@ -58,31 +62,47 @@ async def analyze_interview_responses(
     """Analyze interview responses and infer skills."""
     try:
         analysis = await llm_service.infer_skills_from_responses(
-            request.interests, 
+            request.interests,
             request.responses
         )
         return SkillAnalysisResponse(**analysis)
     except Exception as e:
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            detail=f"Failed to analyze responses: {str(e)}"
+            detail=f"Failed to analyze interview: {str(e)}"
         )
 
-@router.post("/programs/rank", response_model=ProgramRankingResponse)
-async def rank_programs_for_career(
-    request: ProgramRankingRequest,
+@router.post("/interview/dynamic/start", response_model=DynamicInterviewResponse)
+async def start_dynamic_interview(
+    request: InterviewRequest,
     current_user: Student = Depends(get_current_user)
 ):
-    """Rank university programs based on career and student skills."""
+    """Start a dynamic interview with the first question."""
     try:
-        ranked_programs = await llm_service.rank_programs_for_career(
-            request.career,
-            request.programs,
-            request.student_skills
-        )
-        return ProgramRankingResponse(ranked_programs=ranked_programs)
+        result = await llm_service.generate_initial_question(request.interests)
+        return DynamicInterviewResponse(**result)
     except Exception as e:
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            detail=f"Failed to rank programs: {str(e)}"
+            detail=f"Failed to start interview: {str(e)}"
+        )
+
+@router.post("/interview/dynamic/next", response_model=DynamicInterviewResponse)
+async def get_next_dynamic_question(
+    request: DynamicInterviewRequest,
+    current_user: Student = Depends(get_current_user)
+):
+    """Get the next question based on previous responses."""
+    try:
+        result = await llm_service.generate_dynamic_question(
+            request.interests,
+            request.previous_questions,
+            request.previous_responses,
+            request.current_question_number
+        )
+        return DynamicInterviewResponse(**result)
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Failed to generate next question: {str(e)}"
         )
