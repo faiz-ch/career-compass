@@ -1,5 +1,9 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from sqlalchemy.ext.asyncio import create_async_engine
+from app.db.models import Base
+from app.db.session import DATABASE_URL
+import asyncio
 
 app = FastAPI()
 
@@ -11,6 +15,22 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+async def create_tables():
+    """Create database tables if they don't exist."""
+    try:
+        engine = create_async_engine(DATABASE_URL, echo=True)
+        async with engine.begin() as conn:
+            await conn.run_sync(Base.metadata.create_all)
+        await engine.dispose()
+        print("✅ Database tables created/verified successfully!")
+    except Exception as e:
+        print(f"❌ Error creating tables: {e}")
+
+@app.on_event("startup")
+async def startup_event():
+    """Run startup tasks."""
+    await create_tables()
 
 # Import and include routers
 from app.api.v1 import auth

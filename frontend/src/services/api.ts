@@ -197,4 +197,9 @@ export const aiAPI = {
       body: JSON.stringify(payload),
     });
   },
+  getInterviewResult: async () => {
+    return apiRequest('/ai/interview/result', {
+      method: 'GET',
+    });
+  },
 }; 

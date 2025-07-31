@@ -49,3 +49,18 @@ class Admission(Base):
 
     student = relationship("Student")
     program = relationship("Program", back_populates="admissions") 
+
+class InterviewResult(Base):
+    __tablename__ = "interview_results"
+
+    id = Column(Integer, primary_key=True, index=True)
+    student_id = Column(Integer, ForeignKey("students.id"), nullable=False, unique=True)
+    technical_skills = Column(Text, nullable=True)  # JSON string
+    soft_skills = Column(Text, nullable=True)  # JSON string
+    learning_style = Column(Text, nullable=True)
+    career_interests = Column(Text, nullable=True)  # JSON string
+    confidence_level = Column(String(32), nullable=True)
+    created_at = Column(DateTime, default=datetime.utcnow)
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+
+    student = relationship("Student")

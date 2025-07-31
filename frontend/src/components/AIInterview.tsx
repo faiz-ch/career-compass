@@ -3,8 +3,6 @@ import { aiAPI } from '../services/api';
 
 interface DynamicQuestion {
   question: string;
-  reasoning: string;
-  focus_area: string;
   is_final_question: boolean;
 }
 
@@ -172,10 +170,6 @@ const AIInterview: React.FC = () => {
               <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
                 <h2 className="text-lg font-semibold text-blue-800 mb-2">Current Question</h2>
                 <p className="text-blue-700">{currentQuestion.question}</p>
-                <div className="mt-3 text-sm text-blue-600">
-                  <p><strong>Focus:</strong> {currentQuestion.focus_area}</p>
-                  <p><strong>Reasoning:</strong> {currentQuestion.reasoning}</p>
-                </div>
               </div>
               
               <div>

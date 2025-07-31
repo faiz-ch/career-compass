@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { studentsAPI, careersAPI, programsAPI, admissionsAPI } from '../services/api';
+import AIResults from './AIResults';
 
 interface Student {
   id: number;
@@ -152,6 +153,11 @@ const Dashboard: React.FC = () => {
 
         {/* Dashboard Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          {/* AI Interview Results - Full Width */}
+          <div className="lg:col-span-2">
+            <AIResults />
+          </div>
+
           {/* Student Information */}
           <div className="bg-white rounded-lg shadow-md p-6">
             <h2 className="text-xl font-semibold text-gray-900 mb-4">Student Information</h2>

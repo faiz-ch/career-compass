@@ -5,6 +5,10 @@ from typing import List, Dict, Any
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.prompts import ChatPromptTemplate
 from dotenv import load_dotenv
+from sqlalchemy.ext.asyncio import AsyncSession
+from sqlalchemy import select
+from app.db.models import InterviewResult
+from datetime import datetime
 
 load_dotenv()
 
@@ -20,7 +24,7 @@ class LLMService:
                 raise ValueError("GOOGLE_API_KEY environment variable is required. Please set it in your .env file.")
             
             self._llm = ChatGoogleGenerativeAI(
-                model="gemini-1.5-pro",
+                model="gemini-1.5-flash",
                 google_api_key=api_key,
                 temperature=0.7,
                 max_tokens=1000
@@ -152,8 +156,6 @@ class LLMService:
                 Return a JSON object with this structure:
                 {{
                     "question": "The next question to ask",
-                    "reasoning": "Why this question was chosen",
-                    "focus_area": "technical/soft_skills/learning_style/motivation/career_goals",
                     "is_final_question": true/false
                 }}"""),
                 ("human", """Student's initial interests: {interests}
@@ -209,8 +211,6 @@ Generate the next question:""")
                 Return a JSON object with this structure:
                 {{
                     "question": "The first question to ask",
-                    "reasoning": "Why this question was chosen",
-                    "focus_area": "motivation/background/interests",
                     "is_final_question": false
                 }}"""),
                 ("human", "Student's initial interests: {interests}")
@@ -232,6 +232,45 @@ Generate the next question:""")
         except Exception as e:
             print(f"Error generating initial question: {str(e)}")
             # Raise the complete error instead of using fallback
+            raise e
+
+    async def save_interview_result(
+        self, 
+        session: AsyncSession, 
+        student_id: int, 
+        analysis: Dict[str, Any]
+    ) -> None:
+        """Save or update interview result for a student."""
+        try:
+            # Check if result already exists
+            result = await session.execute(
+                select(InterviewResult).where(InterviewResult.student_id == student_id)
+            )
+            existing_result = result.scalar_one_or_none()
+            
+            if existing_result:
+                # Update existing result
+                existing_result.technical_skills = json.dumps(analysis["technical_skills"])
+                existing_result.soft_skills = json.dumps(analysis["soft_skills"])
+                existing_result.learning_style = analysis["learning_style"]
+                existing_result.career_interests = json.dumps(analysis["career_interests"])
+                existing_result.confidence_level = analysis["confidence_level"]
+                existing_result.updated_at = datetime.utcnow()
+            else:
+                # Create new result
+                new_result = InterviewResult(
+                    student_id=student_id,
+                    technical_skills=json.dumps(analysis["technical_skills"]),
+                    soft_skills=json.dumps(analysis["soft_skills"]),
+                    learning_style=analysis["learning_style"],
+                    career_interests=json.dumps(analysis["career_interests"]),
+                    confidence_level=analysis["confidence_level"]
+                )
+                session.add(new_result)
+            
+            await session.commit()
+        except Exception as e:
+            await session.rollback()
             raise e
 
 # Global instance

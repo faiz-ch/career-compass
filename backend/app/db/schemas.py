@@ -1,5 +1,5 @@
 from pydantic import BaseModel, EmailStr, ConfigDict
-from typing import Optional
+from typing import Optional, List
 from datetime import datetime
 
 class StudentBase(BaseModel):
@@ -67,4 +67,22 @@ class TokenData(BaseModel):
 
 class UserLogin(BaseModel):
     email: EmailStr
-    password: str 
+    password: str
+
+class InterviewResultBase(BaseModel):
+    technical_skills: List[str]
+    soft_skills: List[str]
+    learning_style: str
+    career_interests: List[str]
+    confidence_level: str
+
+class InterviewResultCreate(InterviewResultBase):
+    pass
+
+class InterviewResultRead(InterviewResultBase):
+    id: int
+    student_id: int
+    created_at: datetime
+    updated_at: datetime
+    
+    model_config = ConfigDict(from_attributes=True)
