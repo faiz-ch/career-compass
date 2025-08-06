@@ -20,7 +20,7 @@ const AppContent: React.FC = () => {
   return (
     <Router>
       <div className="App">
-        <Routes>
+      <Routes>
           <Route 
             path="/login" 
             element={isAuthenticated ? <Navigate to="/dashboard" /> : <LoginForm />} 
@@ -32,9 +32,9 @@ const AppContent: React.FC = () => {
           <Route 
             path="/dashboard" 
             element={
-              <ProtectedRoute>
-                <Dashboard />
-              </ProtectedRoute>
+          <ProtectedRoute>
+            <Dashboard />
+          </ProtectedRoute>
             } 
           />
           <Route 
@@ -49,7 +49,7 @@ const AppContent: React.FC = () => {
             path="/" 
             element={<Navigate to={isAuthenticated ? "/dashboard" : "/login"} />} 
           />
-        </Routes>
+      </Routes>
       </div>
     </Router>
   );

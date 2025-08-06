@@ -274,4 +274,4 @@ Generate the next question:""")
             raise e
 
 # Global instance
-llm_service = LLMService()
+llm_service = LLMService() 

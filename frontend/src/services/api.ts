@@ -179,7 +179,6 @@ export const aiAPI = {
       body: JSON.stringify(payload),
     });
   },
-  // Dynamic interview endpoints
   startDynamicInterview: async ({ interests }: { interests: string }) => {
     return apiRequest('/ai/interview/dynamic/start', {
       method: 'POST',
@@ -197,9 +196,31 @@ export const aiAPI = {
       body: JSON.stringify(payload),
     });
   },
-  getInterviewResult: async () => {
-    return apiRequest('/ai/interview/result', {
-      method: 'GET',
+  getCareerRecommendations: async (payload: {
+    interview_analysis: {
+      technical_skills: string[];
+      soft_skills: string[];
+      learning_style: string;
+      career_interests: string[];
+      confidence_level: string;
+    };
+  }) => {
+    return apiRequest('/ai/career/recommendations', {
+      method: 'POST',
+      body: JSON.stringify(payload),
     });
+  },
+};
+
+// Dashboard API
+export const dashboardAPI = {
+  getCareers: async () => {
+    return apiRequest('/careers/');
+  },
+  getPrograms: async () => {
+    return apiRequest('/programs/');
+  },
+  getAdmissions: async () => {
+    return apiRequest('/admissions/me');
   },
 }; 

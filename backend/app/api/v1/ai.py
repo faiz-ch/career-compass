@@ -7,6 +7,7 @@ from app.dependencies import get_current_user
 from app.db.models import Student, InterviewResult
 from app.db.schemas import InterviewResultRead
 from app.services.llm import llm_service
+from app.services.career_recommendation import career_recommendation_service
 from pydantic import BaseModel
 from typing import List, Dict, Any
 import json
@@ -39,6 +40,12 @@ class DynamicInterviewRequest(BaseModel):
 class DynamicInterviewResponse(BaseModel):
     question: str
     is_final_question: bool
+
+class CareerRecommendationRequest(BaseModel):
+    interview_analysis: Dict[str, Any]
+
+class CareerRecommendationResponse(BaseModel):
+    recommended_careers: List[Dict[str, Any]]
 
 @router.post("/interview/questions", response_model=InterviewResponse)
 async def generate_interview_questions(
@@ -111,6 +118,33 @@ async def get_next_dynamic_question(
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail=f"Failed to generate next question: {str(e)}"
+        )
+
+@router.post("/career/recommendations", response_model=CareerRecommendationResponse)
+async def get_career_recommendations(
+    request: CareerRecommendationRequest,
+    current_user: Student = Depends(get_current_user),
+    session = Depends(get_async_session)
+):
+    """Get career recommendations based on interview analysis."""
+    try:
+        # Save interview results to database
+        await llm_service.save_interview_result(
+            session, 
+            current_user.id, 
+            request.interview_analysis
+        )
+        
+        # Get career recommendations
+        recommended_careers = await career_recommendation_service.get_career_recommendations(
+            request.interview_analysis
+        )
+        
+        return CareerRecommendationResponse(recommended_careers=recommended_careers)
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Failed to get career recommendations: {str(e)}"
         )
 
 @router.get("/interview/result", response_model=InterviewResultRead)

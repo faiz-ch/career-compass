@@ -1,248 +1,265 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import type { StudentCreate } from '../types/auth';
 
 const RegisterForm: React.FC = () => {
-  const navigate = useNavigate();
   const [formData, setFormData] = useState<StudentCreate>({
-    roll_number: '',
     name: '',
     email: '',
     password: '',
+    roll_number: '',
     hobbies: '',
     interests: '',
   });
-  const [errors, setErrors] = useState<Record<string, string>>({});
   const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
   const { register } = useAuth();
 
-  const validateForm = (): boolean => {
-    const newErrors: Record<string, string> = {};
-
-    if (!formData.roll_number.trim()) {
-      newErrors.roll_number = 'Roll number is required';
-    }
-
-    if (!formData.name.trim()) {
-      newErrors.name = 'Name is required';
-    }
-
-    if (!formData.email.trim()) {
-      newErrors.email = 'Email is required';
-    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
-      newErrors.email = 'Please enter a valid email address';
-    }
-
-    if (!formData.password) {
-      newErrors.password = 'Password is required';
-    } else if (formData.password.length < 6) {
-      newErrors.password = 'Password must be at least 6 characters long';
-    }
-
-    setErrors(newErrors);
-    return Object.keys(newErrors).length === 0;
-  };
-
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
-    // Clear error when user starts typing
-    if (errors[name]) {
-      setErrors({
-        ...errors,
-        [name]: '',
-      });
-    }
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }));
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
-    if (!validateForm()) {
-      return;
-    }
-
     setIsLoading(true);
+    setError(null);
 
     try {
       await register(formData);
-      // Registration successful - redirect to login
-      navigate('/login', { 
-        state: { message: 'Registration successful! Please log in.' }
-      });
-    } catch (err) {
-      const errorMessage = err instanceof Error ? err.message : 'Registration failed';
-      setErrors({ general: errorMessage });
+    } catch (err: any) {
+      setError(err.message || 'Registration failed');
     } finally {
       setIsLoading(false);
     }
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-md w-full space-y-8">
-        <div>
-          <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
-            Create your account
-          </h2>
-          <p className="mt-2 text-center text-sm text-gray-600">
-            Join Career Compass today
-          </p>
+    <div className="min-h-screen flex items-center justify-center p-4 relative overflow-hidden">
+      {/* Animated Background Elements */}
+      <div className="absolute inset-0 overflow-hidden">
+        {/* Floating Orbs */}
+        <div className="absolute top-20 left-20 w-32 h-32 bg-cyber-500/10 rounded-full blur-xl animate-float"></div>
+        <div className="absolute top-40 right-32 w-24 h-24 bg-cyber-400/15 rounded-full blur-lg animate-float" style={{ animationDelay: '2s' }}></div>
+        <div className="absolute bottom-32 left-1/3 w-20 h-20 bg-cyber-600/20 rounded-full blur-md animate-float" style={{ animationDelay: '4s' }}></div>
+        <div className="absolute top-1/2 right-1/4 w-16 h-16 bg-cyber-300/25 rounded-full blur-sm animate-float" style={{ animationDelay: '6s' }}></div>
+        
+        {/* Cyber Grid Lines */}
+        <div className="absolute top-0 left-0 w-full h-full opacity-20">
+          <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-cyber-500 to-transparent animate-pulse"></div>
+          <div className="absolute top-0 left-0 w-px h-full bg-gradient-to-b from-transparent via-cyber-500 to-transparent animate-pulse" style={{ animationDelay: '1s' }}></div>
+          <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-cyber-400 to-transparent animate-pulse" style={{ animationDelay: '2s' }}></div>
         </div>
-        <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
-          <div className="space-y-4">
-            <div>
-              <label htmlFor="roll_number" className="block text-sm font-medium text-gray-700">
-                Roll Number *
-              </label>
-              <input
-                id="roll_number"
-                name="roll_number"
-                type="text"
-                required
-                className={`mt-1 appearance-none relative block w-full px-3 py-2 border placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm ${
-                  errors.roll_number ? 'border-red-500' : 'border-gray-300'
-                }`}
-                placeholder="Enter your roll number"
-                value={formData.roll_number}
-                onChange={handleChange}
-              />
-              {errors.roll_number && (
-                <p className="mt-1 text-sm text-red-600">{errors.roll_number}</p>
-              )}
-            </div>
-            
-            <div>
-              <label htmlFor="name" className="block text-sm font-medium text-gray-700">
-                Full Name *
-              </label>
-              <input
-                id="name"
-                name="name"
-                type="text"
-                required
-                className={`mt-1 appearance-none relative block w-full px-3 py-2 border placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm ${
-                  errors.name ? 'border-red-500' : 'border-gray-300'
-                }`}
-                placeholder="Enter your full name"
-                value={formData.name}
-                onChange={handleChange}
-              />
-              {errors.name && (
-                <p className="mt-1 text-sm text-red-600">{errors.name}</p>
-              )}
-            </div>
-            
-            <div>
-              <label htmlFor="email" className="block text-sm font-medium text-gray-700">
-                Email Address *
-              </label>
-              <input
-                id="email"
-                name="email"
-                type="email"
-                autoComplete="email"
-                required
-                className={`mt-1 appearance-none relative block w-full px-3 py-2 border placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm ${
-                  errors.email ? 'border-red-500' : 'border-gray-300'
-                }`}
-                placeholder="Enter your email"
-                value={formData.email}
-                onChange={handleChange}
-              />
-              {errors.email && (
-                <p className="mt-1 text-sm text-red-600">{errors.email}</p>
-              )}
-            </div>
-            
-            <div>
-              <label htmlFor="password" className="block text-sm font-medium text-gray-700">
-                Password *
-              </label>
-              <input
-                id="password"
-                name="password"
-                type="password"
-                autoComplete="new-password"
-                required
-                className={`mt-1 appearance-none relative block w-full px-3 py-2 border placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm ${
-                  errors.password ? 'border-red-500' : 'border-gray-300'
-                }`}
-                placeholder="Enter your password"
-                value={formData.password}
-                onChange={handleChange}
-              />
-              {errors.password && (
-                <p className="mt-1 text-sm text-red-600">{errors.password}</p>
-              )}
-            </div>
-            
-            <div>
-              <label htmlFor="hobbies" className="block text-sm font-medium text-gray-700">
-                Hobbies
-              </label>
-              <textarea
-                id="hobbies"
-                name="hobbies"
-                rows={3}
-                className="mt-1 appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-                placeholder="Tell us about your hobbies"
-                value={formData.hobbies}
-                onChange={handleChange}
-              />
-            </div>
-            
-            <div>
-              <label htmlFor="interests" className="block text-sm font-medium text-gray-700">
-                Interests
-              </label>
-              <textarea
-                id="interests"
-                name="interests"
-                rows={3}
-                className="mt-1 appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-                placeholder="Tell us about your interests"
-                value={formData.interests}
-                onChange={handleChange}
-              />
-            </div>
+      </div>
+
+      {/* Main Content */}
+      <div className="relative z-10 w-full px-4 sm:px-6 lg:px-8">
+        {/* Logo/Brand Section */}
+        <div className="text-center mb-8">
+          <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-cyber-500 to-cyber-600 rounded-2xl shadow-cyber-lg mb-4 transform-3d hover:rotate-y-12 transition-transform duration-500">
+            <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+            </svg>
+          </div>
+          <h1 className="text-4xl font-display font-bold neon-text mb-2">Career Compass</h1>
+          <p className="text-dark-400 text-sm">Navigate Your Future with AI</p>
+        </div>
+
+        {/* Register Card */}
+        <div className="cyber-card p-8 transform-3d hover:rotate-x-12 transition-all duration-500 max-w-2xl mx-auto">
+          <div className="text-center mb-6">
+            <h2 className="text-2xl font-bold text-white mb-2">Join the Future</h2>
+            <p className="text-dark-400">Create your account and start your AI-powered career journey</p>
           </div>
 
-          {errors.general && (
-            <div className="text-red-600 text-sm text-center bg-red-50 p-3 rounded-md">
-              {errors.general}
-            </div>
-          )}
+          <form onSubmit={handleSubmit} className="space-y-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {/* Name Input */}
+              <div className="space-y-2">
+                <label htmlFor="name" className="block text-sm font-medium text-dark-300">
+                  Full Name
+                </label>
+                <div className="relative group">
+                  <input
+                    id="name"
+                    name="name"
+                    type="text"
+                    value={formData.name}
+                    onChange={handleChange}
+                    className="cyber-input w-full group-hover:border-cyber-400 group-hover:shadow-cyber transition-all duration-300"
+                    placeholder="Enter your full name"
+                    required
+                  />
+                  <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-cyber-500/0 to-cyber-500/0 group-hover:from-cyber-500/10 group-hover:to-cyber-500/10 transition-all duration-300 pointer-events-none"></div>
+                </div>
+              </div>
 
-          <div>
+              {/* Roll Number Input */}
+              <div className="space-y-2">
+                <label htmlFor="roll_number" className="block text-sm font-medium text-dark-300">
+                  Roll Number
+                </label>
+                <div className="relative group">
+                  <input
+                    id="roll_number"
+                    name="roll_number"
+                    type="text"
+                    value={formData.roll_number}
+                    onChange={handleChange}
+                    className="cyber-input w-full group-hover:border-cyber-400 group-hover:shadow-cyber transition-all duration-300"
+                    placeholder="Enter your roll number"
+                    required
+                  />
+                  <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-cyber-500/0 to-cyber-500/0 group-hover:from-cyber-500/10 group-hover:to-cyber-500/10 transition-all duration-300 pointer-events-none"></div>
+                </div>
+              </div>
+            </div>
+
+            {/* Email Input */}
+            <div className="space-y-2">
+              <label htmlFor="email" className="block text-sm font-medium text-dark-300">
+                Email Address
+              </label>
+              <div className="relative group">
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  className="cyber-input w-full group-hover:border-cyber-400 group-hover:shadow-cyber transition-all duration-300"
+                  placeholder="Enter your email address"
+                  required
+                />
+                <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-cyber-500/0 to-cyber-500/0 group-hover:from-cyber-500/10 group-hover:to-cyber-500/10 transition-all duration-300 pointer-events-none"></div>
+              </div>
+            </div>
+
+            {/* Password Input */}
+            <div className="space-y-2">
+              <label htmlFor="password" className="block text-sm font-medium text-dark-300">
+                Password
+              </label>
+              <div className="relative group">
+                <input
+                  id="password"
+                  name="password"
+                  type="password"
+                  value={formData.password}
+                  onChange={handleChange}
+                  className="cyber-input w-full group-hover:border-cyber-400 group-hover:shadow-cyber transition-all duration-300"
+                  placeholder="Create a strong password"
+                  required
+                />
+                <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-cyber-500/0 to-cyber-500/0 group-hover:from-cyber-500/10 group-hover:to-cyber-500/10 transition-all duration-300 pointer-events-none"></div>
+              </div>
+            </div>
+
+            {/* Hobbies Input */}
+            <div className="space-y-2">
+              <label htmlFor="hobbies" className="block text-sm font-medium text-dark-300">
+                Hobbies & Activities
+              </label>
+              <div className="relative group">
+                <textarea
+                  id="hobbies"
+                  name="hobbies"
+                  value={formData.hobbies}
+                  onChange={handleChange}
+                  rows={2}
+                  className="cyber-input w-full group-hover:border-cyber-400 group-hover:shadow-cyber transition-all duration-300 resize-none"
+                  placeholder="Tell us about your hobbies and activities"
+                />
+                <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-cyber-500/0 to-cyber-500/0 group-hover:from-cyber-500/10 group-hover:to-cyber-500/10 transition-all duration-300 pointer-events-none"></div>
+              </div>
+            </div>
+
+            {/* Interests Input */}
+            <div className="space-y-2">
+              <label htmlFor="interests" className="block text-sm font-medium text-dark-300">
+                Career Interests
+              </label>
+              <div className="relative group">
+                <textarea
+                  id="interests"
+                  name="interests"
+                  value={formData.interests}
+                  onChange={handleChange}
+                  rows={3}
+                  className="cyber-input w-full group-hover:border-cyber-400 group-hover:shadow-cyber transition-all duration-300 resize-none"
+                  placeholder="What are your career interests? (e.g., technology, healthcare, business, arts)"
+                  required
+                />
+                <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-cyber-500/0 to-cyber-500/0 group-hover:from-cyber-500/10 group-hover:to-cyber-500/10 transition-all duration-300 pointer-events-none"></div>
+              </div>
+              <p className="text-xs text-dark-500 mt-1">
+                This helps our AI provide personalized career recommendations
+              </p>
+            </div>
+
+            {/* Error Message */}
+            {error && (
+              <div className="bg-red-500/10 border border-red-500/30 rounded-lg p-3">
+                <p className="text-red-400 text-sm">{error}</p>
+              </div>
+            )}
+
+            {/* Submit Button */}
             <button
               type="submit"
               disabled={isLoading}
-              className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 disabled:opacity-50"
+              className="cyber-button w-full relative overflow-hidden group"
             >
-              {isLoading ? 'Creating account...' : 'Create account'}
+              <span className="relative z-10 flex items-center justify-center">
+                {isLoading ? (
+                  <>
+                    <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    Creating Account...
+                  </>
+                ) : (
+                  'Create Account'
+                )}
+              </span>
+              <div className="absolute inset-0 bg-gradient-to-r from-cyber-500/0 via-cyber-400/20 to-cyber-500/0 transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
             </button>
+          </form>
+
+          {/* Divider */}
+          <div className="relative my-6">
+            <div className="absolute inset-0 flex items-center">
+              <div className="w-full border-t border-dark-600"></div>
+            </div>
+            <div className="relative flex justify-center text-sm">
+              <span className="px-2 bg-dark-800 text-dark-400">Already have an account?</span>
+            </div>
           </div>
-          
+
+          {/* Login Link */}
           <div className="text-center">
-            <p className="text-sm text-gray-600">
-              Already have an account?{' '}
-              <button
-                type="button"
-                onClick={() => navigate('/login')}
-                className="font-medium text-indigo-600 hover:text-indigo-500"
-              >
-                Sign in here
-              </button>
-            </p>
+            <a
+              href="/login"
+              className="inline-flex items-center text-cyber-400 hover:text-cyber-300 transition-colors duration-300 group"
+            >
+              <span className="mr-2">Sign in to your account</span>
+              <svg className="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
           </div>
-        </form>
+        </div>
+
+        {/* Footer */}
+        <div className="text-center mt-8">
+          <p className="text-dark-500 text-xs">
+            © 2024 Career Compass. Powered by AI.
+          </p>
+        </div>
       </div>
     </div>
   );
