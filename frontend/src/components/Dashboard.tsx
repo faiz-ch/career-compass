@@ -45,6 +45,10 @@ const Dashboard: React.FC = () => {
     navigate('/ai-interview');
   };
 
+  const handleApplicationForm = () => {
+    navigate('/application');
+  };
+
   if (isLoading) {
     return (
       <div className="min-h-screen bg-dark-950 flex items-center justify-center">
@@ -135,6 +139,24 @@ const Dashboard: React.FC = () => {
                   className="cyber-button px-6 py-3 text-sm whitespace-nowrap"
                 >
                   Start AI Interview
+                </button>
+              </div>
+            </div>
+
+            {/* Application Form CTA */}
+            <div className="bg-gradient-to-r from-green-600/20 to-green-500/20 border border-green-500/30 rounded-xl p-6">
+              <div className="flex items-center justify-between">
+                <div className="text-left">
+                  <h3 className="text-xl font-bold text-white mb-2">Apply to Universities</h3>
+                  <p className="text-dark-300 text-sm">
+                    Complete your comprehensive application form with auto-fill from result data
+                  </p>
+                </div>
+                <button
+                  onClick={handleApplicationForm}
+                  className="bg-green-500 hover:bg-green-600 text-white font-medium px-6 py-3 rounded-lg text-sm whitespace-nowrap transition-all duration-300 transform hover:scale-105 shadow-lg"
+                >
+                  Fill Application
                 </button>
               </div>
             </div>

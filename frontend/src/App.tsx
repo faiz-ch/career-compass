@@ -5,6 +5,7 @@ import LoginForm from './components/LoginForm';
 import RegisterForm from './components/RegisterForm';
 import Dashboard from './components/Dashboard';
 import AIInterview from './components/AIInterview';
+import ApplicationForm from './components/ApplicationForm';
 import './App.css';
 
 // Protected Route Component
@@ -42,6 +43,14 @@ const AppContent: React.FC = () => {
             element={
               <ProtectedRoute>
                 <AIInterview />
+              </ProtectedRoute>
+            } 
+          />
+          <Route 
+            path="/application" 
+            element={
+              <ProtectedRoute>
+                <ApplicationForm />
               </ProtectedRoute>
             } 
           />

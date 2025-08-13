@@ -160,6 +160,12 @@ export const admissionsAPI = {
       method: 'DELETE',
     });
   },
+  submitApplicationForm: async (formData: any) => {
+    return apiRequest('/admissions/application-form', {
+      method: 'POST',
+      body: JSON.stringify(formData),
+    });
+  },
 };
 
 // AI API
@@ -212,6 +218,25 @@ export const aiAPI = {
   },
 };
 
+// Scraper API
+export const scraperAPI = {
+  scrapeResult: async (params: {
+    roll_number: string;
+    exam_type?: string;
+    year?: string;
+    result_type?: string;
+  }) => {
+    const queryParams = new URLSearchParams({
+      roll_number: params.roll_number,
+      exam_type: params.exam_type || 'Part-II (ANNUAL)',
+      year: params.year || '2024',
+      result_type: params.result_type || 'Matric',
+    });
+    
+    return apiRequest(`/scraper/scrape-result/?${queryParams.toString()}`);
+  },
+};
+
 // Dashboard API
 export const dashboardAPI = {
   getCareers: async () => {
@@ -223,4 +248,4 @@ export const dashboardAPI = {
   getAdmissions: async () => {
     return apiRequest('/admissions/me');
   },
-}; 
+};
