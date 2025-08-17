@@ -1,0 +1,42 @@
+# Core FastAPI and server dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Database dependencies
+sqlalchemy==2.0.23
+asyncpg==0.29.0
+alembic==1.13.1
+
+# Authentication and security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-bcrypt==4.1.2
+
+# Data validation
+pydantic==2.5.2
+pydantic[email]==2.5.2
+
+# Environment and configuration
+python-dotenv==1.0.0
+
+# CORS handling (included in FastAPI but listed for completeness)
+# fastapi already includes starlette which has CORS middleware
+
+# AI and ML dependencies (if using OpenAI, etc.)
+openai==1.6.1
+langchain==0.1.0
+langchain-openai==0.0.5
+
+# HTTP client for external API calls
+httpx==0.25.2
+aiohttp==3.9.1
+
+# Utility libraries
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Development and testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+requests==2.31.0
