@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "backend"
+version = "0.1.0"
+description = "Career Compass Backend API"
+authors = ["Your Name <you@example.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"  # More stable than 3.13 for ML packages
+fastapi = "^0.104.1"
+uvicorn = {extras = ["standard"], version = "^0.24.0"}
+sqlalchemy = {extras = ["asyncio"], version = "^2.0.23"}
+asyncpg = "^0.30.0"
+alembic = "^1.12.1"
+pydantic = {extras = ["email"], version = "^2.5.0"}
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+bcrypt = ">=4.0.1"
+python-multipart = "^0.0.6"
+httpx = "^0.25.2"
+requests = "^2.31.0"
+email-validator = "^2.1.0"
+# Pinecone and AI dependencies
+pinecone-client = "^3.0.0"  # Updated pinecone package
+# LangChain packages - using more recent versions
+langchain = "^0.1.0"
+langchain-google-genai = "^1.0.0"
+python-dotenv = "^1.0.0"
+# NumPy with explicit version for stability
+numpy = "^1.24.0"
+# Compatible protobuf version
+protobuf = ">=4.21.0,<5.0.0"
+pinecone = {version = "<7.3.0", extras = ["grpc"]}
+selenium = "^4.34.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

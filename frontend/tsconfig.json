@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+      "jsx": "react-jsx",
+      "moduleResolution": "bundler",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "target": "ES2020",
+      "useDefineForClassFields": true,
+      "lib": ["ES2020", "DOM", "DOM.Iterable"],
+      "module": "ESNext",
+      "allowJs": false,
+      "noEmit": true,
+      "isolatedModules": true,
+      "resolveJsonModule": true
+    },
+    "include": ["src"],
+  // "files": []
+  // Restart TS server
+  // "references": [
+  //   {
+  //     "path": "./tsconfig.app.json"
+  //   },
+  //   {
+  //     "path": "./tsconfig.node.json"
+  //   }
+  // ]
+}

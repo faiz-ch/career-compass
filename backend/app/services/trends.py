@@ -1,0 +1,1 @@
+# Placeholder for career trends service (Google Search API, etc.) 
