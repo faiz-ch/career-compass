@@ -204,7 +204,7 @@ Confidence Level: {confidence_level}
 Available Careers from Vector Database:
 {career_data}
 
-Select the top 5 most suitable careers:""")
+Select only the top 5 most suitable careers:""")
             ])
             
             chain = prompt | llm

@@ -3,7 +3,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select, update, delete
 from typing import List
 from app.db.session import get_async_session
-from app.db.models import Career, Student
+from app.db.models import Career, Student, StudentCareerRecommendation
 from app.db.schemas import CareerCreate, CareerRead, CareerUpdate
 from app.dependencies import get_current_user
 
@@ -54,9 +54,12 @@ async def get_my_recommended_careers(
     session: AsyncSession = Depends(get_async_session)
 ):
     """Get careers recommended for the current user by checking stored recommendations."""
-    # For now, return all careers since we simplified the structure
-    # In a production app, you'd store user-specific recommendations somehow
-    result = await session.execute(select(Career))
+    stmt = (
+        select(Career)
+        .join(StudentCareerRecommendation, StudentCareerRecommendation.career_id == Career.id)
+        .where(StudentCareerRecommendation.student_id == current_user.id)
+    )
+    result = await session.execute(stmt)
     careers = result.scalars().all()
     return careers
 

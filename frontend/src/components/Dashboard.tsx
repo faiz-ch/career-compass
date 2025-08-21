@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import { dashboardAPI, aiAPI, careersAPI } from '../services/api';
+import { dashboardAPI, aiAPI, careersAPI, admissionsAPI } from '../services/api';
 import AIResults from './AIResults';
 import ProgramsModal from './ProgramsModal';
 
@@ -15,6 +15,7 @@ const Dashboard: React.FC = () => {
   const [data, setData] = useState<DashboardData>({ careers: [] });
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [application, setApplication] = useState<any | null>(null);
   
   // Programs modal state
   const [programsModal, setProgramsModal] = useState({
@@ -40,8 +41,16 @@ const Dashboard: React.FC = () => {
     try {
       setIsLoading(true);
       setError(null); // Clear any previous errors
-      const careers = await dashboardAPI.getCareers(); // This gets user's recommended careers from AI interview
+      const [careers, applicationResp] = await Promise.all([
+        dashboardAPI.getCareers(),
+        admissionsAPI.getMyApplication().catch(() => null),
+      ]);
       setData({ careers });
+      if (applicationResp && applicationResp.has_application !== false) {
+        setApplication(applicationResp);
+      } else {
+        setApplication(null);
+      }
     } catch (err: any) {
       console.error('Dashboard data fetch error:', err);
       // Check if it's an authentication error
@@ -73,6 +82,7 @@ const Dashboard: React.FC = () => {
 
   // Handle getting programs for a career
   const handleGetPrograms = (career: any) => {
+    console.log(career)
     // Convert program strings to Program objects for modal compatibility
     const programObjects = (career.programs || []).map((title: string) => ({ title }));
     setProgramsModal({
@@ -190,22 +200,24 @@ const Dashboard: React.FC = () => {
             </div>
 
             {/* Application Form CTA */}
-            <div className="bg-gradient-to-r from-green-600/20 to-green-500/20 border border-green-500/30 rounded-xl p-6">
-              <div className="flex items-center justify-between">
-                <div className="text-left">
-                  <h3 className="text-xl font-bold text-white mb-2">Apply to Universities</h3>
-                  <p className="text-dark-300 text-sm">
-                    Complete your comprehensive application form with auto-fill from result data
-                  </p>
+            {!application && (
+              <div className="bg-gradient-to-r from-green-600/20 to-green-500/20 border border-green-500/30 rounded-xl p-6">
+                <div className="flex items-center justify-between">
+                  <div className="text-left">
+                    <h3 className="text-xl font-bold text-white mb-2">Apply to Universities</h3>
+                    <p className="text-dark-300 text-sm">
+                      Complete your comprehensive application form with auto-fill from result data
+                    </p>
+                  </div>
+                  <button
+                    onClick={handleApplicationForm}
+                    className="bg-green-500 hover:bg-green-600 text-white font-medium px-6 py-3 rounded-lg text-sm whitespace-nowrap transition-all duration-300 transform hover:scale-105 shadow-lg"
+                  >
+                    Fill Application
+                  </button>
                 </div>
-                <button
-                  onClick={handleApplicationForm}
-                  className="bg-green-500 hover:bg-green-600 text-white font-medium px-6 py-3 rounded-lg text-sm whitespace-nowrap transition-all duration-300 transform hover:scale-105 shadow-lg"
-                >
-                  Fill Application
-                </button>
               </div>
-            </div>
+            )}
           </div>
         </div>
 
@@ -216,52 +228,36 @@ const Dashboard: React.FC = () => {
           </div>
         )}
 
+        {/* Submitted Application Summary */}
+        {application && application.data && (
+          <div className="cyber-card p-6 mb-8">
+            <div className="flex items-center justify-between mb-4">
+              <div className="flex items-center space-x-3">
+                <div className="w-10 h-10 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center">
+                  <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-white">Your Submitted Application</h3>
+                  <p className="text-xs text-dark-400">Submitted on {new Date(application.created_at).toLocaleString()}</p>
+                </div>
+              </div>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+              <div><span className="text-dark-400">Name:</span> <span className="text-white">{application.data.firstName} {application.data.lastName}</span></div>
+              <div><span className="text-dark-400">Father's Name:</span> <span className="text-white">{application.data.fatherName}</span></div>
+              <div><span className="text-dark-400">Phone:</span> <span className="text-white">{application.data.phoneNumber}</span></div>
+              <div><span className="text-dark-400">City/Province:</span> <span className="text-white">{application.data.city}{application.data.province ? `, ${application.data.province}` : ''}</span></div>
+              <div><span className="text-dark-400">Inter Marks:</span> <span className="text-white">{application.data.interObtainedMarks}/{application.data.interTotalMarks}</span></div>
+              <div><span className="text-dark-400">Inter %:</span> <span className="text-white">{application.data.interPercentage}</span></div>
+              <div><span className="text-dark-400">Preferences:</span> <span className="text-white">{[application.data.preferredProgram1, application.data.preferredProgram2, application.data.preferredProgram3].filter(Boolean).join(' , ')}</span></div>
+            </div>
+          </div>
+        )}
+
         {/* Stats Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-          {/* Careers Card */}
-          <div className="cyber-card p-6 transform-3d hover:rotate-y-12 transition-all duration-500">
-            <div className="flex items-center justify-between mb-4">
-              <div className="w-12 h-12 bg-gradient-to-br from-cyber-500 to-cyber-600 rounded-xl flex items-center justify-center">
-                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2-2v2m8 0V6a2 2 0 012 2v6a2 2 0 01-2 2H8a2 2 0 01-2-2V8a2 2 0 012-2V6" />
-                </svg>
-              </div>
-              <span className="text-2xl font-bold text-cyber-400">{data.careers.length}</span>
-            </div>
-            <h3 className="text-lg font-semibold text-white mb-2">Recommended Careers</h3>
-            <p className="text-dark-400 text-sm">AI-curated career paths based on your profile</p>
-          </div>
-
-          {/* Interview Results Card */}
-          <div className="cyber-card p-6 transform-3d hover:rotate-y-12 transition-all duration-500">
-            <div className="flex items-center justify-between mb-4">
-              <div className="w-12 h-12 bg-gradient-to-br from-cyber-500 to-cyber-600 rounded-xl flex items-center justify-center">
-                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <span className="text-2xl font-bold text-cyber-400">AI</span>
-            </div>
-            <h3 className="text-lg font-semibold text-white mb-2">Interview Analysis</h3>
-            <p className="text-dark-400 text-sm">Your AI-powered career assessment</p>
-          </div>
-
-          {/* Total Programs Card */}
-          <div className="cyber-card p-6 transform-3d hover:rotate-y-12 transition-all duration-500">
-            <div className="flex items-center justify-between mb-4">
-              <div className="w-12 h-12 bg-gradient-to-br from-cyber-500 to-cyber-600 rounded-xl flex items-center justify-center">
-                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                </svg>
-              </div>
-              <span className="text-2xl font-bold text-cyber-400">
-                {data.careers.reduce((total, career) => total + (Array.isArray(career.programs) ? career.programs.length : 0), 0)}
-              </span>
-            </div>
-            <h3 className="text-lg font-semibold text-white mb-2">Available Programs</h3>
-            <p className="text-dark-400 text-sm">Total programs across all careers</p>
-          </div>
-        </div>
+     
 
         {/* AI Interview Results Section */}
         <div className="mb-8">

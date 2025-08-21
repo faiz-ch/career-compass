@@ -194,6 +194,9 @@ export const admissionsAPI = {
       body: JSON.stringify(formData),
     });
   },
+  getMyApplication: async () => {
+    return apiRequest('/admissions/me');
+  },
 };
 
 // Dashboard API

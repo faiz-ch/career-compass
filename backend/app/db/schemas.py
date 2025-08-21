@@ -1,5 +1,5 @@
 from pydantic import BaseModel, EmailStr, ConfigDict
-from typing import Optional, List
+from typing import Optional, List, Any, Dict
 from datetime import datetime
 
 class StudentBase(BaseModel):
@@ -151,3 +151,12 @@ class ApplicationFormData(BaseModel):
     hostelRequired: Optional[bool] = False
     transportRequired: Optional[bool] = False
     scholarshipRequired: Optional[bool] = False
+
+
+class ApplicationRead(BaseModel):
+    id: int
+    student_id: int
+    data: Dict[str, Any]
+    created_at: datetime
+
+    model_config = ConfigDict(from_attributes=True)

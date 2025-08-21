@@ -33,7 +33,7 @@ const AppContent: React.FC = () => {
           />
           <Route 
             path="/register" 
-            element={isAuthenticated ? <Navigate to="/dashboard" /> : <RegisterForm />} 
+            element={isAuthenticated ? <Navigate to="/login" /> : <RegisterForm />} 
           />
           <Route 
             path="/dashboard" 

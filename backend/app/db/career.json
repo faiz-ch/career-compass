@@ -1,0 +1,1694 @@
+[
+  {
+    "title": "Software Engineer",
+    "description": "A professional role in designing, developing, and maintaining software applications.",
+    "required_skills": [
+      "Programming",
+      "Problem Solving",
+      "Teamwork",
+      "Communication",
+      "Algorithms"
+    ],
+    "programs": [
+      "Computer Science",
+      "Software Engineering",
+      "Information Technology",
+      "Artificial Intelligence",
+      "Cybersecurity"
+    ]
+  },
+  {
+    "title": "Data Scientist",
+    "description": "A professional role in analyzing and interpreting complex data to help make business decisions.",
+    "required_skills": [
+      "Python",
+      "Statistics",
+      "Machine Learning",
+      "Data Visualization",
+      "Critical Thinking"
+    ],
+    "programs": [
+      "Data Science",
+      "Applied Statistics",
+      "Artificial Intelligence",
+      "Business Analytics",
+      "Computational Mathematics"
+    ]
+  },
+  {
+    "title": "Web Developer",
+    "description": "A professional role focused on building and maintaining websites and web applications.",
+    "required_skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Problem Solving"
+    ],
+    "programs": [
+      "Web Development",
+      "Computer Science",
+      "Information Technology",
+      "Software Engineering",
+      "User Experience Design"
+    ]
+  },
+  {
+    "title": "Database Administrator",
+    "description": "A professional role managing and maintaining database systems to ensure data integrity and availability.",
+    "required_skills": [
+      "SQL",
+      "Database Management",
+      "Problem Solving",
+      "Backup & Recovery",
+      "Security"
+    ],
+    "programs": [
+      "Database Systems",
+      "Information Technology",
+      "Computer Science",
+      "Software Engineering",
+      "Cybersecurity"
+    ]
+  },
+  {
+    "title": "Network Engineer",
+    "description": "A professional role responsible for designing, implementing, and managing computer networks.",
+    "required_skills": [
+      "Networking",
+      "Troubleshooting",
+      "Security",
+      "Problem Solving",
+      "Communication"
+    ],
+    "programs": [
+      "Computer Networking",
+      "Information Technology",
+      "Computer Science",
+      "Cybersecurity",
+      "Network Security"
+    ]
+  },
+  {
+    "title": "Cybersecurity Analyst",
+    "description": "A professional role focused on protecting systems and networks from cyber threats.",
+    "required_skills": [
+      "Security",
+      "Network Monitoring",
+      "Incident Response",
+      "Risk Assessment",
+      "Problem Solving"
+    ],
+    "programs": [
+      "Cybersecurity",
+      "Information Security",
+      "Computer Science",
+      "Software Engineering",
+      "Network Security"
+    ]
+  },
+  {
+    "title": "IT Manager",
+    "description": "A professional role managing the IT infrastructure, projects, and teams within an organization.",
+    "required_skills": [
+      "Leadership",
+      "Project Management",
+      "Problem Solving",
+      "Communication",
+      "IT Strategy"
+    ],
+    "programs": [
+      "Information Technology",
+      "Computer Science",
+      "Management Information Systems",
+      "Business Administration",
+      "Project Management"
+    ]
+  },
+  {
+    "title": "Computer Systems Analyst",
+    "description": "A professional role analyzing and improving computer systems and processes for organizations.",
+    "required_skills": [
+      "Systems Analysis",
+      "Problem Solving",
+      "Communication",
+      "Programming",
+      "Critical Thinking"
+    ],
+    "programs": [
+      "Computer Science",
+      "Information Systems",
+      "Information Technology",
+      "Software Engineering",
+      "Business Analytics"
+    ]
+  },
+  {
+    "title": "Software Developer",
+    "description": "A professional role designing, coding, and testing software applications.",
+    "required_skills": [
+      "Programming",
+      "Problem Solving",
+      "Debugging",
+      "Teamwork",
+      "Communication"
+    ],
+    "programs": [
+      "Software Engineering",
+      "Computer Science",
+      "Information Technology",
+      "Mobile App Development",
+      "Web Development"
+    ]
+  },
+  {
+    "title": "Cloud Architect",
+    "description": "A professional role designing and managing cloud computing systems and solutions.",
+    "required_skills": [
+      "Cloud Computing",
+      "Architecture Design",
+      "Security",
+      "Problem Solving",
+      "Communication"
+    ],
+    "programs": [
+      "Cloud Computing",
+      "Information Technology",
+      "Computer Science",
+      "Software Engineering",
+      "Cybersecurity"
+    ]
+  },
+  {
+    "title": "Machine Learning Engineer",
+    "description": "A professional role developing algorithms and models that enable machines to learn from data.",
+    "required_skills": [
+      "Python",
+      "Machine Learning",
+      "Data Analysis",
+      "Deep Learning",
+      "Problem Solving"
+    ],
+    "programs": [
+      "Artificial Intelligence",
+      "Data Science",
+      "Computer Science",
+      "Software Engineering",
+      "Applied Mathematics"
+    ]
+  },
+  {
+    "title": "DevOps Engineer",
+    "description": "A professional role ensuring smooth software deployment, integration, and infrastructure management.",
+    "required_skills": [
+      "CI/CD",
+      "Scripting",
+      "Automation",
+      "Cloud Computing",
+      "Problem Solving"
+    ],
+    "programs": [
+      "DevOps",
+      "Computer Science",
+      "Information Technology",
+      "Software Engineering",
+      "Cloud Computing"
+    ]
+  },
+  {
+    "title": "UI/UX Designer",
+    "description": "A professional role creating intuitive and user-friendly designs for applications and websites.",
+    "required_skills": [
+      "Design Thinking",
+      "User Research",
+      "Wireframing",
+      "Prototyping",
+      "Communication"
+    ],
+    "programs": [
+      "User Experience Design",
+      "Graphic Design",
+      "Human-Computer Interaction",
+      "Web Design",
+      "Information Technology"
+    ]
+  },
+  {
+    "title": "Mobile App Developer",
+    "description": "A professional role developing applications for mobile devices on platforms like iOS and Android.",
+    "required_skills": [
+      "Java",
+      "Kotlin",
+      "Swift",
+      "UI Design",
+      "Problem Solving"
+    ],
+    "programs": [
+      "Mobile App Development",
+      "Software Engineering",
+      "Computer Science",
+      "Information Technology",
+      "Web Development"
+    ]
+  },
+  {
+    "title": "FrontEnd Developer",
+    "description": "A professional role developing the user interface and client-side functionality of web applications.",
+    "required_skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "UI/UX Design"
+    ],
+    "programs": [
+      "Web Development",
+      "Computer Science",
+      "Software Engineering",
+      "Information Technology",
+      "User Experience Design"
+    ]
+  },
+  {
+    "title": "BackEnd Developer",
+    "description": "A professional role developing server-side logic, databases, and APIs for web applications.",
+    "required_skills": [
+      "Node.js",
+      "Python",
+      "Databases",
+      "APIs",
+      "Problem Solving"
+    ],
+    "programs": [
+      "Software Engineering",
+      "Computer Science",
+      "Information Technology",
+      "Database Systems",
+      "Cloud Computing"
+    ]
+  },
+  {
+    "title": "FullStack Developer",
+    "description": "A professional role capable of developing both front-end and back-end components of applications.",
+    "required_skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Databases",
+      "Problem Solving"
+    ],
+    "programs": [
+      "Software Engineering",
+      "Web Development",
+      "Computer Science",
+      "Information Technology",
+      "Cloud Computing"
+    ]
+  },
+  {
+    "title": "Data Analyst",
+    "description": "A professional role interpreting and analyzing data to assist in decision-making processes.",
+    "required_skills": [
+      "Excel",
+      "SQL",
+      "Data Visualization",
+      "Statistics",
+      "Critical Thinking"
+    ],
+    "programs": [
+      "Data Science",
+      "Applied Statistics",
+      "Business Analytics",
+      "Information Technology",
+      "Computer Science"
+    ]
+  },
+  {
+    "title": "Computer and Information Systems Manager",
+    "description": "A professional role managing IT teams, systems, and technology strategies for an organization.",
+    "required_skills": [
+      "Leadership",
+      "Project Management",
+      "IT Strategy",
+      "Communication",
+      "Problem Solving"
+    ],
+    "programs": [
+      "Information Technology",
+      "Management Information Systems",
+      "Computer Science",
+      "Business Administration",
+      "Software Engineering"
+    ]
+  },
+  {
+    "title": "Artificial Intelligence (AI) Engineer",
+    "description": "A professional role designing and developing AI solutions for complex problems.",
+    "required_skills": [
+      "Python",
+      "Machine Learning",
+      "Deep Learning",
+      "Data Analysis",
+      "Problem Solving"
+    ],
+    "programs": [
+      "Artificial Intelligence",
+      "Computer Science",
+      "Data Science",
+      "Software Engineering",
+      "Robotics Engineering"
+    ]
+  },
+  {
+    "title": "Civil Engineer",
+    "description": "A professional role planning, designing, and supervising construction projects such as buildings, roads, and bridges.",
+    "required_skills": [
+      "Structural Design",
+      "Project Management",
+      "Problem Solving",
+      "Mathematics",
+      "Communication"
+    ],
+    "programs": [
+      "Civil Engineering",
+      "Structural Engineering",
+      "Construction Management",
+      "Environmental Engineering",
+      "Architecture"
+    ]
+  },
+  {
+    "title": "Mechanical Engineer",
+    "description": "A professional role designing, developing, and testing mechanical systems and devices.",
+    "required_skills": [
+      "Mechanical Design",
+      "Problem Solving",
+      "CAD",
+      "Mathematics",
+      "Project Management"
+    ],
+    "programs": [
+      "Mechanical Engineering",
+      "Industrial Engineering",
+      "Robotics Engineering",
+      "Aerospace Engineering",
+      "Materials Engineering"
+    ]
+  },
+  {
+    "title": "Electrical Engineer",
+    "description": "A professional role designing, developing, and testing electrical systems and components.",
+    "required_skills": [
+      "Circuit Design",
+      "Problem Solving",
+      "Mathematics",
+      "Programming",
+      "Communication"
+    ],
+    "programs": [
+      "Electrical Engineering",
+      "Computer Engineering",
+      "Electronics Engineering",
+      "Software Engineering",
+      "Control Systems"
+    ]
+  },
+  {
+    "title": "Computer Engineer",
+    "description": "A professional role designing and developing computer hardware and software systems.",
+    "required_skills": [
+      "Hardware Design",
+      "Programming",
+      "Problem Solving",
+      "Electronics",
+      "Mathematics"
+    ],
+    "programs": [
+      "Computer Engineering",
+      "Computer Science",
+      "Information Technology",
+      "Software Engineering",
+      "Robotics Engineering"
+    ]
+  },
+  {
+    "title": "Chemical Engineer",
+    "description": "A professional role developing chemical processes and manufacturing techniques for various products.",
+    "required_skills": [
+      "Chemistry",
+      "Problem Solving",
+      "Process Design",
+      "Safety Management",
+      "Mathematics"
+    ],
+    "programs": [
+      "Chemical Engineering",
+      "Materials Science",
+      "Biochemical Engineering",
+      "Environmental Engineering",
+      "Industrial Engineering"
+    ]
+  },
+  {
+    "title": "Aerospace Engineer",
+    "description": "A professional role designing and testing aircraft, spacecraft, and related systems.",
+    "required_skills": [
+      "Aerodynamics",
+      "Mathematics",
+      "CAD",
+      "Problem Solving",
+      "Project Management"
+    ],
+    "programs": [
+      "Aerospace Engineering",
+      "Mechanical Engineering",
+      "Robotics Engineering",
+      "Materials Engineering",
+      "Computer Engineering"
+    ]
+  },
+  {
+    "title": "Industrial Engineer",
+    "description": "A professional role optimizing systems and processes to improve efficiency and productivity.",
+    "required_skills": [
+      "Process Optimization",
+      "Problem Solving",
+      "Mathematics",
+      "Project Management",
+      "Communication"
+    ],
+    "programs": [
+      "Industrial Engineering",
+      "Mechanical Engineering",
+      "Operations Research",
+      "Management Engineering",
+      "Business Analytics"
+    ]
+  },
+  {
+    "title": "Biomedical Engineer",
+    "description": "A professional role designing medical devices and equipment to improve healthcare solutions.",
+    "required_skills": [
+      "Biology",
+      "Engineering Design",
+      "Problem Solving",
+      "Medical Knowledge",
+      "Teamwork"
+    ],
+    "programs": [
+      "Biomedical Engineering",
+      "Mechanical Engineering",
+      "Electrical Engineering",
+      "Biotechnology",
+      "Computer Science"
+    ]
+  },
+  {
+    "title": "Environmental Engineer",
+    "description": "A professional role designing solutions to environmental problems and ensuring sustainability.",
+    "required_skills": [
+      "Environmental Science",
+      "Problem Solving",
+      "Project Management",
+      "Data Analysis",
+      "Communication"
+    ],
+    "programs": [
+      "Environmental Engineering",
+      "Civil Engineering",
+      "Chemical Engineering",
+      "Sustainability Studies",
+      "Agricultural Engineering"
+    ]
+  },
+  {
+    "title": "Petroleum Engineer",
+    "description": "A professional role developing methods to extract oil and gas efficiently and safely.",
+    "required_skills": [
+      "Reservoir Engineering",
+      "Problem Solving",
+      "Mathematics",
+      "Project Management",
+      "Safety Management"
+    ],
+    "programs": [
+      "Petroleum Engineering",
+      "Mechanical Engineering",
+      "Chemical Engineering",
+      "Environmental Engineering",
+      "Geology"
+    ]
+  },
+  {
+    "title": "Structural Engineer",
+    "description": "A professional role designing and analyzing structural systems for safety and stability.",
+    "required_skills": [
+      "Structural Analysis",
+      "Mathematics",
+      "Problem Solving",
+      "CAD",
+      "Project Management"
+    ],
+    "programs": [
+      "Civil Engineering",
+      "Structural Engineering",
+      "Architecture",
+      "Construction Management",
+      "Environmental Engineering"
+    ]
+  },
+  {
+    "title": "Systems Engineer",
+    "description": "A professional role designing and managing complex engineering systems throughout their lifecycle.",
+    "required_skills": [
+      "Systems Design",
+      "Problem Solving",
+      "Project Management",
+      "Communication",
+      "Technical Analysis"
+    ],
+    "programs": [
+      "Systems Engineering",
+      "Mechanical Engineering",
+      "Computer Engineering",
+      "Software Engineering",
+      "Electrical Engineering"
+    ]
+  },
+  {
+    "title": "Agricultural Engineer",
+    "description": "A professional role designing technology and systems to improve farming and agricultural efficiency.",
+    "required_skills": [
+      "Agricultural Science",
+      "Problem Solving",
+      "Mechanical Design",
+      "Sustainability",
+      "Data Analysis"
+    ],
+    "programs": [
+      "Agricultural Engineering",
+      "Environmental Engineering",
+      "Mechanical Engineering",
+      "Biotechnology",
+      "Soil Science"
+    ]
+  },
+  {
+    "title": "Materials Engineer",
+    "description": "A professional role developing and testing materials for various industrial applications.",
+    "required_skills": [
+      "Materials Science",
+      "Problem Solving",
+      "Chemistry",
+      "Physics",
+      "Engineering Design"
+    ],
+    "programs": [
+      "Materials Engineering",
+      "Chemical Engineering",
+      "Mechanical Engineering",
+      "Nanotechnology",
+      "Metallurgy"
+    ]
+  },
+  {
+    "title": "Nuclear Engineer",
+    "description": "A professional role designing and operating nuclear equipment and systems safely.",
+    "required_skills": [
+      "Nuclear Physics",
+      "Problem Solving",
+      "Mathematics",
+      "Safety Protocols",
+      "Engineering Design"
+    ],
+    "programs": [
+      "Nuclear Engineering",
+      "Mechanical Engineering",
+      "Electrical Engineering",
+      "Chemical Engineering",
+      "Physics"
+    ]
+  },
+  {
+    "title": "Robotics Engineer",
+    "description": "A professional role designing, building, and programming robotic systems for various applications.",
+    "required_skills": [
+      "Robotics Design",
+      "Programming",
+      "Mechanical Engineering",
+      "Problem Solving",
+      "Electronics"
+    ],
+    "programs": [
+      "Robotics Engineering",
+      "Mechanical Engineering",
+      "Computer Engineering",
+      "Electrical Engineering",
+      "Artificial Intelligence"
+    ]
+  },
+  {
+    "title": "Data Engineer",
+    "description": "A professional role designing, building, and maintaining systems for collecting and processing data.",
+    "required_skills": [
+      "SQL",
+      "Python",
+      "ETL",
+      "Data Warehousing",
+      "Problem Solving"
+    ],
+    "programs": [
+      "Data Engineering",
+      "Computer Science",
+      "Information Technology",
+      "Data Science",
+      "Software Engineering"
+    ]
+  },
+  {
+    "title": "Mechatronics Engineer",
+    "description": "A professional role integrating mechanical, electrical, and software systems into intelligent machines.",
+    "required_skills": [
+      "Mechanical Design",
+      "Electrical Engineering",
+      "Programming",
+      "Problem Solving",
+      "Control Systems"
+    ],
+    "programs": [
+      "Mechatronics Engineering",
+      "Mechanical Engineering",
+      "Electrical Engineering",
+      "Robotics Engineering",
+      "Computer Engineering"
+    ]
+  },
+  {
+    "title": "Mining Engineer",
+    "description": "A professional role planning, designing, and supervising mining operations and safety.",
+    "required_skills": [
+      "Geology",
+      "Problem Solving",
+      "Safety Management",
+      "Project Management",
+      "Mathematics"
+    ],
+    "programs": [
+      "Mining Engineering",
+      "Geology",
+      "Civil Engineering",
+      "Mechanical Engineering",
+      "Environmental Engineering"
+    ]
+  },
+  {
+    "title": "Statistician",
+    "description": "A professional role analyzing data to identify trends and provide actionable insights.",
+    "required_skills": [
+      "Statistics",
+      "Data Analysis",
+      "Programming",
+      "Mathematics",
+      "Critical Thinking"
+    ],
+    "programs": [
+      "Statistics",
+      "Data Science",
+      "Applied Mathematics",
+      "Business Analytics",
+      "Economics"
+    ]
+  },
+  {
+    "title": "Actuary",
+    "description": "A professional role analyzing financial risks using mathematics, statistics, and financial theory.",
+    "required_skills": [
+      "Mathematics",
+      "Statistics",
+      "Risk Analysis",
+      "Problem Solving",
+      "Finance"
+    ],
+    "programs": [
+      "Actuarial Science",
+      "Mathematics",
+      "Statistics",
+      "Economics",
+      "Finance"
+    ]
+  },
+  {
+    "title": "Financial Analyst",
+    "description": "A professional role analyzing financial data and trends to guide investment decisions.",
+    "required_skills": [
+      "Finance",
+      "Data Analysis",
+      "Excel",
+      "Critical Thinking",
+      "Communication"
+    ],
+    "programs": [
+      "Finance",
+      "Accounting",
+      "Economics",
+      "Business Administration",
+      "Statistics"
+    ]
+  },
+  {
+    "title": "Mathematician",
+    "description": "A professional role conducting research or applying mathematical theories to solve problems.",
+    "required_skills": [
+      "Mathematics",
+      "Problem Solving",
+      "Analytical Thinking",
+      "Statistics",
+      "Programming"
+    ],
+    "programs": [
+      "Mathematics",
+      "Applied Mathematics",
+      "Statistics",
+      "Computer Science",
+      "Physics"
+    ]
+  },
+  {
+    "title": "Operations Research Analyst",
+    "description": "A professional role using analytical methods to help organizations make better decisions.",
+    "required_skills": [
+      "Mathematics",
+      "Problem Solving",
+      "Data Analysis",
+      "Modeling",
+      "Critical Thinking"
+    ],
+    "programs": [
+      "Operations Research",
+      "Industrial Engineering",
+      "Mathematics",
+      "Computer Science",
+      "Business Analytics"
+    ]
+  },
+  {
+    "title": "Business Analyst",
+    "description": "A professional role analyzing business needs and recommending solutions to improve processes.",
+    "required_skills": [
+      "Problem Solving",
+      "Communication",
+      "Data Analysis",
+      "Project Management",
+      "Critical Thinking"
+    ],
+    "programs": [
+      "Business Administration",
+      "Information Systems",
+      "Data Analytics",
+      "Management",
+      "Economics"
+    ]
+  },
+  {
+    "title": "Market Research Analyst",
+    "description": "A professional role studying market conditions to examine potential sales of products or services.",
+    "required_skills": [
+      "Data Analysis",
+      "Statistics",
+      "Communication",
+      "Problem Solving",
+      "Critical Thinking"
+    ],
+    "programs": [
+      "Marketing",
+      "Business Analytics",
+      "Economics",
+      "Statistics",
+      "Data Science"
+    ]
+  },
+  {
+    "title": "Econometrician",
+    "description": "A professional role applying statistical and mathematical models to economic data.",
+    "required_skills": [
+      "Economics",
+      "Statistics",
+      "Mathematics",
+      "Data Analysis",
+      "Problem Solving"
+    ],
+    "programs": [
+      "Econometrics",
+      "Economics",
+      "Statistics",
+      "Applied Mathematics",
+      "Data Science"
+    ]
+  },
+  {
+    "title": "Software Engineer (with strong math skills)",
+    "description": "A software engineer specialized in solving complex computational and mathematical problems.",
+    "required_skills": [
+      "Programming",
+      "Algorithms",
+      "Mathematics",
+      "Problem Solving",
+      "Communication"
+    ],
+    "programs": [
+      "Software Engineering",
+      "Computer Science",
+      "Applied Mathematics",
+      "Information Technology",
+      "Artificial Intelligence"
+    ]
+  },
+  {
+    "title": "Computer and Information Research Scientist",
+    "description": "A professional role conducting research to advance computer and information technology.",
+    "required_skills": [
+      "Programming",
+      "Research",
+      "Problem Solving",
+      "Algorithms",
+      "Mathematics"
+    ],
+    "programs": [
+      "Computer Science",
+      "Software Engineering",
+      "Artificial Intelligence",
+      "Data Science",
+      "Information Technology"
+    ]
+  },
+  {
+    "title": "Biostatistician",
+    "description": "A professional role applying statistics to biological fields, including medicine and public health.",
+    "required_skills": [
+      "Statistics",
+      "Data Analysis",
+      "Biology",
+      "Problem Solving",
+      "Communication"
+    ],
+    "programs": [
+      "Biostatistics",
+      "Statistics",
+      "Data Science",
+      "Public Health",
+      "Biology"
+    ]
+  },
+  {
+    "title": "Epidemiologist",
+    "description": "A professional role studying patterns, causes, and effects of health and disease conditions.",
+    "required_skills": [
+      "Data Analysis",
+      "Public Health",
+      "Statistics",
+      "Research",
+      "Problem Solving"
+    ],
+    "programs": [
+      "Epidemiology",
+      "Public Health",
+      "Biostatistics",
+      "Medicine",
+      "Biology"
+    ]
+  },
+  {
+    "title": "Teacher/Professor (Mathematics)",
+    "description": "A professional role teaching mathematics concepts at various education levels.",
+    "required_skills": [
+      "Mathematics",
+      "Communication",
+      "Problem Solving",
+      "Teaching",
+      "Critical Thinking"
+    ],
+    "programs": [
+      "Mathematics",
+      "Education",
+      "Applied Mathematics",
+      "Statistics",
+      "Curriculum Development"
+    ]
+  },
+  {
+    "title": "Accountant",
+    "description": "A professional role preparing and examining financial records and ensuring accuracy.",
+    "required_skills": [
+      "Accounting",
+      "Finance",
+      "Problem Solving",
+      "Attention to Detail",
+      "Communication"
+    ],
+    "programs": [
+      "Accounting",
+      "Finance",
+      "Business Administration",
+      "Economics",
+      "Management"
+    ]
+  },
+  {
+    "title": "Management Consultant",
+    "description": "A professional role advising organizations to improve performance and efficiency.",
+    "required_skills": [
+      "Problem Solving",
+      "Analysis",
+      "Communication",
+      "Project Management",
+      "Leadership"
+    ],
+    "programs": [
+      "Business Administration",
+      "Management",
+      "Economics",
+      "Business Analytics",
+      "Information Systems"
+    ]
+  },
+  {
+    "title": "Underwriter",
+    "description": "A professional role evaluating risk and exposure to determine insurance terms.",
+    "required_skills": [
+      "Risk Analysis",
+      "Attention to Detail",
+      "Problem Solving",
+      "Finance",
+      "Communication"
+    ],
+    "programs": [
+      "Finance",
+      "Economics",
+      "Actuarial Science",
+      "Business Administration",
+      "Statistics"
+    ]
+  },
+  {
+    "title": "Risk Analyst",
+    "description": "A professional role identifying and analyzing potential risks that may affect an organization.",
+    "required_skills": [
+      "Risk Analysis",
+      "Data Analysis",
+      "Problem Solving",
+      "Communication",
+      "Finance"
+    ],
+    "programs": [
+      "Finance",
+      "Economics",
+      "Actuarial Science",
+      "Statistics",
+      "Business Analytics"
+    ]
+  },
+  {
+    "title": "Biologist",
+    "description": "A professional role studying living organisms, their relationships, and their environments.",
+    "required_skills": [
+      "Research",
+      "Observation",
+      "Data Analysis",
+      "Critical Thinking",
+      "Communication"
+    ],
+    "programs": [
+      "Biology",
+      "Environmental Science",
+      "Biotechnology",
+      "Marine Biology",
+      "Zoology"
+    ]
+  },
+  {
+    "title": "Chemist",
+    "description": "A professional role studying substances, their properties, and reactions to develop new products.",
+    "required_skills": [
+      "Chemistry",
+      "Laboratory Skills",
+      "Problem Solving",
+      "Critical Thinking",
+      "Data Analysis"
+    ],
+    "programs": [
+      "Chemistry",
+      "Chemical Engineering",
+      "Biochemistry",
+      "Pharmaceutical Science",
+      "Materials Science"
+    ]
+  },
+  {
+    "title": "Physicist",
+    "description": "A professional role studying matter, energy, and the fundamental forces of nature.",
+    "required_skills": [
+      "Physics",
+      "Mathematics",
+      "Problem Solving",
+      "Research",
+      "Analytical Thinking"
+    ],
+    "programs": [
+      "Physics",
+      "Applied Physics",
+      "Mathematics",
+      "Engineering Physics",
+      "Astrophysics"
+    ]
+  },
+  {
+    "title": "Environmental Scientist",
+    "description": "A professional role studying the environment and developing solutions to environmental problems.",
+    "required_skills": [
+      "Environmental Science",
+      "Research",
+      "Problem Solving",
+      "Data Analysis",
+      "Communication"
+    ],
+    "programs": [
+      "Environmental Science",
+      "Environmental Engineering",
+      "Biology",
+      "Sustainability Studies",
+      "Geology"
+    ]
+  },
+  {
+    "title": "Geologist",
+    "description": "A professional role studying the Earth, its materials, and processes to understand its history and structure.",
+    "required_skills": [
+      "Geology",
+      "Fieldwork",
+      "Data Analysis",
+      "Problem Solving",
+      "Research"
+    ],
+    "programs": [
+      "Geology",
+      "Earth Sciences",
+      "Environmental Science",
+      "Geophysics",
+      "Mining Engineering"
+    ]
+  },
+  {
+    "title": "Zoologist",
+    "description": "A professional role studying animals, their behavior, and their interactions with the environment.",
+    "required_skills": [
+      "Biology",
+      "Research",
+      "Observation",
+      "Data Analysis",
+      "Critical Thinking"
+    ],
+    "programs": [
+      "Zoology",
+      "Biology",
+      "Environmental Science",
+      "Marine Biology",
+      "Ecology"
+    ]
+  },
+  {
+    "title": "Microbiologist",
+    "description": "A professional role studying microorganisms such as bacteria, viruses, and fungi.",
+    "required_skills": [
+      "Microbiology",
+      "Laboratory Skills",
+      "Research",
+      "Critical Thinking",
+      "Problem Solving"
+    ],
+    "programs": [
+      "Microbiology",
+      "Biology",
+      "Biotechnology",
+      "Biomedical Science",
+      "Pharmaceutical Science"
+    ]
+  },
+  {
+    "title": "Marine Biologist",
+    "description": "A professional role studying marine organisms and ecosystems in oceans and seas.",
+    "required_skills": [
+      "Biology",
+      "Research",
+      "Fieldwork",
+      "Data Analysis",
+      "Critical Thinking"
+    ],
+    "programs": [
+      "Marine Biology",
+      "Biology",
+      "Environmental Science",
+      "Oceanography",
+      "Ecology"
+    ]
+  },
+  {
+    "title": "Astronomer",
+    "description": "A professional role studying celestial objects and phenomena beyond Earth's atmosphere.",
+    "required_skills": [
+      "Physics",
+      "Mathematics",
+      "Observation",
+      "Data Analysis",
+      "Problem Solving"
+    ],
+    "programs": [
+      "Astronomy",
+      "Physics",
+      "Astrophysics",
+      "Mathematics",
+      "Space Science"
+    ]
+  },
+  {
+    "title": "Biochemist",
+    "description": "A professional role studying the chemical processes within and related to living organisms.",
+    "required_skills": [
+      "Biochemistry",
+      "Laboratory Skills",
+      "Research",
+      "Problem Solving",
+      "Critical Thinking"
+    ],
+    "programs": [
+      "Biochemistry",
+      "Chemistry",
+      "Molecular Biology",
+      "Biomedical Science",
+      "Biotechnology"
+    ]
+  },
+  {
+    "title": "Ecologist",
+    "description": "A professional role studying the relationships between organisms and their environments.",
+    "required_skills": [
+      "Ecology",
+      "Research",
+      "Data Analysis",
+      "Fieldwork",
+      "Critical Thinking"
+    ],
+    "programs": [
+      "Ecology",
+      "Environmental Science",
+      "Biology",
+      "Conservation Biology",
+      "Forestry"
+    ]
+  },
+  {
+    "title": "Hydrologist",
+    "description": "A professional role studying the distribution, circulation, and properties of water in the environment.",
+    "required_skills": [
+      "Hydrology",
+      "Data Analysis",
+      "Fieldwork",
+      "Problem Solving",
+      "Research"
+    ],
+    "programs": [
+      "Hydrology",
+      "Environmental Science",
+      "Geology",
+      "Water Resources Engineering",
+      "Civil Engineering"
+    ]
+  },
+  {
+    "title": "Conservation Scientist",
+    "description": "A professional role managing natural resources to protect the environment and wildlife.",
+    "required_skills": [
+      "Environmental Management",
+      "Research",
+      "Fieldwork",
+      "Problem Solving",
+      "Communication"
+    ],
+    "programs": [
+      "Environmental Science",
+      "Forestry",
+      "Ecology",
+      "Wildlife Management",
+      "Conservation Biology"
+    ]
+  },
+  {
+    "title": "Science Teacher",
+    "description": "A professional role teaching scientific concepts at various educational levels.",
+    "required_skills": [
+      "Science Knowledge",
+      "Communication",
+      "Teaching",
+      "Problem Solving",
+      "Curriculum Development"
+    ],
+    "programs": [
+      "Education",
+      "Biology",
+      "Chemistry",
+      "Physics",
+      "Environmental Science"
+    ]
+  },
+  {
+    "title": "Research Scientist",
+    "description": "A professional role conducting research to expand knowledge in a specific field of science.",
+    "required_skills": [
+      "Research",
+      "Data Analysis",
+      "Critical Thinking",
+      "Problem Solving",
+      "Communication"
+    ],
+    "programs": [
+      "Biology",
+      "Chemistry",
+      "Physics",
+      "Computer Science",
+      "Environmental Science"
+    ]
+  },
+  {
+    "title": "Data Scientist",
+    "description": "A professional role analyzing large datasets to extract insights and support decision-making.",
+    "required_skills": [
+      "Python",
+      "Machine Learning",
+      "Statistics",
+      "Data Visualization",
+      "Problem Solving"
+    ],
+    "programs": [
+      "Data Science",
+      "Statistics",
+      "Computer Science",
+      "Business Analytics",
+      "Artificial Intelligence"
+    ]
+  },
+  {
+    "title": "Science Writer",
+    "description": "A professional role communicating scientific information to the public or specialized audiences.",
+    "required_skills": [
+      "Writing",
+      "Science Knowledge",
+      "Research",
+      "Communication",
+      "Critical Thinking"
+    ],
+    "programs": [
+      "Science Communication",
+      "Biology",
+      "Chemistry",
+      "Physics",
+      "Journalism"
+    ]
+  },
+  {
+    "title": "Agricultural Scientist",
+    "description": "A professional role improving farming techniques, crop production, and agricultural sustainability.",
+    "required_skills": [
+      "Agriculture",
+      "Research",
+      "Problem Solving",
+      "Data Analysis",
+      "Critical Thinking"
+    ],
+    "programs": [
+      "Agricultural Science",
+      "Agricultural Engineering",
+      "Biology",
+      "Environmental Science",
+      "Soil Science"
+    ]
+  },
+  {
+    "title": "Food Scientist",
+    "description": "A professional role studying food composition, safety, and quality for human consumption.",
+    "required_skills": [
+      "Food Chemistry",
+      "Research",
+      "Problem Solving",
+      "Quality Control",
+      "Data Analysis"
+    ],
+    "programs": [
+      "Food Science",
+      "Chemistry",
+      "Biochemistry",
+      "Nutrition",
+      "Biotechnology"
+    ]
+  },
+  {
+    "title": "Pharmacologist",
+    "description": "A professional role studying drugs and their effects on the human body.",
+    "required_skills": [
+      "Pharmacology",
+      "Research",
+      "Biochemistry",
+      "Problem Solving",
+      "Critical Thinking"
+    ],
+    "programs": [
+      "Pharmacology",
+      "Medicine",
+      "Biochemistry",
+      "Pharmaceutical Science",
+      "Toxicology"
+    ]
+  },
+  {
+    "title": "Physician",
+    "description": "A professional role diagnosing, treating, and preventing illnesses and injuries in patients.",
+    "required_skills": [
+      "Medical Knowledge",
+      "Problem Solving",
+      "Communication",
+      "Decision Making",
+      "Empathy"
+    ],
+    "programs": [
+      "Medicine",
+      "Biomedical Science",
+      "Physiology",
+      "Public Health",
+      "Pharmacology"
+    ]
+  },
+  {
+    "title": "Registered Nurse",
+    "description": "A professional role providing patient care and supporting medical teams in healthcare settings.",
+    "required_skills": [
+      "Patient Care",
+      "Medical Knowledge",
+      "Communication",
+      "Empathy",
+      "Problem Solving"
+    ],
+    "programs": [
+      "Nursing",
+      "Public Health",
+      "Medicine",
+      "Healthcare Administration",
+      "Nutrition"
+    ]
+  },
+  {
+    "title": "Pharmacist",
+    "description": "A professional role dispensing medications and advising patients on their safe use.",
+    "required_skills": [
+      "Pharmacy Knowledge",
+      "Communication",
+      "Problem Solving",
+      "Attention to Detail",
+      "Ethics"
+    ],
+    "programs": [
+      "Pharmacy",
+      "Pharmaceutical Science",
+      "Biochemistry",
+      "Medicine",
+      "Chemistry"
+    ]
+  },
+  {
+    "title": "Physical Therapist",
+    "description": "A professional role helping patients recover and improve movement and physical function.",
+    "required_skills": [
+      "Anatomy",
+      "Rehabilitation",
+      "Problem Solving",
+      "Communication",
+      "Empathy"
+    ],
+    "programs": [
+      "Physical Therapy",
+      "Kinesiology",
+      "Exercise Science",
+      "Biomedical Science",
+      "Healthcare Administration"
+    ]
+  },
+  {
+    "title": "Occupational Therapist",
+    "description": "A professional role helping patients perform daily activities and improve their quality of life.",
+    "required_skills": [
+      "Therapy Techniques",
+      "Communication",
+      "Problem Solving",
+      "Empathy",
+      "Patient Care"
+    ],
+    "programs": [
+      "Occupational Therapy",
+      "Physical Therapy",
+      "Healthcare Administration",
+      "Psychology",
+      "Rehabilitation Science"
+    ]
+  },
+  {
+    "title": "Medical Assistant",
+    "description": "A professional role assisting healthcare providers in clinical and administrative tasks.",
+    "required_skills": [
+      "Patient Care",
+      "Medical Knowledge",
+      "Communication",
+      "Organization",
+      "Problem Solving"
+    ],
+    "programs": [
+      "Medical Assisting",
+      "Healthcare Administration",
+      "Nursing",
+      "Public Health",
+      "Anatomy"
+    ]
+  },
+  {
+    "title": "Dental Hygienist",
+    "description": "A professional role providing preventive dental care and educating patients on oral hygiene.",
+    "required_skills": [
+      "Dental Knowledge",
+      "Patient Care",
+      "Communication",
+      "Attention to Detail",
+      "Problem Solving"
+    ],
+    "programs": [
+      "Dental Hygiene",
+      "Dentistry",
+      "Health Sciences",
+      "Public Health",
+      "Biomedical Science"
+    ]
+  },
+  {
+    "title": "Medical Laboratory Technician",
+    "description": "A professional role conducting laboratory tests to help diagnose and treat diseases.",
+    "required_skills": [
+      "Laboratory Skills",
+      "Medical Knowledge",
+      "Attention to Detail",
+      "Problem Solving",
+      "Data Analysis"
+    ],
+    "programs": [
+      "Medical Laboratory Technology",
+      "Biomedical Science",
+      "Biochemistry",
+      "Health Sciences",
+      "Biotechnology"
+    ]
+  },
+  {
+    "title": "Veterinarian",
+    "description": "A professional role diagnosing, treating, and preventing diseases in animals.",
+    "required_skills": [
+      "Animal Care",
+      "Medical Knowledge",
+      "Problem Solving",
+      "Communication",
+      "Empathy"
+    ],
+    "programs": [
+      "Veterinary Medicine",
+      "Animal Science",
+      "Biology",
+      "Zoology",
+      "Biomedical Science"
+    ]
+  },
+  {
+    "title": "Zoologist",
+    "description": "A professional role studying animal behavior, genetics, and conservation.",
+    "required_skills": [
+      "Animal Research",
+      "Fieldwork",
+      "Data Analysis",
+      "Critical Thinking",
+      "Communication"
+    ],
+    "programs": [
+      "Zoology",
+      "Biology",
+      "Ecology",
+      "Wildlife Conservation",
+      "Environmental Science"
+    ]
+  },
+  {
+    "title": "Marine Biologist",
+    "description": "A professional role studying marine organisms and their ecosystems.",
+    "required_skills": [
+      "Marine Biology",
+      "Research",
+      "Fieldwork",
+      "Data Analysis",
+      "Critical Thinking"
+    ],
+    "programs": [
+      "Marine Biology",
+      "Oceanography",
+      "Environmental Science",
+      "Ecology",
+      "Biology"
+    ]
+  },
+  {
+    "title": "Wildlife Biologist",
+    "description": "A professional role researching and managing wildlife populations and habitats.",
+    "required_skills": [
+      "Fieldwork",
+      "Data Analysis",
+      "Ecology",
+      "Conservation",
+      "Critical Thinking"
+    ],
+    "programs": [
+      "Wildlife Biology",
+      "Ecology",
+      "Environmental Science",
+      "Zoology",
+      "Conservation Science"
+    ]
+  },
+  {
+    "title": "Environmental Consultant",
+    "description": "A professional role advising organizations on environmental compliance and sustainability.",
+    "required_skills": [
+      "Environmental Science",
+      "Regulations",
+      "Communication",
+      "Problem Solving",
+      "Project Management"
+    ],
+    "programs": [
+      "Environmental Science",
+      "Environmental Management",
+      "Sustainability Studies",
+      "Chemistry",
+      "Geology"
+    ]
+  },
+  {
+    "title": "Ecotourism Guide",
+    "description": "A professional role guiding tourists in natural areas while promoting conservation.",
+    "required_skills": [
+      "Ecology",
+      "Communication",
+      "Tourism Knowledge",
+      "Leadership",
+      "Environmental Awareness"
+    ],
+    "programs": [
+      "Ecotourism",
+      "Environmental Science",
+      "Hospitality Management",
+      "Biology",
+      "Tourism Management"
+    ]
+  },
+  {
+    "title": "Climate Scientist",
+    "description": "A professional role studying climate patterns, change, and its global impact.",
+    "required_skills": [
+      "Climatology",
+      "Data Analysis",
+      "Research",
+      "Problem Solving",
+      "Critical Thinking"
+    ],
+    "programs": [
+      "Climatology",
+      "Environmental Science",
+      "Meteorology",
+      "Geography",
+      "Earth Science"
+    ]
+  },
+  {
+    "title": "Sustainability Manager",
+    "description": "A professional role developing strategies for organizations to operate sustainably.",
+    "required_skills": [
+      "Sustainability Planning",
+      "Project Management",
+      "Communication",
+      "Problem Solving",
+      "Leadership"
+    ],
+    "programs": [
+      "Sustainability Studies",
+      "Environmental Management",
+      "Business Administration",
+      "Environmental Science",
+      "Public Policy"
+    ]
+  },
+  {
+    "title": "Renewable Energy Engineer",
+    "description": "A professional role designing and implementing renewable energy systems.",
+    "required_skills": [
+      "Engineering",
+      "Renewable Energy",
+      "Problem Solving",
+      "Project Management",
+      "Technical Design"
+    ],
+    "programs": [
+      "Renewable Energy Engineering",
+      "Electrical Engineering",
+      "Mechanical Engineering",
+      "Sustainable Engineering",
+      "Environmental Science"
+    ]
+  },
+  {
+    "title": "Environmental Policy Analyst",
+    "description": "A professional role researching and developing policies to protect the environment.",
+    "required_skills": [
+      "Policy Analysis",
+      "Research",
+      "Communication",
+      "Critical Thinking",
+      "Problem Solving"
+    ],
+    "programs": [
+      "Environmental Policy",
+      "Public Policy",
+      "Environmental Science",
+      "Political Science",
+      "Sustainability Studies"
+    ]
+  }
+]

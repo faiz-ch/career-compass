@@ -1,10 +1,10 @@
 # backend/app/api/v1/ai.py
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy import select
+from sqlalchemy import select, delete
 from app.db.session import get_async_session
 from app.dependencies import get_current_user
-from app.db.models import Student, InterviewResult, Career
+from app.db.models import Student, InterviewResult, Career, StudentCareerRecommendation
 from app.db.schemas import InterviewResultRead
 from app.services.llm import llm_service
 from app.services.career_recommendation import career_recommendation_service
@@ -140,7 +140,7 @@ async def get_career_recommendations(
             request.interview_analysis
         )
         
-        # Store career recommendations in the database
+        # Store career recommendations in the database (idempotent upsert)
         await store_career_recommendations(session, current_user.id, recommended_careers)
         
         return CareerRecommendationResponse(recommended_careers=recommended_careers)
@@ -194,24 +194,36 @@ async def store_career_recommendations(
     student_id: int, 
     recommended_careers: List[Dict[str, Any]]
 ):
-    """Store career recommendations in the database."""
+    """Store career recommendations in the database and link to the student.
+
+    This ensures stable, repeatable recommendations by caching them per student.
+    """
     try:
-        # In the simplified system, we just ensure the careers exist in the database
-        # Individual student recommendations could be stored in a separate simple table
-        # or handled differently based on your needs
-        
+        # First, clear any existing recommendations for this student to override old ones
+        await session.execute(
+            delete(StudentCareerRecommendation).where(
+                StudentCareerRecommendation.student_id == student_id
+            )
+        )
+        await session.flush()
+
         for career_data in recommended_careers:
-            career_title = career_data.get('title', '')
-            career_description = career_data.get('description', '')
-            required_skills = career_data.get('required_skills', [])
-            programs = career_data.get('programs', [])
-            
-            # Try to find existing career by title
-            career_stmt = select(Career).where(Career.title.ilike(f"%{career_title}%"))
+            career_title = career_data.get('title', '') or ''
+            # Skip invalid entries without a valid title
+            if not isinstance(career_title, str) or not career_title.strip():
+                continue
+            career_description = career_data.get('description', '') or ''
+            required_skills = career_data.get('required_skills', []) or []
+            programs = career_data.get('programs', []) or []
+            match_reason = career_data.get('match_reason', '') or ''
+            confidence_score = career_data.get('confidence_score', 0.0) or 0.0
+            learning_path = career_data.get('learning_path', '') or ''
+
+            # Find or create Career by exact title
+            career_stmt = select(Career).where(Career.title == career_title)
             career_result = await session.execute(career_stmt)
             career = career_result.scalar_one_or_none()
-            
-            # If career doesn't exist, create it with JSON fields
+
             if not career:
                 career = Career(
                     title=career_title,
@@ -220,11 +232,24 @@ async def store_career_recommendations(
                     programs=programs if isinstance(programs, list) else []
                 )
                 session.add(career)
-        
+                # Ensure career.id is available for FK references
+                await session.flush()
+                await session.flush()
+
+            # Create StudentCareerRecommendation link
+            rec = StudentCareerRecommendation(
+                student_id=student_id,
+                career_id=career.id,
+                match_reason=match_reason,
+                confidence_score=confidence_score,
+                learning_path=learning_path,
+            )
+            session.add(rec)
+
         await session.commit()
-        print(f"Successfully stored {len(recommended_careers)} career recommendations")
+        print(f"Successfully stored/updated {len(recommended_careers)} career recommendations for student {student_id}")
         
     except Exception as e:
         await session.rollback()
         print(f"Error storing career recommendations: {str(e)}")
-        # Don't raise the exception to avoid breaking the main flow
+        raise

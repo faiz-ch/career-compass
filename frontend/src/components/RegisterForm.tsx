@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 import type { StudentCreate } from '../types/auth';
+import { useNavigate } from 'react-router-dom';
+
+
 
 const RegisterForm: React.FC = () => {
+  const navigate = useNavigate();
   const [formData, setFormData] = useState<StudentCreate>({
     first_name: '',
     last_name: '',

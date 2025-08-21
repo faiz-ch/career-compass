@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, DateTime, Text, ForeignKey, JSON
+from sqlalchemy import Column, Integer, String, DateTime, Text, ForeignKey, JSON, Float, UniqueConstraint
 from sqlalchemy.ext.declarative import declarative_base
 from datetime import datetime
 
@@ -39,3 +39,29 @@ class InterviewResult(Base):
     confidence_level = Column(String(32), nullable=True)
     created_at = Column(DateTime, default=datetime.utcnow)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+
+
+class StudentCareerRecommendation(Base):
+    __tablename__ = "student_career_recommendations"
+
+    id = Column(Integer, primary_key=True, index=True)
+    student_id = Column(Integer, ForeignKey("students.id"), nullable=False, index=True)
+    career_id = Column(Integer, ForeignKey("careers.id"), nullable=False, index=True)
+    match_reason = Column(Text, nullable=True)
+    confidence_score = Column(Float, nullable=True)
+    learning_path = Column(Text, nullable=True)
+    created_at = Column(DateTime, default=datetime.utcnow)
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+
+    __table_args__ = (
+        UniqueConstraint("student_id", "career_id", name="uq_student_career_recommendation"),
+    )
+
+
+class Application(Base):
+    __tablename__ = "applications"
+
+    id = Column(Integer, primary_key=True, index=True)
+    student_id = Column(Integer, ForeignKey("students.id"), nullable=False, unique=True, index=True)
+    data = Column(JSON, nullable=False)
+    created_at = Column(DateTime, default=datetime.utcnow)

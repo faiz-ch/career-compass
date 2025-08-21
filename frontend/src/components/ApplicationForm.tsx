@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { scraperAPI, admissionsAPI } from '../services/api';
 import { useAuth } from '../context/AuthContext';
+import { useNavigate } from "react-router-dom";
 
 interface FormData {
   // Personal Information
@@ -12,77 +13,37 @@ interface FormData {
   gender: string;
   religion: string;
   nationality: string;
-  maritalStatus: string;
-  bloodGroup: string;
   
   // Contact Information
-  email: string;
   phoneNumber: string;
   whatsappNumber: string;
   permanentAddress: string;
-  mailingAddress: string;
   city: string;
   province: string;
-  postalCode: string;
   
   // Family Information
   fatherOccupation: string;
   fatherIncome: string;
   motherName: string;
   motherOccupation: string;
-  guardianName: string;
-  guardianRelation: string;
-  guardianContact: string;
   
-  // Academic Information - Matric/O-Levels
-  matricBoard: string;
-  matricYear: string;
-  matricRollNumber: string;
-  matricTotalMarks: string;
-  matricObtainedMarks: string;
-  matricPercentage: string;
-  matricSubjects: string;
   
   // Academic Information - Inter/A-Levels
-  interBoard: string;
   interYear: string;
   interRollNumber: string;
   interTotalMarks: string;
   interObtainedMarks: string;
   interPercentage: string;
-  interSubjects: string;
-  interGroup: string;
   
   // Program Preferences
   preferredProgram1: string;
   preferredProgram2: string;
   preferredProgram3: string;
-  campusPreference: string;
-  shiftPreference: string;
   
-  // Additional Information
-  extracurricular: string;
-  achievements: string;
-  workExperience: string;
-  personalStatement: string;
-  
-  // Emergency Contact
-  emergencyContactName: string;
-  emergencyContactRelation: string;
-  emergencyContactPhone: string;
-  
-  // Special Categories
-  specialCategory: string;
-  disability: string;
-  hafizQuran: boolean;
-  
-  // Preferences
-  hostelRequired: boolean;
-  transportRequired: boolean;
-  scholarshipRequired: boolean;
 }
 
 const ApplicationForm: React.FC = () => {
+  const navigate = useNavigate();
   const { user } = useAuth();
   const [currentStep, setCurrentStep] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
@@ -99,56 +60,27 @@ const ApplicationForm: React.FC = () => {
     gender: '',
     religion: '',
     nationality: '',
-    maritalStatus: '',
-    bloodGroup: '',
-    email: '',
+
     phoneNumber: '',
     whatsappNumber: '',
     permanentAddress: '',
-    mailingAddress: '',
     city: '',
     province: '',
-    postalCode: '',
+
     fatherOccupation: '',
     fatherIncome: '',
     motherName: '',
     motherOccupation: '',
-    guardianName: '',
-    guardianRelation: '',
-    guardianContact: '',
-    matricBoard: '',
-    matricYear: '',
-    matricRollNumber: '',
-    matricTotalMarks: '',
-    matricObtainedMarks: '',
-    matricPercentage: '',
-    matricSubjects: '',
-    interBoard: '',
+
     interYear: '',
     interRollNumber: '',
     interTotalMarks: '',
     interObtainedMarks: '',
     interPercentage: '',
-    interSubjects: '',
-    interGroup: '',
+
     preferredProgram1: '',
     preferredProgram2: '',
     preferredProgram3: '',
-    campusPreference: '',
-    shiftPreference: '',
-    extracurricular: '',
-    achievements: '',
-    workExperience: '',
-    personalStatement: '',
-    emergencyContactName: '',
-    emergencyContactRelation: '',
-    emergencyContactPhone: '',
-    specialCategory: '',
-    disability: '',
-    hafizQuran: false,
-    hostelRequired: false,
-    transportRequired: false,
-    scholarshipRequired: false,
   });
 
   // Scraper form state
@@ -165,7 +97,6 @@ const ApplicationForm: React.FC = () => {
     'Family Information',
     'Academic Information',
     'Program Preferences',
-    'Additional Information',
     'Review & Submit'
   ];
 
@@ -453,21 +384,21 @@ const ApplicationForm: React.FC = () => {
             <h3 className="text-xl font-bold text-white mb-4">Contact Information</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
-                <label className="block text-sm font-medium text-dark-300 mb-2">Email</label>
-                <input
-                  type="email"
-                  value={formData.email}
-                  onChange={(e) => handleInputChange('email', e.target.value)}
-                  className="cyber-input w-full"
-                  placeholder="your@email.com"
-                />
-              </div>
-              <div>
                 <label className="block text-sm font-medium text-dark-300 mb-2">Phone Number</label>
                 <input
                   type="tel"
                   value={formData.phoneNumber}
                   onChange={(e) => handleInputChange('phoneNumber', e.target.value)}
+                  className="cyber-input w-full"
+                  placeholder="03XX-XXXXXXX"
+                />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-dark-300 mb-2">WhatsApp Number</label>
+                <input
+                  type="tel"
+                  value={formData.whatsappNumber}
+                  onChange={(e) => handleInputChange('whatsappNumber', e.target.value)}
                   className="cyber-input w-full"
                   placeholder="03XX-XXXXXXX"
                 />
@@ -563,88 +494,9 @@ const ApplicationForm: React.FC = () => {
         return (
           <div className="space-y-6">
             <h3 className="text-xl font-bold text-white mb-4">Academic Information</h3>
-            
-            {/* Matric/O-Levels Section */}
-            <div className="bg-dark-800/50 p-6 rounded-xl border border-dark-700">
-              <h4 className="text-lg font-semibold text-white mb-4">Matric/O-Levels</h4>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div>
-                  <label className="block text-sm font-medium text-dark-300 mb-2">Board</label>
-                  <input
-                    type="text"
-                    value={formData.matricBoard}
-                    onChange={(e) => handleInputChange('matricBoard', e.target.value)}
-                    className="cyber-input w-full"
-                    placeholder="e.g., BISE Lahore"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-dark-300 mb-2">Year</label>
-                  <input
-                    type="text"
-                    value={formData.matricYear}
-                    onChange={(e) => handleInputChange('matricYear', e.target.value)}
-                    className="cyber-input w-full"
-                    placeholder="e.g., 2024"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-dark-300 mb-2">Roll Number</label>
-                  <input
-                    type="text"
-                    value={formData.matricRollNumber}
-                    onChange={(e) => handleInputChange('matricRollNumber', e.target.value)}
-                    className="cyber-input w-full"
-                    placeholder="Enter roll number"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-dark-300 mb-2">Total Marks</label>
-                  <input
-                    type="text"
-                    value={formData.matricTotalMarks}
-                    onChange={(e) => handleInputChange('matricTotalMarks', e.target.value)}
-                    className="cyber-input w-full"
-                    placeholder="e.g., 1100"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-dark-300 mb-2">Obtained Marks</label>
-                  <input
-                    type="text"
-                    value={formData.matricObtainedMarks}
-                    onChange={(e) => handleInputChange('matricObtainedMarks', e.target.value)}
-                    className="cyber-input w-full"
-                    placeholder="e.g., 950"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-dark-300 mb-2">Percentage</label>
-                  <input
-                    type="text"
-                    value={formData.matricPercentage}
-                    onChange={(e) => handleInputChange('matricPercentage', e.target.value)}
-                    className="cyber-input w-full"
-                    placeholder="e.g., 86.36%"
-                  />
-                </div>
-              </div>
-            </div>
-
-            {/* Inter/A-Levels Section */}
             <div className="bg-dark-800/50 p-6 rounded-xl border border-dark-700">
               <h4 className="text-lg font-semibold text-white mb-4">Inter/A-Levels</h4>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div>
-                  <label className="block text-sm font-medium text-dark-300 mb-2">Board</label>
-                  <input
-                    type="text"
-                    value={formData.interBoard}
-                    onChange={(e) => handleInputChange('interBoard', e.target.value)}
-                    className="cyber-input w-full"
-                    placeholder="e.g., BISE Lahore"
-                  />
-                </div>
                 <div>
                   <label className="block text-sm font-medium text-dark-300 mb-2">Year</label>
                   <input
@@ -656,19 +508,44 @@ const ApplicationForm: React.FC = () => {
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-dark-300 mb-2">Group</label>
-                  <select
-                    value={formData.interGroup}
-                    onChange={(e) => handleInputChange('interGroup', e.target.value)}
+                  <label className="block text-sm font-medium text-dark-300 mb-2">Roll Number</label>
+                  <input
+                    type="text"
+                    value={formData.interRollNumber}
+                    onChange={(e) => handleInputChange('interRollNumber', e.target.value)}
                     className="cyber-input w-full"
-                  >
-                    <option value="">Select group</option>
-                    <option value="Pre-Engineering">Pre-Engineering</option>
-                    <option value="Pre-Medical">Pre-Medical</option>
-                    <option value="Computer Science">Computer Science</option>
-                    <option value="Commerce">Commerce</option>
-                    <option value="Arts">Arts</option>
-                  </select>
+                    placeholder="Enter roll number"
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-dark-300 mb-2">Total Marks</label>
+                  <input
+                    type="text"
+                    value={formData.interTotalMarks}
+                    onChange={(e) => handleInputChange('interTotalMarks', e.target.value)}
+                    className="cyber-input w-full"
+                    placeholder="e.g., 1100"
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-dark-300 mb-2">Obtained Marks</label>
+                  <input
+                    type="text"
+                    value={formData.interObtainedMarks}
+                    onChange={(e) => handleInputChange('interObtainedMarks', e.target.value)}
+                    className="cyber-input w-full"
+                    placeholder="e.g., 950"
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-dark-300 mb-2">Percentage</label>
+                  <input
+                    type="text"
+                    value={formData.interPercentage}
+                    onChange={(e) => handleInputChange('interPercentage', e.target.value)}
+                    className="cyber-input w-full"
+                    placeholder="e.g., 86.36%"
+                  />
                 </div>
               </div>
             </div>
@@ -710,106 +587,11 @@ const ApplicationForm: React.FC = () => {
                   placeholder="Enter third preference"
                 />
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <label className="block text-sm font-medium text-dark-300 mb-2">Campus Preference</label>
-                  <select
-                    value={formData.campusPreference}
-                    onChange={(e) => handleInputChange('campusPreference', e.target.value)}
-                    className="cyber-input w-full"
-                  >
-                    <option value="">Select campus</option>
-                    <option value="Main Campus">Main Campus</option>
-                    <option value="City Campus">City Campus</option>
-                    <option value="Evening Campus">Evening Campus</option>
-                  </select>
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-dark-300 mb-2">Shift Preference</label>
-                  <select
-                    value={formData.shiftPreference}
-                    onChange={(e) => handleInputChange('shiftPreference', e.target.value)}
-                    className="cyber-input w-full"
-                  >
-                    <option value="">Select shift</option>
-                    <option value="Morning">Morning</option>
-                    <option value="Evening">Evening</option>
-                    <option value="No Preference">No Preference</option>
-                  </select>
-                </div>
-              </div>
             </div>
           </div>
         );
 
       case 5:
-        return (
-          <div className="space-y-6">
-            <h3 className="text-xl font-bold text-white mb-4">Additional Information</h3>
-            <div className="space-y-6">
-              <div>
-                <label className="block text-sm font-medium text-dark-300 mb-2">Extracurricular Activities</label>
-                <textarea
-                  value={formData.extracurricular}
-                  onChange={(e) => handleInputChange('extracurricular', e.target.value)}
-                  className="cyber-input w-full h-24 resize-none"
-                  placeholder="Describe your extracurricular activities"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-dark-300 mb-2">Achievements</label>
-                <textarea
-                  value={formData.achievements}
-                  onChange={(e) => handleInputChange('achievements', e.target.value)}
-                  className="cyber-input w-full h-24 resize-none"
-                  placeholder="List your achievements"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-dark-300 mb-2">Personal Statement</label>
-                <textarea
-                  value={formData.personalStatement}
-                  onChange={(e) => handleInputChange('personalStatement', e.target.value)}
-                  className="cyber-input w-full h-32 resize-none"
-                  placeholder="Write your personal statement (why you want to join this program)"
-                />
-              </div>
-              
-              {/* Preferences checkboxes */}
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <label className="flex items-center space-x-3 cursor-pointer">
-                  <input
-                    type="checkbox"
-                    checked={formData.hostelRequired}
-                    onChange={(e) => handleInputChange('hostelRequired', e.target.checked)}
-                    className="w-5 h-5 text-cyber-500 bg-dark-800 border-dark-600 rounded focus:ring-cyber-500 focus:ring-2"
-                  />
-                  <span className="text-dark-300">Hostel Required</span>
-                </label>
-                <label className="flex items-center space-x-3 cursor-pointer">
-                  <input
-                    type="checkbox"
-                    checked={formData.transportRequired}
-                    onChange={(e) => handleInputChange('transportRequired', e.target.checked)}
-                    className="w-5 h-5 text-cyber-500 bg-dark-800 border-dark-600 rounded focus:ring-cyber-500 focus:ring-2"
-                  />
-                  <span className="text-dark-300">Transport Required</span>
-                </label>
-                <label className="flex items-center space-x-3 cursor-pointer">
-                  <input
-                    type="checkbox"
-                    checked={formData.scholarshipRequired}
-                    onChange={(e) => handleInputChange('scholarshipRequired', e.target.checked)}
-                    className="w-5 h-5 text-cyber-500 bg-dark-800 border-dark-600 rounded focus:ring-cyber-500 focus:ring-2"
-                  />
-                  <span className="text-dark-300">Scholarship Required</span>
-                </label>
-              </div>
-            </div>
-          </div>
-        );
-
-      case 6:
         return (
           <div className="space-y-6">
             <h3 className="text-xl font-bold text-white mb-4">Review & Submit</h3>
@@ -818,10 +600,9 @@ const ApplicationForm: React.FC = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
                 <div><span className="text-dark-400">Name:</span> <span className="text-white">{formData.firstName} {formData.lastName}</span></div>
                 <div><span className="text-dark-400">Father's Name:</span> <span className="text-white">{formData.fatherName}</span></div>
-                <div><span className="text-dark-400">Email:</span> <span className="text-white">{formData.email}</span></div>
                 <div><span className="text-dark-400">Phone:</span> <span className="text-white">{formData.phoneNumber}</span></div>
                 <div><span className="text-dark-400">First Preference:</span> <span className="text-white">{formData.preferredProgram1}</span></div>
-                <div><span className="text-dark-400">Matric Percentage:</span> <span className="text-white">{formData.matricPercentage}</span></div>
+                <div><span className="text-dark-400">Inter Percentage:</span> <span className="text-white">{formData.interPercentage}</span></div>
               </div>
             </div>
             
@@ -923,6 +704,7 @@ const ApplicationForm: React.FC = () => {
             
             {currentStep === steps.length - 1 ? (
               <button
+                onClick={() => navigate("/dashboard")}
                 type="submit"
                 disabled={isLoading}
                 className="cyber-button px-8 py-3"
