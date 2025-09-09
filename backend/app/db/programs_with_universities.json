@@ -1,0 +1,4937 @@
+[
+  {
+    "program": "Accounting",
+    "universities": [
+      {
+        "name": "Lahore University of Management Sciences (LUMS)",
+        "link": "https://lums.edu.pk",
+        "icon": "https://lums.edu.pk/sites/default/files/inline-images/LUMS%20Logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Institute of Management Sciences (IMS Peshawar)",
+        "link": "https://imsciences.edu.pk",
+        "icon": "https://admissions.imsciences.edu.pk/AdminLTE/TopicListing/images/logo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "Institute of Business Administration (IBA Karachi)",
+        "link": "https://iba.edu.pk",
+        "icon": "https://www.iba.edu.pk/images/logo-iba-70years.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Quaid-i-Azam University (QAU)",
+        "link": "https://qau.edu.pk",
+        "icon": "https://qau.edu.pk/wp-content/uploads/2021/05/logo-15.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "University of Management and Technology (UMT)",
+        "link": "https://umt.edu.pk",
+        "icon": "https://www.umt.edu.pk/images/mobile-logo-umt.png",
+        "location": "Lahore, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Actuarial Science",
+    "universities": [
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "UET Taxila",
+        "link": "https://www.uettaxila.edu.pk",
+        "icon": "https://www.uettaxila.edu.pk/images/Logos/uettaxila_logo.png",
+        "location": "Taxila, Pakistan"
+      },
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Aerospace Engineering",
+    "universities": [
+      {
+        "name": "COMSATS University Islamabad",
+        "link": "https://www.comsats.edu.pk",
+        "icon": "https://www.comsats.edu.pk/assets/img/COMSATS-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "Air University",
+        "link": "https://au.edu.pk",
+        "icon": "https://www.au.edu.pk/AU_New_Assets/images/logo/au.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "FAST National University of Computer and Emerging Sciences (FAST-NUCES)",
+        "link": "https://nu.edu.pk",
+        "icon": "https://www.nu.edu.pk/Content/images/NU-logo.jpg",
+        "location": "Islamabad/Lahore/Karachi, Pakistan"
+      },
+      {
+        "name": "Khwaja Fareed University of Engineering and IT (KFUEIT)",
+        "link": "https://kfueit.edu.pk",
+        "icon": "https://www.kfueit.edu.pk/uploads/4/ueit-logo-r.png",
+        "location": "Rahim Yar Khan, Pakistan"
+      },
+      {
+        "name": "National University of Sciences and Technology (NUST)",
+        "link": "https://nust.edu.pk",
+        "icon": "https://nust.edu.pk/wp-content/themes/nust-main/assets/img/Header-logo.png",
+        "location": "Islamabad, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Agricultural Engineering",
+    "universities": [
+      {
+        "name": "University of Management and Technology (UMT)",
+        "link": "https://umt.edu.pk",
+        "icon": "https://www.umt.edu.pk/images/mobile-logo-umt.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "National University of Sciences and Technology (NUST)",
+        "link": "https://nust.edu.pk",
+        "icon": "https://nust.edu.pk/wp-content/themes/nust-main/assets/img/Header-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "Bahria University",
+        "link": "https://bahria.edu.pk",
+        "icon": "https://www.bahria.edu.pk/Content/images/bu_logo.png",
+        "location": "Islamabad/Karachi, Pakistan"
+      },
+      {
+        "name": "COMSATS University Islamabad",
+        "link": "https://www.comsats.edu.pk",
+        "icon": "https://www.comsats.edu.pk/assets/img/COMSATS-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "Ghulam Ishaq Khan Institute (GIKI)",
+        "link": "https://giki.edu.pk",
+        "icon": "https://giki.edu.pk/wp-content/uploads/2025/02/giki-logo-1.png",
+        "location": "Topi, Khyber Pakhtunkhwa, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Agricultural Science",
+    "universities": [
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      },
+      {
+        "name": "University of Sargodha",
+        "link": "https://su.edu.pk",
+        "icon": "https://su.edu.pk/images/final-logo-1.png?v=1.0.1.2",
+        "location": "Sargodha, Pakistan"
+      },
+      {
+        "name": "UET Taxila",
+        "link": "https://www.uettaxila.edu.pk",
+        "icon": "https://www.uettaxila.edu.pk/images/Logos/uettaxila_logo.png",
+        "location": "Taxila, Pakistan"
+      },
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "University of Karachi",
+        "link": "https://uok.edu.pk",
+        "icon": "https://uok.edu.pk/images/logo.png",
+        "location": "Karachi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Anatomy",
+    "universities": [
+      {
+        "name": "Allama Iqbal Medical College",
+        "link": "https://aimc.edu.pk",
+        "icon": "https://aimc.edu.pk/wp-content/uploads/2025/08/Logo-AIMC-fn.jpg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Fatima Jinnah Medical University (FJMU)",
+        "link": "https://fjmu.edu.pk",
+        "icon": "https://www.fjmu.edu.pk/wp-content/uploads/2022/09/logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Liaquat University of Medical and Health Sciences (LUMHS)",
+        "link": "https://lumhs.edu.pk",
+        "icon": "https://www.lumhs.edu.pk/home/images/logo2.png",
+        "location": "Jamshoro, Pakistan"
+      },
+      {
+        "name": "King Edward Medical University (KEMU)",
+        "link": "https://kemu.edu.pk",
+        "icon": "https://kemu.edu.pk/wp-content/uploads/Kemu-logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Dow University of Health Sciences (DUHS)",
+        "link": "https://duhs.edu.pk",
+        "icon": "https://www.duhs.edu.pk/wp-content/uploads/2023/12/image-15.png",
+        "location": "Karachi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Animal Science",
+    "universities": [
+      {
+        "name": "UET Taxila",
+        "link": "https://www.uettaxila.edu.pk",
+        "icon": "https://www.uettaxila.edu.pk/images/Logos/uettaxila_logo.png",
+        "location": "Taxila, Pakistan"
+      },
+      {
+        "name": "Bahauddin Zakariya University (BZU)",
+        "link": "https://bzu.edu.pk",
+        "icon": "https://bzu.edu.pk/img/logo-final.png",
+        "location": "Multan, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "University of the Punjab",
+        "link": "https://pu.edu.pk",
+        "icon": "https://pu.edu.pk/temp1/img/logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Applied Mathematics",
+    "universities": [
+      {
+        "name": "University of Sargodha",
+        "link": "https://su.edu.pk",
+        "icon": "https://su.edu.pk/images/final-logo-1.png?v=1.0.1.2",
+        "location": "Sargodha, Pakistan"
+      },
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "UET Taxila",
+        "link": "https://www.uettaxila.edu.pk",
+        "icon": "https://www.uettaxila.edu.pk/images/Logos/uettaxila_logo.png",
+        "location": "Taxila, Pakistan"
+      },
+      {
+        "name": "University of the Punjab",
+        "link": "https://pu.edu.pk",
+        "icon": "https://pu.edu.pk/temp1/img/logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Applied Physics",
+    "universities": [
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "Bahauddin Zakariya University (BZU)",
+        "link": "https://bzu.edu.pk",
+        "icon": "https://bzu.edu.pk/img/logo-final.png",
+        "location": "Multan, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      },
+      {
+        "name": "University of Sargodha",
+        "link": "https://su.edu.pk",
+        "icon": "https://su.edu.pk/images/final-logo-1.png?v=1.0.1.2",
+        "location": "Sargodha, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Applied Statistics",
+    "universities": [
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      },
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "UET Taxila",
+        "link": "https://www.uettaxila.edu.pk",
+        "icon": "https://www.uettaxila.edu.pk/images/Logos/uettaxila_logo.png",
+        "location": "Taxila, Pakistan"
+      },
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Architecture",
+    "universities": [
+      {
+        "name": "COMSATS University Islamabad",
+        "link": "https://www.comsats.edu.pk",
+        "icon": "https://www.comsats.edu.pk/assets/img/COMSATS-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "FAST National University of Computer and Emerging Sciences (FAST-NUCES)",
+        "link": "https://nu.edu.pk",
+        "icon": "https://www.nu.edu.pk/Content/images/NU-logo.jpg",
+        "location": "Islamabad/Lahore/Karachi, Pakistan"
+      },
+      {
+        "name": "University of Engineering and Technology (UET Lahore)",
+        "link": "https://uet.edu.pk",
+        "icon": "https://uet.edu.pk/.galleries/Slider/uetnewlogo.png?__scale=w:458,h:84,t:2,q:90",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Bahria University",
+        "link": "https://bahria.edu.pk",
+        "icon": "https://www.bahria.edu.pk/Content/images/bu_logo.png",
+        "location": "Islamabad/Karachi, Pakistan"
+      },
+      {
+        "name": "National University of Sciences and Technology (NUST)",
+        "link": "https://nust.edu.pk",
+        "icon": "https://nust.edu.pk/wp-content/themes/nust-main/assets/img/Header-logo.png",
+        "location": "Islamabad, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Artificial Intelligence",
+    "universities": [
+      {
+        "name": "Khwaja Fareed University of Engineering and IT (KFUEIT)",
+        "link": "https://kfueit.edu.pk",
+        "icon": "https://www.kfueit.edu.pk/uploads/4/ueit-logo-r.png",
+        "location": "Rahim Yar Khan, Pakistan"
+      },
+      {
+        "name": "National University of Sciences and Technology (NUST)",
+        "link": "https://nust.edu.pk",
+        "icon": "https://nust.edu.pk/wp-content/themes/nust-main/assets/img/Header-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "Air University",
+        "link": "https://au.edu.pk",
+        "icon": "https://www.au.edu.pk/AU_New_Assets/images/logo/au.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "University of Management and Technology (UMT)",
+        "link": "https://umt.edu.pk",
+        "icon": "https://www.umt.edu.pk/images/mobile-logo-umt.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "FAST National University of Computer and Emerging Sciences (FAST-NUCES)",
+        "link": "https://nu.edu.pk",
+        "icon": "https://www.nu.edu.pk/Content/images/NU-logo.jpg",
+        "location": "Islamabad/Lahore/Karachi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Astronomy",
+    "universities": [
+      {
+        "name": "UET Taxila",
+        "link": "https://www.uettaxila.edu.pk",
+        "icon": "https://www.uettaxila.edu.pk/images/Logos/uettaxila_logo.png",
+        "location": "Taxila, Pakistan"
+      },
+      {
+        "name": "Bahauddin Zakariya University (BZU)",
+        "link": "https://bzu.edu.pk",
+        "icon": "https://bzu.edu.pk/img/logo-final.png",
+        "location": "Multan, Pakistan"
+      },
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "University of Karachi",
+        "link": "https://uok.edu.pk",
+        "icon": "https://uok.edu.pk/images/logo.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "University of the Punjab",
+        "link": "https://pu.edu.pk",
+        "icon": "https://pu.edu.pk/temp1/img/logo.png",
+        "location": "Lahore, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Astrophysics",
+    "universities": [
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      },
+      {
+        "name": "UET Taxila",
+        "link": "https://www.uettaxila.edu.pk",
+        "icon": "https://www.uettaxila.edu.pk/images/Logos/uettaxila_logo.png",
+        "location": "Taxila, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Biochemical Engineering",
+    "universities": [
+      {
+        "name": "University of Engineering and Technology (UET Lahore)",
+        "link": "https://uet.edu.pk",
+        "icon": "https://uet.edu.pk/.galleries/Slider/uetnewlogo.png?__scale=w:458,h:84,t:2,q:90",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of Management and Technology (UMT)",
+        "link": "https://umt.edu.pk",
+        "icon": "https://www.umt.edu.pk/images/mobile-logo-umt.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "National Textile University (NTU)",
+        "link": "https://ntu.edu.pk",
+        "icon": "https://www.ntu.edu.pk/assets/img/logo.png",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "Bahria University",
+        "link": "https://bahria.edu.pk",
+        "icon": "https://www.bahria.edu.pk/Content/images/bu_logo.png",
+        "location": "Islamabad/Karachi, Pakistan"
+      },
+      {
+        "name": "Khwaja Fareed University of Engineering and IT (KFUEIT)",
+        "link": "https://kfueit.edu.pk",
+        "icon": "https://www.kfueit.edu.pk/uploads/4/ueit-logo-r.png",
+        "location": "Rahim Yar Khan, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Biochemistry",
+    "universities": [
+      {
+        "name": "University of Health Sciences (UHS)",
+        "link": "https://uhs.edu.pk",
+        "icon": "https://ubas.edu.pk/wp-content/uploads/2025/01/UBAS-Logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Liaquat University of Medical and Health Sciences (LUMHS)",
+        "link": "https://lumhs.edu.pk",
+        "icon": "https://www.lumhs.edu.pk/home/images/logo2.png",
+        "location": "Jamshoro, Pakistan"
+      },
+      {
+        "name": "Jinnah Sindh Medical University",
+        "link": "https://jsmu.edu.pk",
+        "icon": "https://www.jsmu.edu.pk/assets/images/logo.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Khyber Medical University (KMU)",
+        "link": "https://kmu.edu.pk",
+        "icon": "https://www.fjmu.edu.pk/wp-content/uploads/2022/09/logo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "Aga Khan University (AKU)",
+        "link": "https://aku.edu",
+        "icon": "https://www.aku.edu/Style%20Library/Images/AKU_logo.gif",
+        "location": "Karachi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Biology",
+    "universities": [
+      {
+        "name": "University of Karachi",
+        "link": "https://uok.edu.pk",
+        "icon": "https://uok.edu.pk/images/logo.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "UET Taxila",
+        "link": "https://www.uettaxila.edu.pk",
+        "icon": "https://www.uettaxila.edu.pk/images/Logos/uettaxila_logo.png",
+        "location": "Taxila, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "University of Sargodha",
+        "link": "https://su.edu.pk",
+        "icon": "https://su.edu.pk/images/final-logo-1.png?v=1.0.1.2",
+        "location": "Sargodha, Pakistan"
+      },
+      {
+        "name": "University of the Punjab",
+        "link": "https://pu.edu.pk",
+        "icon": "https://pu.edu.pk/temp1/img/logo.png",
+        "location": "Lahore, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Biomedical Engineering",
+    "universities": [
+      {
+        "name": "Ghulam Ishaq Khan Institute (GIKI)",
+        "link": "https://giki.edu.pk",
+        "icon": "https://giki.edu.pk/wp-content/uploads/2025/02/giki-logo-1.png",
+        "location": "Topi, Khyber Pakhtunkhwa, Pakistan"
+      },
+      {
+        "name": "COMSATS University Islamabad",
+        "link": "https://www.comsats.edu.pk",
+        "icon": "https://www.comsats.edu.pk/assets/img/COMSATS-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "NED University of Engineering and Technology",
+        "link": "https://www.neduet.edu.pk",
+        "icon": "https://www.neduet.edu.pk/sites/default/files/LOGONEDUET2LOGO_1.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Khwaja Fareed University of Engineering and IT (KFUEIT)",
+        "link": "https://kfueit.edu.pk",
+        "icon": "https://www.kfueit.edu.pk/uploads/4/ueit-logo-r.png",
+        "location": "Rahim Yar Khan, Pakistan"
+      },
+      {
+        "name": "FAST National University of Computer and Emerging Sciences (FAST-NUCES)",
+        "link": "https://nu.edu.pk",
+        "icon": "https://www.nu.edu.pk/Content/images/NU-logo.jpg",
+        "location": "Islamabad/Lahore/Karachi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Biomedical Science",
+    "universities": [
+      {
+        "name": "Liaquat University of Medical and Health Sciences (LUMHS)",
+        "link": "https://lumhs.edu.pk",
+        "icon": "https://www.lumhs.edu.pk/home/images/logo2.png",
+        "location": "Jamshoro, Pakistan"
+      },
+      {
+        "name": "Fatima Jinnah Medical University (FJMU)",
+        "link": "https://fjmu.edu.pk",
+        "icon": "https://www.fjmu.edu.pk/wp-content/uploads/2022/09/logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Jinnah Sindh Medical University",
+        "link": "https://jsmu.edu.pk",
+        "icon": "https://www.jsmu.edu.pk/assets/images/logo.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Services Institute of Medical Sciences (SIMS)",
+        "link": "https://sims.edu.pk",
+        "icon": "https://sims.edu.pk/wp-content/uploads/2024/09/SIMS-Logo-Website-1.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Allama Iqbal Medical College",
+        "link": "https://aimc.edu.pk",
+        "icon": "https://aimc.edu.pk/wp-content/uploads/2025/08/Logo-AIMC-fn.jpg",
+        "location": "Lahore, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Biostatistics",
+    "universities": [
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      },
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      },
+      {
+        "name": "Bahauddin Zakariya University (BZU)",
+        "link": "https://bzu.edu.pk",
+        "icon": "https://bzu.edu.pk/img/logo-final.png",
+        "location": "Multan, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "UET Taxila",
+        "link": "https://www.uettaxila.edu.pk",
+        "icon": "https://www.uettaxila.edu.pk/images/Logos/uettaxila_logo.png",
+        "location": "Taxila, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Biotechnology",
+    "universities": [
+      {
+        "name": "National University of Sciences and Technology (NUST)",
+        "link": "https://nust.edu.pk",
+        "icon": "https://nust.edu.pk/wp-content/themes/nust-main/assets/img/Header-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "FAST National University of Computer and Emerging Sciences (FAST-NUCES)",
+        "link": "https://nu.edu.pk",
+        "icon": "https://www.nu.edu.pk/Content/images/NU-logo.jpg",
+        "location": "Islamabad/Lahore/Karachi, Pakistan"
+      },
+      {
+        "name": "Air University",
+        "link": "https://au.edu.pk",
+        "icon": "https://www.au.edu.pk/AU_New_Assets/images/logo/au.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "COMSATS University Islamabad",
+        "link": "https://www.comsats.edu.pk",
+        "icon": "https://www.comsats.edu.pk/assets/img/COMSATS-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "Khwaja Fareed University of Engineering and IT (KFUEIT)",
+        "link": "https://kfueit.edu.pk",
+        "icon": "https://www.kfueit.edu.pk/uploads/4/ueit-logo-r.png",
+        "location": "Rahim Yar Khan, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Business Administration",
+    "universities": [
+      {
+        "name": "SZABIST",
+        "link": "https://szabist.edu.pk",
+        "icon": "https://admissions.szabist.edu.pk/images/nl.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Lahore University of Management Sciences (LUMS)",
+        "link": "https://lums.edu.pk",
+        "icon": "https://lums.edu.pk/sites/default/files/inline-images/LUMS%20Logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Institute of Management Sciences (IMS Peshawar)",
+        "link": "https://imsciences.edu.pk",
+        "icon": "https://admissions.imsciences.edu.pk/AdminLTE/TopicListing/images/logo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "University of Management and Technology (UMT)",
+        "link": "https://umt.edu.pk",
+        "icon": "https://www.umt.edu.pk/images/mobile-logo-umt.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Quaid-i-Azam University (QAU)",
+        "link": "https://qau.edu.pk",
+        "icon": "https://qau.edu.pk/wp-content/uploads/2021/05/logo-15.png",
+        "location": "Islamabad, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Business Analytics",
+    "universities": [
+      {
+        "name": "Institute of Management Sciences (IMS Peshawar)",
+        "link": "https://imsciences.edu.pk",
+        "icon": "https://admissions.imsciences.edu.pk/AdminLTE/TopicListing/images/logo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "Government College University (GCU Lahore)",
+        "link": "https://gcu.edu.pk",
+        "icon": "https://gcu.edu.pk/components/assets/img/gc-logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "International Islamic University (IIUI)",
+        "link": "https://iiu.edu.pk",
+        "icon": "https://www.iiu.edu.pk/wp-content/uploads/2019/02/logo-final-2.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "SZABIST",
+        "link": "https://szabist.edu.pk",
+        "icon": "https://admissions.szabist.edu.pk/images/nl.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Iqra University",
+        "link": "https://iqra.edu.pk",
+        "icon": "https://iqra.edu.pk/wp-content/uploads/2024/03/LOGO-IU-01-1536x371.png",
+        "location": "Karachi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Chemical Engineering",
+    "universities": [
+      {
+        "name": "National University of Sciences and Technology (NUST)",
+        "link": "https://nust.edu.pk",
+        "icon": "https://nust.edu.pk/wp-content/themes/nust-main/assets/img/Header-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "Ghulam Ishaq Khan Institute (GIKI)",
+        "link": "https://giki.edu.pk",
+        "icon": "https://giki.edu.pk/wp-content/uploads/2025/02/giki-logo-1.png",
+        "location": "Topi, Khyber Pakhtunkhwa, Pakistan"
+      },
+      {
+        "name": "Khwaja Fareed University of Engineering and IT (KFUEIT)",
+        "link": "https://kfueit.edu.pk",
+        "icon": "https://www.kfueit.edu.pk/uploads/4/ueit-logo-r.png",
+        "location": "Rahim Yar Khan, Pakistan"
+      },
+      {
+        "name": "University of Engineering and Technology (UET Lahore)",
+        "link": "https://uet.edu.pk",
+        "icon": "https://uet.edu.pk/.galleries/Slider/uetnewlogo.png?__scale=w:458,h:84,t:2,q:90",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Air University",
+        "link": "https://au.edu.pk",
+        "icon": "https://www.au.edu.pk/AU_New_Assets/images/logo/au.png",
+        "location": "Islamabad, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Chemistry",
+    "universities": [
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "University of Sargodha",
+        "link": "https://su.edu.pk",
+        "icon": "https://su.edu.pk/images/final-logo-1.png?v=1.0.1.2",
+        "location": "Sargodha, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "Bahauddin Zakariya University (BZU)",
+        "link": "https://bzu.edu.pk",
+        "icon": "https://bzu.edu.pk/img/logo-final.png",
+        "location": "Multan, Pakistan"
+      },
+      {
+        "name": "University of the Punjab",
+        "link": "https://pu.edu.pk",
+        "icon": "https://pu.edu.pk/temp1/img/logo.png",
+        "location": "Lahore, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Civil Engineering",
+    "universities": [
+      {
+        "name": "FAST National University of Computer and Emerging Sciences (FAST-NUCES)",
+        "link": "https://nu.edu.pk",
+        "icon": "https://www.nu.edu.pk/Content/images/NU-logo.jpg",
+        "location": "Islamabad/Lahore/Karachi, Pakistan"
+      },
+      {
+        "name": "Ghulam Ishaq Khan Institute (GIKI)",
+        "link": "https://giki.edu.pk",
+        "icon": "https://giki.edu.pk/wp-content/uploads/2025/02/giki-logo-1.png",
+        "location": "Topi, Khyber Pakhtunkhwa, Pakistan"
+      },
+      {
+        "name": "University of Management and Technology (UMT)",
+        "link": "https://umt.edu.pk",
+        "icon": "https://www.umt.edu.pk/images/mobile-logo-umt.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Mehran University of Engineering and Technology (MUET)",
+        "link": "https://muet.edu.pk",
+        "icon": "https://site.muet.edu.pk/sites/default/files/muet_logo.png",
+        "location": "Jamshoro, Pakistan"
+      },
+      {
+        "name": "Bahria University",
+        "link": "https://bahria.edu.pk",
+        "icon": "https://www.bahria.edu.pk/Content/images/bu_logo.png",
+        "location": "Islamabad/Karachi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Climatology",
+    "universities": [
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of the Punjab",
+        "link": "https://pu.edu.pk",
+        "icon": "https://pu.edu.pk/temp1/img/logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "University of Sargodha",
+        "link": "https://su.edu.pk",
+        "icon": "https://su.edu.pk/images/final-logo-1.png?v=1.0.1.2",
+        "location": "Sargodha, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Cloud Computing",
+    "universities": [
+      {
+        "name": "FAST National University of Computer and Emerging Sciences (FAST-NUCES)",
+        "link": "https://nu.edu.pk",
+        "icon": "https://www.nu.edu.pk/Content/images/NU-logo.jpg",
+        "location": "Islamabad/Lahore/Karachi, Pakistan"
+      },
+      {
+        "name": "National University of Sciences and Technology (NUST)",
+        "link": "https://nust.edu.pk",
+        "icon": "https://nust.edu.pk/wp-content/themes/nust-main/assets/img/Header-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "NED University of Engineering and Technology",
+        "link": "https://www.neduet.edu.pk",
+        "icon": "https://www.neduet.edu.pk/sites/default/files/LOGONEDUET2LOGO_1.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Mehran University of Engineering and Technology (MUET)",
+        "link": "https://muet.edu.pk",
+        "icon": "https://site.muet.edu.pk/sites/default/files/muet_logo.png",
+        "location": "Jamshoro, Pakistan"
+      },
+      {
+        "name": "Bahria University",
+        "link": "https://bahria.edu.pk",
+        "icon": "https://www.bahria.edu.pk/Content/images/bu_logo.png",
+        "location": "Islamabad/Karachi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Computational Mathematics",
+    "universities": [
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "UET Taxila",
+        "link": "https://www.uettaxila.edu.pk",
+        "icon": "https://www.uettaxila.edu.pk/images/Logos/uettaxila_logo.png",
+        "location": "Taxila, Pakistan"
+      },
+      {
+        "name": "University of Karachi",
+        "link": "https://uok.edu.pk",
+        "icon": "https://uok.edu.pk/images/logo.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      },
+      {
+        "name": "University of Sargodha",
+        "link": "https://su.edu.pk",
+        "icon": "https://su.edu.pk/images/final-logo-1.png?v=1.0.1.2",
+        "location": "Sargodha, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Computer Engineering",
+    "universities": [
+      {
+        "name": "University of Management and Technology (UMT)",
+        "link": "https://umt.edu.pk",
+        "icon": "https://www.umt.edu.pk/images/mobile-logo-umt.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Mehran University of Engineering and Technology (MUET)",
+        "link": "https://muet.edu.pk",
+        "icon": "https://site.muet.edu.pk/sites/default/files/muet_logo.png",
+        "location": "Jamshoro, Pakistan"
+      },
+      {
+        "name": "FAST National University of Computer and Emerging Sciences (FAST-NUCES)",
+        "link": "https://nu.edu.pk",
+        "icon": "https://www.nu.edu.pk/Content/images/NU-logo.jpg",
+        "location": "Islamabad/Lahore/Karachi, Pakistan"
+      },
+      {
+        "name": "University of Engineering and Technology (UET Lahore)",
+        "link": "https://uet.edu.pk",
+        "icon": "https://uet.edu.pk/.galleries/Slider/uetnewlogo.png?__scale=w:458,h:84,t:2,q:90",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "COMSATS University Islamabad",
+        "link": "https://www.comsats.edu.pk",
+        "icon": "https://www.comsats.edu.pk/assets/img/COMSATS-logo.png",
+        "location": "Islamabad, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Computer Networking",
+    "universities": [
+      {
+        "name": "University of Management and Technology (UMT)",
+        "link": "https://umt.edu.pk",
+        "icon": "https://www.umt.edu.pk/images/mobile-logo-umt.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Ghulam Ishaq Khan Institute (GIKI)",
+        "link": "https://giki.edu.pk",
+        "icon": "https://giki.edu.pk/wp-content/uploads/2025/02/giki-logo-1.png",
+        "location": "Topi, Khyber Pakhtunkhwa, Pakistan"
+      },
+      {
+        "name": "Khwaja Fareed University of Engineering and IT (KFUEIT)",
+        "link": "https://kfueit.edu.pk",
+        "icon": "https://www.kfueit.edu.pk/uploads/4/ueit-logo-r.png",
+        "location": "Rahim Yar Khan, Pakistan"
+      },
+      {
+        "name": "COMSATS University Islamabad",
+        "link": "https://www.comsats.edu.pk",
+        "icon": "https://www.comsats.edu.pk/assets/img/COMSATS-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "National University of Sciences and Technology (NUST)",
+        "link": "https://nust.edu.pk",
+        "icon": "https://nust.edu.pk/wp-content/themes/nust-main/assets/img/Header-logo.png",
+        "location": "Islamabad, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Computer Science",
+    "universities": [
+      {
+        "name": "Air University",
+        "link": "https://au.edu.pk",
+        "icon": "https://www.au.edu.pk/AU_New_Assets/images/logo/au.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "University of Management and Technology (UMT)",
+        "link": "https://umt.edu.pk",
+        "icon": "https://www.umt.edu.pk/images/mobile-logo-umt.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Ghulam Ishaq Khan Institute (GIKI)",
+        "link": "https://giki.edu.pk",
+        "icon": "https://giki.edu.pk/wp-content/uploads/2025/02/giki-logo-1.png",
+        "location": "Topi, Khyber Pakhtunkhwa, Pakistan"
+      },
+      {
+        "name": "National University of Sciences and Technology (NUST)",
+        "link": "https://nust.edu.pk",
+        "icon": "https://nust.edu.pk/wp-content/themes/nust-main/assets/img/Header-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "Mehran University of Engineering and Technology (MUET)",
+        "link": "https://muet.edu.pk",
+        "icon": "https://site.muet.edu.pk/sites/default/files/muet_logo.png",
+        "location": "Jamshoro, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Conservation Biology",
+    "universities": [
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of Karachi",
+        "link": "https://uok.edu.pk",
+        "icon": "https://uok.edu.pk/images/logo.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      },
+      {
+        "name": "University of Sargodha",
+        "link": "https://su.edu.pk",
+        "icon": "https://su.edu.pk/images/final-logo-1.png?v=1.0.1.2",
+        "location": "Sargodha, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Conservation Science",
+    "universities": [
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      },
+      {
+        "name": "University of Karachi",
+        "link": "https://uok.edu.pk",
+        "icon": "https://uok.edu.pk/images/logo.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      },
+      {
+        "name": "University of Sargodha",
+        "link": "https://su.edu.pk",
+        "icon": "https://su.edu.pk/images/final-logo-1.png?v=1.0.1.2",
+        "location": "Sargodha, Pakistan"
+      },
+      {
+        "name": "Bahauddin Zakariya University (BZU)",
+        "link": "https://bzu.edu.pk",
+        "icon": "https://bzu.edu.pk/img/logo-final.png",
+        "location": "Multan, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Construction Management",
+    "universities": [
+      {
+        "name": "SZABIST",
+        "link": "https://szabist.edu.pk",
+        "icon": "https://admissions.szabist.edu.pk/images/nl.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Institute of Business Administration (IBA Karachi)",
+        "link": "https://iba.edu.pk",
+        "icon": "https://www.iba.edu.pk/images/logo-iba-70years.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Institute of Management Sciences (IMS Peshawar)",
+        "link": "https://imsciences.edu.pk",
+        "icon": "https://admissions.imsciences.edu.pk/AdminLTE/TopicListing/images/logo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "International Islamic University (IIUI)",
+        "link": "https://iiu.edu.pk",
+        "icon": "https://www.iiu.edu.pk/wp-content/uploads/2019/02/logo-final-2.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "Quaid-i-Azam University (QAU)",
+        "link": "https://qau.edu.pk",
+        "icon": "https://qau.edu.pk/wp-content/uploads/2021/05/logo-15.png",
+        "location": "Islamabad, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Control Systems",
+    "universities": [
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of Sargodha",
+        "link": "https://su.edu.pk",
+        "icon": "https://su.edu.pk/images/final-logo-1.png?v=1.0.1.2",
+        "location": "Sargodha, Pakistan"
+      },
+      {
+        "name": "Bahauddin Zakariya University (BZU)",
+        "link": "https://bzu.edu.pk",
+        "icon": "https://bzu.edu.pk/img/logo-final.png",
+        "location": "Multan, Pakistan"
+      },
+      {
+        "name": "UET Taxila",
+        "link": "https://www.uettaxila.edu.pk",
+        "icon": "https://www.uettaxila.edu.pk/images/Logos/uettaxila_logo.png",
+        "location": "Taxila, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Curriculum Development",
+    "universities": [
+      {
+        "name": "University of Sargodha",
+        "link": "https://su.edu.pk",
+        "icon": "https://su.edu.pk/images/final-logo-1.png?v=1.0.1.2",
+        "location": "Sargodha, Pakistan"
+      },
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "UET Taxila",
+        "link": "https://www.uettaxila.edu.pk",
+        "icon": "https://www.uettaxila.edu.pk/images/Logos/uettaxila_logo.png",
+        "location": "Taxila, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Cybersecurity",
+    "universities": [
+      {
+        "name": "Bahria University",
+        "link": "https://bahria.edu.pk",
+        "icon": "https://www.bahria.edu.pk/Content/images/bu_logo.png",
+        "location": "Islamabad/Karachi, Pakistan"
+      },
+      {
+        "name": "NED University of Engineering and Technology",
+        "link": "https://www.neduet.edu.pk",
+        "icon": "https://www.neduet.edu.pk/sites/default/files/LOGONEDUET2LOGO_1.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Air University",
+        "link": "https://au.edu.pk",
+        "icon": "https://www.au.edu.pk/AU_New_Assets/images/logo/au.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "Khwaja Fareed University of Engineering and IT (KFUEIT)",
+        "link": "https://kfueit.edu.pk",
+        "icon": "https://www.kfueit.edu.pk/uploads/4/ueit-logo-r.png",
+        "location": "Rahim Yar Khan, Pakistan"
+      },
+      {
+        "name": "Ghulam Ishaq Khan Institute (GIKI)",
+        "link": "https://giki.edu.pk",
+        "icon": "https://giki.edu.pk/wp-content/uploads/2025/02/giki-logo-1.png",
+        "location": "Topi, Khyber Pakhtunkhwa, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Data Analytics",
+    "universities": [
+      {
+        "name": "FAST National University of Computer and Emerging Sciences (FAST-NUCES)",
+        "link": "https://nu.edu.pk",
+        "icon": "https://www.nu.edu.pk/Content/images/NU-logo.jpg",
+        "location": "Islamabad/Lahore/Karachi, Pakistan"
+      },
+      {
+        "name": "Ghulam Ishaq Khan Institute (GIKI)",
+        "link": "https://giki.edu.pk",
+        "icon": "https://giki.edu.pk/wp-content/uploads/2025/02/giki-logo-1.png",
+        "location": "Topi, Khyber Pakhtunkhwa, Pakistan"
+      },
+      {
+        "name": "University of Management and Technology (UMT)",
+        "link": "https://umt.edu.pk",
+        "icon": "https://www.umt.edu.pk/images/mobile-logo-umt.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Mehran University of Engineering and Technology (MUET)",
+        "link": "https://muet.edu.pk",
+        "icon": "https://site.muet.edu.pk/sites/default/files/muet_logo.png",
+        "location": "Jamshoro, Pakistan"
+      },
+      {
+        "name": "National Textile University (NTU)",
+        "link": "https://ntu.edu.pk",
+        "icon": "https://www.ntu.edu.pk/assets/img/logo.png",
+        "location": "Faisalabad, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Data Engineering",
+    "universities": [
+      {
+        "name": "Air University",
+        "link": "https://au.edu.pk",
+        "icon": "https://www.au.edu.pk/AU_New_Assets/images/logo/au.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "NED University of Engineering and Technology",
+        "link": "https://www.neduet.edu.pk",
+        "icon": "https://www.neduet.edu.pk/sites/default/files/LOGONEDUET2LOGO_1.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Khwaja Fareed University of Engineering and IT (KFUEIT)",
+        "link": "https://kfueit.edu.pk",
+        "icon": "https://www.kfueit.edu.pk/uploads/4/ueit-logo-r.png",
+        "location": "Rahim Yar Khan, Pakistan"
+      },
+      {
+        "name": "National Textile University (NTU)",
+        "link": "https://ntu.edu.pk",
+        "icon": "https://www.ntu.edu.pk/assets/img/logo.png",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "FAST National University of Computer and Emerging Sciences (FAST-NUCES)",
+        "link": "https://nu.edu.pk",
+        "icon": "https://www.nu.edu.pk/Content/images/NU-logo.jpg",
+        "location": "Islamabad/Lahore/Karachi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Data Science",
+    "universities": [
+      {
+        "name": "Khwaja Fareed University of Engineering and IT (KFUEIT)",
+        "link": "https://kfueit.edu.pk",
+        "icon": "https://www.kfueit.edu.pk/uploads/4/ueit-logo-r.png",
+        "location": "Rahim Yar Khan, Pakistan"
+      },
+      {
+        "name": "Bahria University",
+        "link": "https://bahria.edu.pk",
+        "icon": "https://www.bahria.edu.pk/Content/images/bu_logo.png",
+        "location": "Islamabad/Karachi, Pakistan"
+      },
+      {
+        "name": "National University of Sciences and Technology (NUST)",
+        "link": "https://nust.edu.pk",
+        "icon": "https://nust.edu.pk/wp-content/themes/nust-main/assets/img/Header-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "University of Management and Technology (UMT)",
+        "link": "https://umt.edu.pk",
+        "icon": "https://www.umt.edu.pk/images/mobile-logo-umt.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "FAST National University of Computer and Emerging Sciences (FAST-NUCES)",
+        "link": "https://nu.edu.pk",
+        "icon": "https://www.nu.edu.pk/Content/images/NU-logo.jpg",
+        "location": "Islamabad/Lahore/Karachi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Database Systems",
+    "universities": [
+      {
+        "name": "NED University of Engineering and Technology",
+        "link": "https://www.neduet.edu.pk",
+        "icon": "https://www.neduet.edu.pk/sites/default/files/LOGONEDUET2LOGO_1.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "National University of Sciences and Technology (NUST)",
+        "link": "https://nust.edu.pk",
+        "icon": "https://nust.edu.pk/wp-content/themes/nust-main/assets/img/Header-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "University of Management and Technology (UMT)",
+        "link": "https://umt.edu.pk",
+        "icon": "https://www.umt.edu.pk/images/mobile-logo-umt.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Mehran University of Engineering and Technology (MUET)",
+        "link": "https://muet.edu.pk",
+        "icon": "https://site.muet.edu.pk/sites/default/files/muet_logo.png",
+        "location": "Jamshoro, Pakistan"
+      },
+      {
+        "name": "FAST National University of Computer and Emerging Sciences (FAST-NUCES)",
+        "link": "https://nu.edu.pk",
+        "icon": "https://www.nu.edu.pk/Content/images/NU-logo.jpg",
+        "location": "Islamabad/Lahore/Karachi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Dental Hygiene",
+    "universities": [
+      {
+        "name": "UET Taxila",
+        "link": "https://www.uettaxila.edu.pk",
+        "icon": "https://www.uettaxila.edu.pk/images/Logos/uettaxila_logo.png",
+        "location": "Taxila, Pakistan"
+      },
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "Bahauddin Zakariya University (BZU)",
+        "link": "https://bzu.edu.pk",
+        "icon": "https://bzu.edu.pk/img/logo-final.png",
+        "location": "Multan, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Dentistry",
+    "universities": [
+      {
+        "name": "University of Health Sciences (UHS)",
+        "link": "https://uhs.edu.pk",
+        "icon": "https://ubas.edu.pk/wp-content/uploads/2025/01/UBAS-Logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "King Edward Medical University (KEMU)",
+        "link": "https://kemu.edu.pk",
+        "icon": "https://kemu.edu.pk/wp-content/uploads/Kemu-logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Liaquat University of Medical and Health Sciences (LUMHS)",
+        "link": "https://lumhs.edu.pk",
+        "icon": "https://www.lumhs.edu.pk/home/images/logo2.png",
+        "location": "Jamshoro, Pakistan"
+      },
+      {
+        "name": "Allama Iqbal Medical College",
+        "link": "https://aimc.edu.pk",
+        "icon": "https://aimc.edu.pk/wp-content/uploads/2025/08/Logo-AIMC-fn.jpg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Khyber Medical University (KMU)",
+        "link": "https://kmu.edu.pk",
+        "icon": "https://www.fjmu.edu.pk/wp-content/uploads/2022/09/logo.png",
+        "location": "Peshawar, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "DevOps",
+    "universities": [
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      },
+      {
+        "name": "UET Taxila",
+        "link": "https://www.uettaxila.edu.pk",
+        "icon": "https://www.uettaxila.edu.pk/images/Logos/uettaxila_logo.png",
+        "location": "Taxila, Pakistan"
+      },
+      {
+        "name": "University of the Punjab",
+        "link": "https://pu.edu.pk",
+        "icon": "https://pu.edu.pk/temp1/img/logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      },
+      {
+        "name": "Bahauddin Zakariya University (BZU)",
+        "link": "https://bzu.edu.pk",
+        "icon": "https://bzu.edu.pk/img/logo-final.png",
+        "location": "Multan, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Earth Science",
+    "universities": [
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "University of Karachi",
+        "link": "https://uok.edu.pk",
+        "icon": "https://uok.edu.pk/images/logo.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      },
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Earth Sciences",
+    "universities": [
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      },
+      {
+        "name": "UET Taxila",
+        "link": "https://www.uettaxila.edu.pk",
+        "icon": "https://www.uettaxila.edu.pk/images/Logos/uettaxila_logo.png",
+        "location": "Taxila, Pakistan"
+      },
+      {
+        "name": "University of the Punjab",
+        "link": "https://pu.edu.pk",
+        "icon": "https://pu.edu.pk/temp1/img/logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of Karachi",
+        "link": "https://uok.edu.pk",
+        "icon": "https://uok.edu.pk/images/logo.png",
+        "location": "Karachi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Ecology",
+    "universities": [
+      {
+        "name": "UET Taxila",
+        "link": "https://www.uettaxila.edu.pk",
+        "icon": "https://www.uettaxila.edu.pk/images/Logos/uettaxila_logo.png",
+        "location": "Taxila, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "Bahauddin Zakariya University (BZU)",
+        "link": "https://bzu.edu.pk",
+        "icon": "https://bzu.edu.pk/img/logo-final.png",
+        "location": "Multan, Pakistan"
+      },
+      {
+        "name": "University of Sargodha",
+        "link": "https://su.edu.pk",
+        "icon": "https://su.edu.pk/images/final-logo-1.png?v=1.0.1.2",
+        "location": "Sargodha, Pakistan"
+      },
+      {
+        "name": "University of Karachi",
+        "link": "https://uok.edu.pk",
+        "icon": "https://uok.edu.pk/images/logo.png",
+        "location": "Karachi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Econometrics",
+    "universities": [
+      {
+        "name": "University of Karachi",
+        "link": "https://uok.edu.pk",
+        "icon": "https://uok.edu.pk/images/logo.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      },
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "Bahauddin Zakariya University (BZU)",
+        "link": "https://bzu.edu.pk",
+        "icon": "https://bzu.edu.pk/img/logo-final.png",
+        "location": "Multan, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Economics",
+    "universities": [
+      {
+        "name": "Iqra University",
+        "link": "https://iqra.edu.pk",
+        "icon": "https://iqra.edu.pk/wp-content/uploads/2024/03/LOGO-IU-01-1536x371.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "University of Management and Technology (UMT)",
+        "link": "https://umt.edu.pk",
+        "icon": "https://www.umt.edu.pk/images/mobile-logo-umt.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Lahore University of Management Sciences (LUMS)",
+        "link": "https://lums.edu.pk",
+        "icon": "https://lums.edu.pk/sites/default/files/inline-images/LUMS%20Logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "SZABIST",
+        "link": "https://szabist.edu.pk",
+        "icon": "https://admissions.szabist.edu.pk/images/nl.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Government College University (GCU Lahore)",
+        "link": "https://gcu.edu.pk",
+        "icon": "https://gcu.edu.pk/components/assets/img/gc-logo.png",
+        "location": "Lahore, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Ecotourism",
+    "universities": [
+      {
+        "name": "University of Karachi",
+        "link": "https://uok.edu.pk",
+        "icon": "https://uok.edu.pk/images/logo.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      },
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Education",
+    "universities": [
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      },
+      {
+        "name": "UET Taxila",
+        "link": "https://www.uettaxila.edu.pk",
+        "icon": "https://www.uettaxila.edu.pk/images/Logos/uettaxila_logo.png",
+        "location": "Taxila, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Electrical Engineering",
+    "universities": [
+      {
+        "name": "COMSATS University Islamabad",
+        "link": "https://www.comsats.edu.pk",
+        "icon": "https://www.comsats.edu.pk/assets/img/COMSATS-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "Mehran University of Engineering and Technology (MUET)",
+        "link": "https://muet.edu.pk",
+        "icon": "https://site.muet.edu.pk/sites/default/files/muet_logo.png",
+        "location": "Jamshoro, Pakistan"
+      },
+      {
+        "name": "NED University of Engineering and Technology",
+        "link": "https://www.neduet.edu.pk",
+        "icon": "https://www.neduet.edu.pk/sites/default/files/LOGONEDUET2LOGO_1.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "National University of Sciences and Technology (NUST)",
+        "link": "https://nust.edu.pk",
+        "icon": "https://nust.edu.pk/wp-content/themes/nust-main/assets/img/Header-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "Ghulam Ishaq Khan Institute (GIKI)",
+        "link": "https://giki.edu.pk",
+        "icon": "https://giki.edu.pk/wp-content/uploads/2025/02/giki-logo-1.png",
+        "location": "Topi, Khyber Pakhtunkhwa, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Electronics Engineering",
+    "universities": [
+      {
+        "name": "Khwaja Fareed University of Engineering and IT (KFUEIT)",
+        "link": "https://kfueit.edu.pk",
+        "icon": "https://www.kfueit.edu.pk/uploads/4/ueit-logo-r.png",
+        "location": "Rahim Yar Khan, Pakistan"
+      },
+      {
+        "name": "COMSATS University Islamabad",
+        "link": "https://www.comsats.edu.pk",
+        "icon": "https://www.comsats.edu.pk/assets/img/COMSATS-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "FAST National University of Computer and Emerging Sciences (FAST-NUCES)",
+        "link": "https://nu.edu.pk",
+        "icon": "https://www.nu.edu.pk/Content/images/NU-logo.jpg",
+        "location": "Islamabad/Lahore/Karachi, Pakistan"
+      },
+      {
+        "name": "Mehran University of Engineering and Technology (MUET)",
+        "link": "https://muet.edu.pk",
+        "icon": "https://site.muet.edu.pk/sites/default/files/muet_logo.png",
+        "location": "Jamshoro, Pakistan"
+      },
+      {
+        "name": "Ghulam Ishaq Khan Institute (GIKI)",
+        "link": "https://giki.edu.pk",
+        "icon": "https://giki.edu.pk/wp-content/uploads/2025/02/giki-logo-1.png",
+        "location": "Topi, Khyber Pakhtunkhwa, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Engineering Physics",
+    "universities": [
+      {
+        "name": "Bahria University",
+        "link": "https://bahria.edu.pk",
+        "icon": "https://www.bahria.edu.pk/Content/images/bu_logo.png",
+        "location": "Islamabad/Karachi, Pakistan"
+      },
+      {
+        "name": "National University of Sciences and Technology (NUST)",
+        "link": "https://nust.edu.pk",
+        "icon": "https://nust.edu.pk/wp-content/themes/nust-main/assets/img/Header-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "Khwaja Fareed University of Engineering and IT (KFUEIT)",
+        "link": "https://kfueit.edu.pk",
+        "icon": "https://www.kfueit.edu.pk/uploads/4/ueit-logo-r.png",
+        "location": "Rahim Yar Khan, Pakistan"
+      },
+      {
+        "name": "Ghulam Ishaq Khan Institute (GIKI)",
+        "link": "https://giki.edu.pk",
+        "icon": "https://giki.edu.pk/wp-content/uploads/2025/02/giki-logo-1.png",
+        "location": "Topi, Khyber Pakhtunkhwa, Pakistan"
+      },
+      {
+        "name": "COMSATS University Islamabad",
+        "link": "https://www.comsats.edu.pk",
+        "icon": "https://www.comsats.edu.pk/assets/img/COMSATS-logo.png",
+        "location": "Islamabad, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Environmental Engineering",
+    "universities": [
+      {
+        "name": "Ghulam Ishaq Khan Institute (GIKI)",
+        "link": "https://giki.edu.pk",
+        "icon": "https://giki.edu.pk/wp-content/uploads/2025/02/giki-logo-1.png",
+        "location": "Topi, Khyber Pakhtunkhwa, Pakistan"
+      },
+      {
+        "name": "University of Management and Technology (UMT)",
+        "link": "https://umt.edu.pk",
+        "icon": "https://www.umt.edu.pk/images/mobile-logo-umt.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "National Textile University (NTU)",
+        "link": "https://ntu.edu.pk",
+        "icon": "https://www.ntu.edu.pk/assets/img/logo.png",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "University of Engineering and Technology (UET Lahore)",
+        "link": "https://uet.edu.pk",
+        "icon": "https://uet.edu.pk/.galleries/Slider/uetnewlogo.png?__scale=w:458,h:84,t:2,q:90",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Bahria University",
+        "link": "https://bahria.edu.pk",
+        "icon": "https://www.bahria.edu.pk/Content/images/bu_logo.png",
+        "location": "Islamabad/Karachi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Environmental Management",
+    "universities": [
+      {
+        "name": "Institute of Management Sciences (IMS Peshawar)",
+        "link": "https://imsciences.edu.pk",
+        "icon": "https://admissions.imsciences.edu.pk/AdminLTE/TopicListing/images/logo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "Iqra University",
+        "link": "https://iqra.edu.pk",
+        "icon": "https://iqra.edu.pk/wp-content/uploads/2024/03/LOGO-IU-01-1536x371.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "International Islamic University (IIUI)",
+        "link": "https://iiu.edu.pk",
+        "icon": "https://www.iiu.edu.pk/wp-content/uploads/2019/02/logo-final-2.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "Institute of Business Administration (IBA Karachi)",
+        "link": "https://iba.edu.pk",
+        "icon": "https://www.iba.edu.pk/images/logo-iba-70years.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Lahore University of Management Sciences (LUMS)",
+        "link": "https://lums.edu.pk",
+        "icon": "https://lums.edu.pk/sites/default/files/inline-images/LUMS%20Logo.png",
+        "location": "Lahore, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Environmental Policy",
+    "universities": [
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of the Punjab",
+        "link": "https://pu.edu.pk",
+        "icon": "https://pu.edu.pk/temp1/img/logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Bahauddin Zakariya University (BZU)",
+        "link": "https://bzu.edu.pk",
+        "icon": "https://bzu.edu.pk/img/logo-final.png",
+        "location": "Multan, Pakistan"
+      },
+      {
+        "name": "UET Taxila",
+        "link": "https://www.uettaxila.edu.pk",
+        "icon": "https://www.uettaxila.edu.pk/images/Logos/uettaxila_logo.png",
+        "location": "Taxila, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Environmental Science",
+    "universities": [
+      {
+        "name": "University of Sargodha",
+        "link": "https://su.edu.pk",
+        "icon": "https://su.edu.pk/images/final-logo-1.png?v=1.0.1.2",
+        "location": "Sargodha, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "Bahauddin Zakariya University (BZU)",
+        "link": "https://bzu.edu.pk",
+        "icon": "https://bzu.edu.pk/img/logo-final.png",
+        "location": "Multan, Pakistan"
+      },
+      {
+        "name": "University of the Punjab",
+        "link": "https://pu.edu.pk",
+        "icon": "https://pu.edu.pk/temp1/img/logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Epidemiology",
+    "universities": [
+      {
+        "name": "University of Sargodha",
+        "link": "https://su.edu.pk",
+        "icon": "https://su.edu.pk/images/final-logo-1.png?v=1.0.1.2",
+        "location": "Sargodha, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      },
+      {
+        "name": "UET Taxila",
+        "link": "https://www.uettaxila.edu.pk",
+        "icon": "https://www.uettaxila.edu.pk/images/Logos/uettaxila_logo.png",
+        "location": "Taxila, Pakistan"
+      },
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Exercise Science",
+    "universities": [
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      },
+      {
+        "name": "University of Karachi",
+        "link": "https://uok.edu.pk",
+        "icon": "https://uok.edu.pk/images/logo.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "UET Taxila",
+        "link": "https://www.uettaxila.edu.pk",
+        "icon": "https://www.uettaxila.edu.pk/images/Logos/uettaxila_logo.png",
+        "location": "Taxila, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Finance",
+    "universities": [
+      {
+        "name": "University of Management and Technology (UMT)",
+        "link": "https://umt.edu.pk",
+        "icon": "https://www.umt.edu.pk/images/mobile-logo-umt.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "SZABIST",
+        "link": "https://szabist.edu.pk",
+        "icon": "https://admissions.szabist.edu.pk/images/nl.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Iqra University",
+        "link": "https://iqra.edu.pk",
+        "icon": "https://iqra.edu.pk/wp-content/uploads/2024/03/LOGO-IU-01-1536x371.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Lahore University of Management Sciences (LUMS)",
+        "link": "https://lums.edu.pk",
+        "icon": "https://lums.edu.pk/sites/default/files/inline-images/LUMS%20Logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "International Islamic University (IIUI)",
+        "link": "https://iiu.edu.pk",
+        "icon": "https://www.iiu.edu.pk/wp-content/uploads/2019/02/logo-final-2.png",
+        "location": "Islamabad, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Food Science",
+    "universities": [
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      },
+      {
+        "name": "University of Karachi",
+        "link": "https://uok.edu.pk",
+        "icon": "https://uok.edu.pk/images/logo.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Forestry",
+    "universities": [
+      {
+        "name": "UET Taxila",
+        "link": "https://www.uettaxila.edu.pk",
+        "icon": "https://www.uettaxila.edu.pk/images/Logos/uettaxila_logo.png",
+        "location": "Taxila, Pakistan"
+      },
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "University of Karachi",
+        "link": "https://uok.edu.pk",
+        "icon": "https://uok.edu.pk/images/logo.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Bahauddin Zakariya University (BZU)",
+        "link": "https://bzu.edu.pk",
+        "icon": "https://bzu.edu.pk/img/logo-final.png",
+        "location": "Multan, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Geography",
+    "universities": [
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      },
+      {
+        "name": "Bahauddin Zakariya University (BZU)",
+        "link": "https://bzu.edu.pk",
+        "icon": "https://bzu.edu.pk/img/logo-final.png",
+        "location": "Multan, Pakistan"
+      },
+      {
+        "name": "University of Sargodha",
+        "link": "https://su.edu.pk",
+        "icon": "https://su.edu.pk/images/final-logo-1.png?v=1.0.1.2",
+        "location": "Sargodha, Pakistan"
+      },
+      {
+        "name": "UET Taxila",
+        "link": "https://www.uettaxila.edu.pk",
+        "icon": "https://www.uettaxila.edu.pk/images/Logos/uettaxila_logo.png",
+        "location": "Taxila, Pakistan"
+      },
+      {
+        "name": "University of the Punjab",
+        "link": "https://pu.edu.pk",
+        "icon": "https://pu.edu.pk/temp1/img/logo.png",
+        "location": "Lahore, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Geology",
+    "universities": [
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      },
+      {
+        "name": "University of Karachi",
+        "link": "https://uok.edu.pk",
+        "icon": "https://uok.edu.pk/images/logo.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "University of Sargodha",
+        "link": "https://su.edu.pk",
+        "icon": "https://su.edu.pk/images/final-logo-1.png?v=1.0.1.2",
+        "location": "Sargodha, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      },
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Geophysics",
+    "universities": [
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      },
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "University of Karachi",
+        "link": "https://uok.edu.pk",
+        "icon": "https://uok.edu.pk/images/logo.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "UET Taxila",
+        "link": "https://www.uettaxila.edu.pk",
+        "icon": "https://www.uettaxila.edu.pk/images/Logos/uettaxila_logo.png",
+        "location": "Taxila, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Graphic Design",
+    "universities": [
+      {
+        "name": "Bahauddin Zakariya University (BZU)",
+        "link": "https://bzu.edu.pk",
+        "icon": "https://bzu.edu.pk/img/logo-final.png",
+        "location": "Multan, Pakistan"
+      },
+      {
+        "name": "University of Karachi",
+        "link": "https://uok.edu.pk",
+        "icon": "https://uok.edu.pk/images/logo.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "University of Sargodha",
+        "link": "https://su.edu.pk",
+        "icon": "https://su.edu.pk/images/final-logo-1.png?v=1.0.1.2",
+        "location": "Sargodha, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      },
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Health Sciences",
+    "universities": [
+      {
+        "name": "Jinnah Sindh Medical University",
+        "link": "https://jsmu.edu.pk",
+        "icon": "https://www.jsmu.edu.pk/assets/images/logo.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Aga Khan University (AKU)",
+        "link": "https://aku.edu",
+        "icon": "https://www.aku.edu/Style%20Library/Images/AKU_logo.gif",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Dow University of Health Sciences (DUHS)",
+        "link": "https://duhs.edu.pk",
+        "icon": "https://www.duhs.edu.pk/wp-content/uploads/2023/12/image-15.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "King Edward Medical University (KEMU)",
+        "link": "https://kemu.edu.pk",
+        "icon": "https://kemu.edu.pk/wp-content/uploads/Kemu-logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Liaquat University of Medical and Health Sciences (LUMHS)",
+        "link": "https://lumhs.edu.pk",
+        "icon": "https://www.lumhs.edu.pk/home/images/logo2.png",
+        "location": "Jamshoro, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Healthcare Administration",
+    "universities": [
+      {
+        "name": "Aga Khan University (AKU)",
+        "link": "https://aku.edu",
+        "icon": "https://www.aku.edu/Style%20Library/Images/AKU_logo.gif",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Allama Iqbal Medical College",
+        "link": "https://aimc.edu.pk",
+        "icon": "https://aimc.edu.pk/wp-content/uploads/2025/08/Logo-AIMC-fn.jpg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of Health Sciences (UHS)",
+        "link": "https://uhs.edu.pk",
+        "icon": "https://ubas.edu.pk/wp-content/uploads/2025/01/UBAS-Logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Fatima Jinnah Medical University (FJMU)",
+        "link": "https://fjmu.edu.pk",
+        "icon": "https://www.fjmu.edu.pk/wp-content/uploads/2022/09/logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Jinnah Sindh Medical University",
+        "link": "https://jsmu.edu.pk",
+        "icon": "https://www.jsmu.edu.pk/assets/images/logo.png",
+        "location": "Karachi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Hospitality Management",
+    "universities": [
+      {
+        "name": "Khwaja Fareed University of Engineering and IT (KFUEIT)",
+        "link": "https://kfueit.edu.pk",
+        "icon": "https://www.kfueit.edu.pk/uploads/4/ueit-logo-r.png",
+        "location": "Rahim Yar Khan, Pakistan"
+      },
+      {
+        "name": "FAST National University of Computer and Emerging Sciences (FAST-NUCES)",
+        "link": "https://nu.edu.pk",
+        "icon": "https://www.nu.edu.pk/Content/images/NU-logo.jpg",
+        "location": "Islamabad/Lahore/Karachi, Pakistan"
+      },
+      {
+        "name": "NED University of Engineering and Technology",
+        "link": "https://www.neduet.edu.pk",
+        "icon": "https://www.neduet.edu.pk/sites/default/files/LOGONEDUET2LOGO_1.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Ghulam Ishaq Khan Institute (GIKI)",
+        "link": "https://giki.edu.pk",
+        "icon": "https://giki.edu.pk/wp-content/uploads/2025/02/giki-logo-1.png",
+        "location": "Topi, Khyber Pakhtunkhwa, Pakistan"
+      },
+      {
+        "name": "COMSATS University Islamabad",
+        "link": "https://www.comsats.edu.pk",
+        "icon": "https://www.comsats.edu.pk/assets/img/COMSATS-logo.png",
+        "location": "Islamabad, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Human-Computer Interaction",
+    "universities": [
+      {
+        "name": "Bahria University",
+        "link": "https://bahria.edu.pk",
+        "icon": "https://www.bahria.edu.pk/Content/images/bu_logo.png",
+        "location": "Islamabad/Karachi, Pakistan"
+      },
+      {
+        "name": "National University of Sciences and Technology (NUST)",
+        "link": "https://nust.edu.pk",
+        "icon": "https://nust.edu.pk/wp-content/themes/nust-main/assets/img/Header-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "Khwaja Fareed University of Engineering and IT (KFUEIT)",
+        "link": "https://kfueit.edu.pk",
+        "icon": "https://www.kfueit.edu.pk/uploads/4/ueit-logo-r.png",
+        "location": "Rahim Yar Khan, Pakistan"
+      },
+      {
+        "name": "University of Engineering and Technology (UET Lahore)",
+        "link": "https://uet.edu.pk",
+        "icon": "https://uet.edu.pk/.galleries/Slider/uetnewlogo.png?__scale=w:458,h:84,t:2,q:90",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Ghulam Ishaq Khan Institute (GIKI)",
+        "link": "https://giki.edu.pk",
+        "icon": "https://giki.edu.pk/wp-content/uploads/2025/02/giki-logo-1.png",
+        "location": "Topi, Khyber Pakhtunkhwa, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Hydrology",
+    "universities": [
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "Bahauddin Zakariya University (BZU)",
+        "link": "https://bzu.edu.pk",
+        "icon": "https://bzu.edu.pk/img/logo-final.png",
+        "location": "Multan, Pakistan"
+      },
+      {
+        "name": "UET Taxila",
+        "link": "https://www.uettaxila.edu.pk",
+        "icon": "https://www.uettaxila.edu.pk/images/Logos/uettaxila_logo.png",
+        "location": "Taxila, Pakistan"
+      },
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Industrial Engineering",
+    "universities": [
+      {
+        "name": "FAST National University of Computer and Emerging Sciences (FAST-NUCES)",
+        "link": "https://nu.edu.pk",
+        "icon": "https://www.nu.edu.pk/Content/images/NU-logo.jpg",
+        "location": "Islamabad/Lahore/Karachi, Pakistan"
+      },
+      {
+        "name": "National University of Sciences and Technology (NUST)",
+        "link": "https://nust.edu.pk",
+        "icon": "https://nust.edu.pk/wp-content/themes/nust-main/assets/img/Header-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "University of Engineering and Technology (UET Lahore)",
+        "link": "https://uet.edu.pk",
+        "icon": "https://uet.edu.pk/.galleries/Slider/uetnewlogo.png?__scale=w:458,h:84,t:2,q:90",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "National Textile University (NTU)",
+        "link": "https://ntu.edu.pk",
+        "icon": "https://www.ntu.edu.pk/assets/img/logo.png",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "NED University of Engineering and Technology",
+        "link": "https://www.neduet.edu.pk",
+        "icon": "https://www.neduet.edu.pk/sites/default/files/LOGONEDUET2LOGO_1.png",
+        "location": "Karachi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Information Security",
+    "universities": [
+      {
+        "name": "Khwaja Fareed University of Engineering and IT (KFUEIT)",
+        "link": "https://kfueit.edu.pk",
+        "icon": "https://www.kfueit.edu.pk/uploads/4/ueit-logo-r.png",
+        "location": "Rahim Yar Khan, Pakistan"
+      },
+      {
+        "name": "COMSATS University Islamabad",
+        "link": "https://www.comsats.edu.pk",
+        "icon": "https://www.comsats.edu.pk/assets/img/COMSATS-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "University of Management and Technology (UMT)",
+        "link": "https://umt.edu.pk",
+        "icon": "https://www.umt.edu.pk/images/mobile-logo-umt.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "National University of Sciences and Technology (NUST)",
+        "link": "https://nust.edu.pk",
+        "icon": "https://nust.edu.pk/wp-content/themes/nust-main/assets/img/Header-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "Mehran University of Engineering and Technology (MUET)",
+        "link": "https://muet.edu.pk",
+        "icon": "https://site.muet.edu.pk/sites/default/files/muet_logo.png",
+        "location": "Jamshoro, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Information Systems",
+    "universities": [
+      {
+        "name": "University of Karachi",
+        "link": "https://uok.edu.pk",
+        "icon": "https://uok.edu.pk/images/logo.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "UET Taxila",
+        "link": "https://www.uettaxila.edu.pk",
+        "icon": "https://www.uettaxila.edu.pk/images/Logos/uettaxila_logo.png",
+        "location": "Taxila, Pakistan"
+      },
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      },
+      {
+        "name": "University of the Punjab",
+        "link": "https://pu.edu.pk",
+        "icon": "https://pu.edu.pk/temp1/img/logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Information Technology",
+    "universities": [
+      {
+        "name": "NED University of Engineering and Technology",
+        "link": "https://www.neduet.edu.pk",
+        "icon": "https://www.neduet.edu.pk/sites/default/files/LOGONEDUET2LOGO_1.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Khwaja Fareed University of Engineering and IT (KFUEIT)",
+        "link": "https://kfueit.edu.pk",
+        "icon": "https://www.kfueit.edu.pk/uploads/4/ueit-logo-r.png",
+        "location": "Rahim Yar Khan, Pakistan"
+      },
+      {
+        "name": "National University of Sciences and Technology (NUST)",
+        "link": "https://nust.edu.pk",
+        "icon": "https://nust.edu.pk/wp-content/themes/nust-main/assets/img/Header-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "COMSATS University Islamabad",
+        "link": "https://www.comsats.edu.pk",
+        "icon": "https://www.comsats.edu.pk/assets/img/COMSATS-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "Air University",
+        "link": "https://au.edu.pk",
+        "icon": "https://www.au.edu.pk/AU_New_Assets/images/logo/au.png",
+        "location": "Islamabad, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Journalism",
+    "universities": [
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      },
+      {
+        "name": "UET Taxila",
+        "link": "https://www.uettaxila.edu.pk",
+        "icon": "https://www.uettaxila.edu.pk/images/Logos/uettaxila_logo.png",
+        "location": "Taxila, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Kinesiology",
+    "universities": [
+      {
+        "name": "University of Karachi",
+        "link": "https://uok.edu.pk",
+        "icon": "https://uok.edu.pk/images/logo.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "University of the Punjab",
+        "link": "https://pu.edu.pk",
+        "icon": "https://pu.edu.pk/temp1/img/logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      },
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Management",
+    "universities": [
+      {
+        "name": "Quaid-i-Azam University (QAU)",
+        "link": "https://qau.edu.pk",
+        "icon": "https://qau.edu.pk/wp-content/uploads/2021/05/logo-15.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "Government College University (GCU Lahore)",
+        "link": "https://gcu.edu.pk",
+        "icon": "https://gcu.edu.pk/components/assets/img/gc-logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Iqra University",
+        "link": "https://iqra.edu.pk",
+        "icon": "https://iqra.edu.pk/wp-content/uploads/2024/03/LOGO-IU-01-1536x371.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Lahore University of Management Sciences (LUMS)",
+        "link": "https://lums.edu.pk",
+        "icon": "https://lums.edu.pk/sites/default/files/inline-images/LUMS%20Logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of Management and Technology (UMT)",
+        "link": "https://umt.edu.pk",
+        "icon": "https://www.umt.edu.pk/images/mobile-logo-umt.png",
+        "location": "Lahore, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Management Engineering",
+    "universities": [
+      {
+        "name": "Mehran University of Engineering and Technology (MUET)",
+        "link": "https://muet.edu.pk",
+        "icon": "https://site.muet.edu.pk/sites/default/files/muet_logo.png",
+        "location": "Jamshoro, Pakistan"
+      },
+      {
+        "name": "FAST National University of Computer and Emerging Sciences (FAST-NUCES)",
+        "link": "https://nu.edu.pk",
+        "icon": "https://www.nu.edu.pk/Content/images/NU-logo.jpg",
+        "location": "Islamabad/Lahore/Karachi, Pakistan"
+      },
+      {
+        "name": "COMSATS University Islamabad",
+        "link": "https://www.comsats.edu.pk",
+        "icon": "https://www.comsats.edu.pk/assets/img/COMSATS-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "University of Engineering and Technology (UET Lahore)",
+        "link": "https://uet.edu.pk",
+        "icon": "https://uet.edu.pk/.galleries/Slider/uetnewlogo.png?__scale=w:458,h:84,t:2,q:90",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Khwaja Fareed University of Engineering and IT (KFUEIT)",
+        "link": "https://kfueit.edu.pk",
+        "icon": "https://www.kfueit.edu.pk/uploads/4/ueit-logo-r.png",
+        "location": "Rahim Yar Khan, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Management Information Systems",
+    "universities": [
+      {
+        "name": "University of Management and Technology (UMT)",
+        "link": "https://umt.edu.pk",
+        "icon": "https://www.umt.edu.pk/images/mobile-logo-umt.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Government College University (GCU Lahore)",
+        "link": "https://gcu.edu.pk",
+        "icon": "https://gcu.edu.pk/components/assets/img/gc-logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "SZABIST",
+        "link": "https://szabist.edu.pk",
+        "icon": "https://admissions.szabist.edu.pk/images/nl.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Lahore University of Management Sciences (LUMS)",
+        "link": "https://lums.edu.pk",
+        "icon": "https://lums.edu.pk/sites/default/files/inline-images/LUMS%20Logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Institute of Business Administration (IBA Karachi)",
+        "link": "https://iba.edu.pk",
+        "icon": "https://www.iba.edu.pk/images/logo-iba-70years.png",
+        "location": "Karachi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Marine Biology",
+    "universities": [
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      },
+      {
+        "name": "University of Sargodha",
+        "link": "https://su.edu.pk",
+        "icon": "https://su.edu.pk/images/final-logo-1.png?v=1.0.1.2",
+        "location": "Sargodha, Pakistan"
+      },
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Marketing",
+    "universities": [
+      {
+        "name": "International Islamic University (IIUI)",
+        "link": "https://iiu.edu.pk",
+        "icon": "https://www.iiu.edu.pk/wp-content/uploads/2019/02/logo-final-2.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "Lahore University of Management Sciences (LUMS)",
+        "link": "https://lums.edu.pk",
+        "icon": "https://lums.edu.pk/sites/default/files/inline-images/LUMS%20Logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Iqra University",
+        "link": "https://iqra.edu.pk",
+        "icon": "https://iqra.edu.pk/wp-content/uploads/2024/03/LOGO-IU-01-1536x371.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Government College University (GCU Lahore)",
+        "link": "https://gcu.edu.pk",
+        "icon": "https://gcu.edu.pk/components/assets/img/gc-logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Institute of Management Sciences (IMS Peshawar)",
+        "link": "https://imsciences.edu.pk",
+        "icon": "https://admissions.imsciences.edu.pk/AdminLTE/TopicListing/images/logo.png",
+        "location": "Peshawar, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Materials Engineering",
+    "universities": [
+      {
+        "name": "Bahria University",
+        "link": "https://bahria.edu.pk",
+        "icon": "https://www.bahria.edu.pk/Content/images/bu_logo.png",
+        "location": "Islamabad/Karachi, Pakistan"
+      },
+      {
+        "name": "University of Engineering and Technology (UET Lahore)",
+        "link": "https://uet.edu.pk",
+        "icon": "https://uet.edu.pk/.galleries/Slider/uetnewlogo.png?__scale=w:458,h:84,t:2,q:90",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of Management and Technology (UMT)",
+        "link": "https://umt.edu.pk",
+        "icon": "https://www.umt.edu.pk/images/mobile-logo-umt.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "COMSATS University Islamabad",
+        "link": "https://www.comsats.edu.pk",
+        "icon": "https://www.comsats.edu.pk/assets/img/COMSATS-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "Mehran University of Engineering and Technology (MUET)",
+        "link": "https://muet.edu.pk",
+        "icon": "https://site.muet.edu.pk/sites/default/files/muet_logo.png",
+        "location": "Jamshoro, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Materials Science",
+    "universities": [
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      },
+      {
+        "name": "University of Sargodha",
+        "link": "https://su.edu.pk",
+        "icon": "https://su.edu.pk/images/final-logo-1.png?v=1.0.1.2",
+        "location": "Sargodha, Pakistan"
+      },
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Mathematics",
+    "universities": [
+      {
+        "name": "University of Karachi",
+        "link": "https://uok.edu.pk",
+        "icon": "https://uok.edu.pk/images/logo.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "University of the Punjab",
+        "link": "https://pu.edu.pk",
+        "icon": "https://pu.edu.pk/temp1/img/logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Mechanical Engineering",
+    "universities": [
+      {
+        "name": "National University of Sciences and Technology (NUST)",
+        "link": "https://nust.edu.pk",
+        "icon": "https://nust.edu.pk/wp-content/themes/nust-main/assets/img/Header-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "Ghulam Ishaq Khan Institute (GIKI)",
+        "link": "https://giki.edu.pk",
+        "icon": "https://giki.edu.pk/wp-content/uploads/2025/02/giki-logo-1.png",
+        "location": "Topi, Khyber Pakhtunkhwa, Pakistan"
+      },
+      {
+        "name": "University of Engineering and Technology (UET Lahore)",
+        "link": "https://uet.edu.pk",
+        "icon": "https://uet.edu.pk/.galleries/Slider/uetnewlogo.png?__scale=w:458,h:84,t:2,q:90",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "FAST National University of Computer and Emerging Sciences (FAST-NUCES)",
+        "link": "https://nu.edu.pk",
+        "icon": "https://www.nu.edu.pk/Content/images/NU-logo.jpg",
+        "location": "Islamabad/Lahore/Karachi, Pakistan"
+      },
+      {
+        "name": "Khwaja Fareed University of Engineering and IT (KFUEIT)",
+        "link": "https://kfueit.edu.pk",
+        "icon": "https://www.kfueit.edu.pk/uploads/4/ueit-logo-r.png",
+        "location": "Rahim Yar Khan, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Mechatronics Engineering",
+    "universities": [
+      {
+        "name": "National University of Sciences and Technology (NUST)",
+        "link": "https://nust.edu.pk",
+        "icon": "https://nust.edu.pk/wp-content/themes/nust-main/assets/img/Header-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "FAST National University of Computer and Emerging Sciences (FAST-NUCES)",
+        "link": "https://nu.edu.pk",
+        "icon": "https://www.nu.edu.pk/Content/images/NU-logo.jpg",
+        "location": "Islamabad/Lahore/Karachi, Pakistan"
+      },
+      {
+        "name": "NED University of Engineering and Technology",
+        "link": "https://www.neduet.edu.pk",
+        "icon": "https://www.neduet.edu.pk/sites/default/files/LOGONEDUET2LOGO_1.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Air University",
+        "link": "https://au.edu.pk",
+        "icon": "https://www.au.edu.pk/AU_New_Assets/images/logo/au.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "Ghulam Ishaq Khan Institute (GIKI)",
+        "link": "https://giki.edu.pk",
+        "icon": "https://giki.edu.pk/wp-content/uploads/2025/02/giki-logo-1.png",
+        "location": "Topi, Khyber Pakhtunkhwa, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Medical Assisting",
+    "universities": [
+      {
+        "name": "University of Health Sciences (UHS)",
+        "link": "https://uhs.edu.pk",
+        "icon": "https://ubas.edu.pk/wp-content/uploads/2025/01/UBAS-Logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Allama Iqbal Medical College",
+        "link": "https://aimc.edu.pk",
+        "icon": "https://aimc.edu.pk/wp-content/uploads/2025/08/Logo-AIMC-fn.jpg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Fatima Jinnah Medical University (FJMU)",
+        "link": "https://fjmu.edu.pk",
+        "icon": "https://www.fjmu.edu.pk/wp-content/uploads/2022/09/logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Dow University of Health Sciences (DUHS)",
+        "link": "https://duhs.edu.pk",
+        "icon": "https://www.duhs.edu.pk/wp-content/uploads/2023/12/image-15.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "King Edward Medical University (KEMU)",
+        "link": "https://kemu.edu.pk",
+        "icon": "https://kemu.edu.pk/wp-content/uploads/Kemu-logo.png",
+        "location": "Lahore, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Medical Laboratory Technology",
+    "universities": [
+      {
+        "name": "University of Engineering and Technology (UET Lahore)",
+        "link": "https://uet.edu.pk",
+        "icon": "https://uet.edu.pk/.galleries/Slider/uetnewlogo.png?__scale=w:458,h:84,t:2,q:90",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "COMSATS University Islamabad",
+        "link": "https://www.comsats.edu.pk",
+        "icon": "https://www.comsats.edu.pk/assets/img/COMSATS-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "Air University",
+        "link": "https://au.edu.pk",
+        "icon": "https://www.au.edu.pk/AU_New_Assets/images/logo/au.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "Khwaja Fareed University of Engineering and IT (KFUEIT)",
+        "link": "https://kfueit.edu.pk",
+        "icon": "https://www.kfueit.edu.pk/uploads/4/ueit-logo-r.png",
+        "location": "Rahim Yar Khan, Pakistan"
+      },
+      {
+        "name": "National Textile University (NTU)",
+        "link": "https://ntu.edu.pk",
+        "icon": "https://www.ntu.edu.pk/assets/img/logo.png",
+        "location": "Faisalabad, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Medicine",
+    "universities": [
+      {
+        "name": "Services Institute of Medical Sciences (SIMS)",
+        "link": "https://sims.edu.pk",
+        "icon": "https://sims.edu.pk/wp-content/uploads/2024/09/SIMS-Logo-Website-1.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of Health Sciences (UHS)",
+        "link": "https://uhs.edu.pk",
+        "icon": "https://ubas.edu.pk/wp-content/uploads/2025/01/UBAS-Logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Khyber Medical University (KMU)",
+        "link": "https://kmu.edu.pk",
+        "icon": "https://www.fjmu.edu.pk/wp-content/uploads/2022/09/logo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "Allama Iqbal Medical College",
+        "link": "https://aimc.edu.pk",
+        "icon": "https://aimc.edu.pk/wp-content/uploads/2025/08/Logo-AIMC-fn.jpg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Aga Khan University (AKU)",
+        "link": "https://aku.edu",
+        "icon": "https://www.aku.edu/Style%20Library/Images/AKU_logo.gif",
+        "location": "Karachi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Metallurgy",
+    "universities": [
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      },
+      {
+        "name": "University of Karachi",
+        "link": "https://uok.edu.pk",
+        "icon": "https://uok.edu.pk/images/logo.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Meteorology",
+    "universities": [
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "University of Sargodha",
+        "link": "https://su.edu.pk",
+        "icon": "https://su.edu.pk/images/final-logo-1.png?v=1.0.1.2",
+        "location": "Sargodha, Pakistan"
+      },
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of the Punjab",
+        "link": "https://pu.edu.pk",
+        "icon": "https://pu.edu.pk/temp1/img/logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Microbiology",
+    "universities": [
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of Sargodha",
+        "link": "https://su.edu.pk",
+        "icon": "https://su.edu.pk/images/final-logo-1.png?v=1.0.1.2",
+        "location": "Sargodha, Pakistan"
+      },
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Mining Engineering",
+    "universities": [
+      {
+        "name": "Bahria University",
+        "link": "https://bahria.edu.pk",
+        "icon": "https://www.bahria.edu.pk/Content/images/bu_logo.png",
+        "location": "Islamabad/Karachi, Pakistan"
+      },
+      {
+        "name": "Ghulam Ishaq Khan Institute (GIKI)",
+        "link": "https://giki.edu.pk",
+        "icon": "https://giki.edu.pk/wp-content/uploads/2025/02/giki-logo-1.png",
+        "location": "Topi, Khyber Pakhtunkhwa, Pakistan"
+      },
+      {
+        "name": "FAST National University of Computer and Emerging Sciences (FAST-NUCES)",
+        "link": "https://nu.edu.pk",
+        "icon": "https://www.nu.edu.pk/Content/images/NU-logo.jpg",
+        "location": "Islamabad/Lahore/Karachi, Pakistan"
+      },
+      {
+        "name": "Khwaja Fareed University of Engineering and IT (KFUEIT)",
+        "link": "https://kfueit.edu.pk",
+        "icon": "https://www.kfueit.edu.pk/uploads/4/ueit-logo-r.png",
+        "location": "Rahim Yar Khan, Pakistan"
+      },
+      {
+        "name": "National Textile University (NTU)",
+        "link": "https://ntu.edu.pk",
+        "icon": "https://www.ntu.edu.pk/assets/img/logo.png",
+        "location": "Faisalabad, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Mobile App Development",
+    "universities": [
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      },
+      {
+        "name": "University of Karachi",
+        "link": "https://uok.edu.pk",
+        "icon": "https://uok.edu.pk/images/logo.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      },
+      {
+        "name": "UET Taxila",
+        "link": "https://www.uettaxila.edu.pk",
+        "icon": "https://www.uettaxila.edu.pk/images/Logos/uettaxila_logo.png",
+        "location": "Taxila, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Molecular Biology",
+    "universities": [
+      {
+        "name": "University of the Punjab",
+        "link": "https://pu.edu.pk",
+        "icon": "https://pu.edu.pk/temp1/img/logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "University of Karachi",
+        "link": "https://uok.edu.pk",
+        "icon": "https://uok.edu.pk/images/logo.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "UET Taxila",
+        "link": "https://www.uettaxila.edu.pk",
+        "icon": "https://www.uettaxila.edu.pk/images/Logos/uettaxila_logo.png",
+        "location": "Taxila, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Nanotechnology",
+    "universities": [
+      {
+        "name": "FAST National University of Computer and Emerging Sciences (FAST-NUCES)",
+        "link": "https://nu.edu.pk",
+        "icon": "https://www.nu.edu.pk/Content/images/NU-logo.jpg",
+        "location": "Islamabad/Lahore/Karachi, Pakistan"
+      },
+      {
+        "name": "Khwaja Fareed University of Engineering and IT (KFUEIT)",
+        "link": "https://kfueit.edu.pk",
+        "icon": "https://www.kfueit.edu.pk/uploads/4/ueit-logo-r.png",
+        "location": "Rahim Yar Khan, Pakistan"
+      },
+      {
+        "name": "Ghulam Ishaq Khan Institute (GIKI)",
+        "link": "https://giki.edu.pk",
+        "icon": "https://giki.edu.pk/wp-content/uploads/2025/02/giki-logo-1.png",
+        "location": "Topi, Khyber Pakhtunkhwa, Pakistan"
+      },
+      {
+        "name": "Air University",
+        "link": "https://au.edu.pk",
+        "icon": "https://www.au.edu.pk/AU_New_Assets/images/logo/au.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "National Textile University (NTU)",
+        "link": "https://ntu.edu.pk",
+        "icon": "https://www.ntu.edu.pk/assets/img/logo.png",
+        "location": "Faisalabad, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Network Security",
+    "universities": [
+      {
+        "name": "Khwaja Fareed University of Engineering and IT (KFUEIT)",
+        "link": "https://kfueit.edu.pk",
+        "icon": "https://www.kfueit.edu.pk/uploads/4/ueit-logo-r.png",
+        "location": "Rahim Yar Khan, Pakistan"
+      },
+      {
+        "name": "COMSATS University Islamabad",
+        "link": "https://www.comsats.edu.pk",
+        "icon": "https://www.comsats.edu.pk/assets/img/COMSATS-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "National Textile University (NTU)",
+        "link": "https://ntu.edu.pk",
+        "icon": "https://www.ntu.edu.pk/assets/img/logo.png",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "FAST National University of Computer and Emerging Sciences (FAST-NUCES)",
+        "link": "https://nu.edu.pk",
+        "icon": "https://www.nu.edu.pk/Content/images/NU-logo.jpg",
+        "location": "Islamabad/Lahore/Karachi, Pakistan"
+      },
+      {
+        "name": "Bahria University",
+        "link": "https://bahria.edu.pk",
+        "icon": "https://www.bahria.edu.pk/Content/images/bu_logo.png",
+        "location": "Islamabad/Karachi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Nuclear Engineering",
+    "universities": [
+      {
+        "name": "FAST National University of Computer and Emerging Sciences (FAST-NUCES)",
+        "link": "https://nu.edu.pk",
+        "icon": "https://www.nu.edu.pk/Content/images/NU-logo.jpg",
+        "location": "Islamabad/Lahore/Karachi, Pakistan"
+      },
+      {
+        "name": "COMSATS University Islamabad",
+        "link": "https://www.comsats.edu.pk",
+        "icon": "https://www.comsats.edu.pk/assets/img/COMSATS-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "University of Engineering and Technology (UET Lahore)",
+        "link": "https://uet.edu.pk",
+        "icon": "https://uet.edu.pk/.galleries/Slider/uetnewlogo.png?__scale=w:458,h:84,t:2,q:90",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Khwaja Fareed University of Engineering and IT (KFUEIT)",
+        "link": "https://kfueit.edu.pk",
+        "icon": "https://www.kfueit.edu.pk/uploads/4/ueit-logo-r.png",
+        "location": "Rahim Yar Khan, Pakistan"
+      },
+      {
+        "name": "Bahria University",
+        "link": "https://bahria.edu.pk",
+        "icon": "https://www.bahria.edu.pk/Content/images/bu_logo.png",
+        "location": "Islamabad/Karachi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Nursing",
+    "universities": [
+      {
+        "name": "University of Health Sciences (UHS)",
+        "link": "https://uhs.edu.pk",
+        "icon": "https://ubas.edu.pk/wp-content/uploads/2025/01/UBAS-Logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Aga Khan University (AKU)",
+        "link": "https://aku.edu",
+        "icon": "https://www.aku.edu/Style%20Library/Images/AKU_logo.gif",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Allama Iqbal Medical College",
+        "link": "https://aimc.edu.pk",
+        "icon": "https://aimc.edu.pk/wp-content/uploads/2025/08/Logo-AIMC-fn.jpg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Liaquat University of Medical and Health Sciences (LUMHS)",
+        "link": "https://lumhs.edu.pk",
+        "icon": "https://www.lumhs.edu.pk/home/images/logo2.png",
+        "location": "Jamshoro, Pakistan"
+      },
+      {
+        "name": "Dow University of Health Sciences (DUHS)",
+        "link": "https://duhs.edu.pk",
+        "icon": "https://www.duhs.edu.pk/wp-content/uploads/2023/12/image-15.png",
+        "location": "Karachi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Nutrition",
+    "universities": [
+      {
+        "name": "National Textile University (NTU)",
+        "link": "https://ntu.edu.pk",
+        "icon": "https://www.ntu.edu.pk/assets/img/logo.png",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "University of Engineering and Technology (UET Lahore)",
+        "link": "https://uet.edu.pk",
+        "icon": "https://uet.edu.pk/.galleries/Slider/uetnewlogo.png?__scale=w:458,h:84,t:2,q:90",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "National University of Sciences and Technology (NUST)",
+        "link": "https://nust.edu.pk",
+        "icon": "https://nust.edu.pk/wp-content/themes/nust-main/assets/img/Header-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "NED University of Engineering and Technology",
+        "link": "https://www.neduet.edu.pk",
+        "icon": "https://www.neduet.edu.pk/sites/default/files/LOGONEDUET2LOGO_1.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Ghulam Ishaq Khan Institute (GIKI)",
+        "link": "https://giki.edu.pk",
+        "icon": "https://giki.edu.pk/wp-content/uploads/2025/02/giki-logo-1.png",
+        "location": "Topi, Khyber Pakhtunkhwa, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Occupational Therapy",
+    "universities": [
+      {
+        "name": "Aga Khan University (AKU)",
+        "link": "https://aku.edu",
+        "icon": "https://www.aku.edu/Style%20Library/Images/AKU_logo.gif",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Liaquat University of Medical and Health Sciences (LUMHS)",
+        "link": "https://lumhs.edu.pk",
+        "icon": "https://www.lumhs.edu.pk/home/images/logo2.png",
+        "location": "Jamshoro, Pakistan"
+      },
+      {
+        "name": "Jinnah Sindh Medical University",
+        "link": "https://jsmu.edu.pk",
+        "icon": "https://www.jsmu.edu.pk/assets/images/logo.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Khyber Medical University (KMU)",
+        "link": "https://kmu.edu.pk",
+        "icon": "https://www.fjmu.edu.pk/wp-content/uploads/2022/09/logo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "University of Health Sciences (UHS)",
+        "link": "https://uhs.edu.pk",
+        "icon": "https://ubas.edu.pk/wp-content/uploads/2025/01/UBAS-Logo.png",
+        "location": "Lahore, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Oceanography",
+    "universities": [
+      {
+        "name": "UET Taxila",
+        "link": "https://www.uettaxila.edu.pk",
+        "icon": "https://www.uettaxila.edu.pk/images/Logos/uettaxila_logo.png",
+        "location": "Taxila, Pakistan"
+      },
+      {
+        "name": "University of the Punjab",
+        "link": "https://pu.edu.pk",
+        "icon": "https://pu.edu.pk/temp1/img/logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Operations Research",
+    "universities": [
+      {
+        "name": "University of Sargodha",
+        "link": "https://su.edu.pk",
+        "icon": "https://su.edu.pk/images/final-logo-1.png?v=1.0.1.2",
+        "location": "Sargodha, Pakistan"
+      },
+      {
+        "name": "University of Karachi",
+        "link": "https://uok.edu.pk",
+        "icon": "https://uok.edu.pk/images/logo.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "University of the Punjab",
+        "link": "https://pu.edu.pk",
+        "icon": "https://pu.edu.pk/temp1/img/logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Petroleum Engineering",
+    "universities": [
+      {
+        "name": "Bahria University",
+        "link": "https://bahria.edu.pk",
+        "icon": "https://www.bahria.edu.pk/Content/images/bu_logo.png",
+        "location": "Islamabad/Karachi, Pakistan"
+      },
+      {
+        "name": "NED University of Engineering and Technology",
+        "link": "https://www.neduet.edu.pk",
+        "icon": "https://www.neduet.edu.pk/sites/default/files/LOGONEDUET2LOGO_1.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "FAST National University of Computer and Emerging Sciences (FAST-NUCES)",
+        "link": "https://nu.edu.pk",
+        "icon": "https://www.nu.edu.pk/Content/images/NU-logo.jpg",
+        "location": "Islamabad/Lahore/Karachi, Pakistan"
+      },
+      {
+        "name": "National University of Sciences and Technology (NUST)",
+        "link": "https://nust.edu.pk",
+        "icon": "https://nust.edu.pk/wp-content/themes/nust-main/assets/img/Header-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "Ghulam Ishaq Khan Institute (GIKI)",
+        "link": "https://giki.edu.pk",
+        "icon": "https://giki.edu.pk/wp-content/uploads/2025/02/giki-logo-1.png",
+        "location": "Topi, Khyber Pakhtunkhwa, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Pharmaceutical Science",
+    "universities": [
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "UET Taxila",
+        "link": "https://www.uettaxila.edu.pk",
+        "icon": "https://www.uettaxila.edu.pk/images/Logos/uettaxila_logo.png",
+        "location": "Taxila, Pakistan"
+      },
+      {
+        "name": "University of the Punjab",
+        "link": "https://pu.edu.pk",
+        "icon": "https://pu.edu.pk/temp1/img/logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Pharmacology",
+    "universities": [
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "University of Karachi",
+        "link": "https://uok.edu.pk",
+        "icon": "https://uok.edu.pk/images/logo.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "Bahauddin Zakariya University (BZU)",
+        "link": "https://bzu.edu.pk",
+        "icon": "https://bzu.edu.pk/img/logo-final.png",
+        "location": "Multan, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Pharmacy",
+    "universities": [
+      {
+        "name": "Dow University of Health Sciences (DUHS)",
+        "link": "https://duhs.edu.pk",
+        "icon": "https://www.duhs.edu.pk/wp-content/uploads/2023/12/image-15.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Khyber Medical University (KMU)",
+        "link": "https://kmu.edu.pk",
+        "icon": "https://www.fjmu.edu.pk/wp-content/uploads/2022/09/logo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "King Edward Medical University (KEMU)",
+        "link": "https://kemu.edu.pk",
+        "icon": "https://kemu.edu.pk/wp-content/uploads/Kemu-logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Aga Khan University (AKU)",
+        "link": "https://aku.edu",
+        "icon": "https://www.aku.edu/Style%20Library/Images/AKU_logo.gif",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Services Institute of Medical Sciences (SIMS)",
+        "link": "https://sims.edu.pk",
+        "icon": "https://sims.edu.pk/wp-content/uploads/2024/09/SIMS-Logo-Website-1.png",
+        "location": "Lahore, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Physical Therapy",
+    "universities": [
+      {
+        "name": "Liaquat University of Medical and Health Sciences (LUMHS)",
+        "link": "https://lumhs.edu.pk",
+        "icon": "https://www.lumhs.edu.pk/home/images/logo2.png",
+        "location": "Jamshoro, Pakistan"
+      },
+      {
+        "name": "Khyber Medical University (KMU)",
+        "link": "https://kmu.edu.pk",
+        "icon": "https://www.fjmu.edu.pk/wp-content/uploads/2022/09/logo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "Allama Iqbal Medical College",
+        "link": "https://aimc.edu.pk",
+        "icon": "https://aimc.edu.pk/wp-content/uploads/2025/08/Logo-AIMC-fn.jpg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Services Institute of Medical Sciences (SIMS)",
+        "link": "https://sims.edu.pk",
+        "icon": "https://sims.edu.pk/wp-content/uploads/2024/09/SIMS-Logo-Website-1.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Jinnah Sindh Medical University",
+        "link": "https://jsmu.edu.pk",
+        "icon": "https://www.jsmu.edu.pk/assets/images/logo.png",
+        "location": "Karachi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Physics",
+    "universities": [
+      {
+        "name": "Bahauddin Zakariya University (BZU)",
+        "link": "https://bzu.edu.pk",
+        "icon": "https://bzu.edu.pk/img/logo-final.png",
+        "location": "Multan, Pakistan"
+      },
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      },
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of Sargodha",
+        "link": "https://su.edu.pk",
+        "icon": "https://su.edu.pk/images/final-logo-1.png?v=1.0.1.2",
+        "location": "Sargodha, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Physiology",
+    "universities": [
+      {
+        "name": "Allama Iqbal Medical College",
+        "link": "https://aimc.edu.pk",
+        "icon": "https://aimc.edu.pk/wp-content/uploads/2025/08/Logo-AIMC-fn.jpg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of Health Sciences (UHS)",
+        "link": "https://uhs.edu.pk",
+        "icon": "https://ubas.edu.pk/wp-content/uploads/2025/01/UBAS-Logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Fatima Jinnah Medical University (FJMU)",
+        "link": "https://fjmu.edu.pk",
+        "icon": "https://www.fjmu.edu.pk/wp-content/uploads/2022/09/logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Services Institute of Medical Sciences (SIMS)",
+        "link": "https://sims.edu.pk",
+        "icon": "https://sims.edu.pk/wp-content/uploads/2024/09/SIMS-Logo-Website-1.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Aga Khan University (AKU)",
+        "link": "https://aku.edu",
+        "icon": "https://www.aku.edu/Style%20Library/Images/AKU_logo.gif",
+        "location": "Karachi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Political Science",
+    "universities": [
+      {
+        "name": "Mehran University of Engineering and Technology (MUET)",
+        "link": "https://muet.edu.pk",
+        "icon": "https://site.muet.edu.pk/sites/default/files/muet_logo.png",
+        "location": "Jamshoro, Pakistan"
+      },
+      {
+        "name": "National University of Sciences and Technology (NUST)",
+        "link": "https://nust.edu.pk",
+        "icon": "https://nust.edu.pk/wp-content/themes/nust-main/assets/img/Header-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "Air University",
+        "link": "https://au.edu.pk",
+        "icon": "https://www.au.edu.pk/AU_New_Assets/images/logo/au.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "NED University of Engineering and Technology",
+        "link": "https://www.neduet.edu.pk",
+        "icon": "https://www.neduet.edu.pk/sites/default/files/LOGONEDUET2LOGO_1.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Bahria University",
+        "link": "https://bahria.edu.pk",
+        "icon": "https://www.bahria.edu.pk/Content/images/bu_logo.png",
+        "location": "Islamabad/Karachi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Project Management",
+    "universities": [
+      {
+        "name": "International Islamic University (IIUI)",
+        "link": "https://iiu.edu.pk",
+        "icon": "https://www.iiu.edu.pk/wp-content/uploads/2019/02/logo-final-2.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "Quaid-i-Azam University (QAU)",
+        "link": "https://qau.edu.pk",
+        "icon": "https://qau.edu.pk/wp-content/uploads/2021/05/logo-15.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "Lahore University of Management Sciences (LUMS)",
+        "link": "https://lums.edu.pk",
+        "icon": "https://lums.edu.pk/sites/default/files/inline-images/LUMS%20Logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Institute of Business Administration (IBA Karachi)",
+        "link": "https://iba.edu.pk",
+        "icon": "https://www.iba.edu.pk/images/logo-iba-70years.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Iqra University",
+        "link": "https://iqra.edu.pk",
+        "icon": "https://iqra.edu.pk/wp-content/uploads/2024/03/LOGO-IU-01-1536x371.png",
+        "location": "Karachi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Psychology",
+    "universities": [
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Public Health",
+    "universities": [
+      {
+        "name": "Allama Iqbal Medical College",
+        "link": "https://aimc.edu.pk",
+        "icon": "https://aimc.edu.pk/wp-content/uploads/2025/08/Logo-AIMC-fn.jpg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Aga Khan University (AKU)",
+        "link": "https://aku.edu",
+        "icon": "https://www.aku.edu/Style%20Library/Images/AKU_logo.gif",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "King Edward Medical University (KEMU)",
+        "link": "https://kemu.edu.pk",
+        "icon": "https://kemu.edu.pk/wp-content/uploads/Kemu-logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of Health Sciences (UHS)",
+        "link": "https://uhs.edu.pk",
+        "icon": "https://ubas.edu.pk/wp-content/uploads/2025/01/UBAS-Logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Liaquat University of Medical and Health Sciences (LUMHS)",
+        "link": "https://lumhs.edu.pk",
+        "icon": "https://www.lumhs.edu.pk/home/images/logo2.png",
+        "location": "Jamshoro, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Public Policy",
+    "universities": [
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      },
+      {
+        "name": "Bahauddin Zakariya University (BZU)",
+        "link": "https://bzu.edu.pk",
+        "icon": "https://bzu.edu.pk/img/logo-final.png",
+        "location": "Multan, Pakistan"
+      },
+      {
+        "name": "University of the Punjab",
+        "link": "https://pu.edu.pk",
+        "icon": "https://pu.edu.pk/temp1/img/logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Rehabilitation Science",
+    "universities": [
+      {
+        "name": "Ghulam Ishaq Khan Institute (GIKI)",
+        "link": "https://giki.edu.pk",
+        "icon": "https://giki.edu.pk/wp-content/uploads/2025/02/giki-logo-1.png",
+        "location": "Topi, Khyber Pakhtunkhwa, Pakistan"
+      },
+      {
+        "name": "National University of Sciences and Technology (NUST)",
+        "link": "https://nust.edu.pk",
+        "icon": "https://nust.edu.pk/wp-content/themes/nust-main/assets/img/Header-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "Mehran University of Engineering and Technology (MUET)",
+        "link": "https://muet.edu.pk",
+        "icon": "https://site.muet.edu.pk/sites/default/files/muet_logo.png",
+        "location": "Jamshoro, Pakistan"
+      },
+      {
+        "name": "FAST National University of Computer and Emerging Sciences (FAST-NUCES)",
+        "link": "https://nu.edu.pk",
+        "icon": "https://www.nu.edu.pk/Content/images/NU-logo.jpg",
+        "location": "Islamabad/Lahore/Karachi, Pakistan"
+      },
+      {
+        "name": "University of Engineering and Technology (UET Lahore)",
+        "link": "https://uet.edu.pk",
+        "icon": "https://uet.edu.pk/.galleries/Slider/uetnewlogo.png?__scale=w:458,h:84,t:2,q:90",
+        "location": "Lahore, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Renewable Energy Engineering",
+    "universities": [
+      {
+        "name": "Khwaja Fareed University of Engineering and IT (KFUEIT)",
+        "link": "https://kfueit.edu.pk",
+        "icon": "https://www.kfueit.edu.pk/uploads/4/ueit-logo-r.png",
+        "location": "Rahim Yar Khan, Pakistan"
+      },
+      {
+        "name": "University of Engineering and Technology (UET Lahore)",
+        "link": "https://uet.edu.pk",
+        "icon": "https://uet.edu.pk/.galleries/Slider/uetnewlogo.png?__scale=w:458,h:84,t:2,q:90",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "COMSATS University Islamabad",
+        "link": "https://www.comsats.edu.pk",
+        "icon": "https://www.comsats.edu.pk/assets/img/COMSATS-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "University of Management and Technology (UMT)",
+        "link": "https://umt.edu.pk",
+        "icon": "https://www.umt.edu.pk/images/mobile-logo-umt.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "National University of Sciences and Technology (NUST)",
+        "link": "https://nust.edu.pk",
+        "icon": "https://nust.edu.pk/wp-content/themes/nust-main/assets/img/Header-logo.png",
+        "location": "Islamabad, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Robotics Engineering",
+    "universities": [
+      {
+        "name": "Air University",
+        "link": "https://au.edu.pk",
+        "icon": "https://www.au.edu.pk/AU_New_Assets/images/logo/au.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "COMSATS University Islamabad",
+        "link": "https://www.comsats.edu.pk",
+        "icon": "https://www.comsats.edu.pk/assets/img/COMSATS-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "National Textile University (NTU)",
+        "link": "https://ntu.edu.pk",
+        "icon": "https://www.ntu.edu.pk/assets/img/logo.png",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "NED University of Engineering and Technology",
+        "link": "https://www.neduet.edu.pk",
+        "icon": "https://www.neduet.edu.pk/sites/default/files/LOGONEDUET2LOGO_1.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "National University of Sciences and Technology (NUST)",
+        "link": "https://nust.edu.pk",
+        "icon": "https://nust.edu.pk/wp-content/themes/nust-main/assets/img/Header-logo.png",
+        "location": "Islamabad, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Science Communication",
+    "universities": [
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of the Punjab",
+        "link": "https://pu.edu.pk",
+        "icon": "https://pu.edu.pk/temp1/img/logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      },
+      {
+        "name": "University of Sargodha",
+        "link": "https://su.edu.pk",
+        "icon": "https://su.edu.pk/images/final-logo-1.png?v=1.0.1.2",
+        "location": "Sargodha, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Software Engineering",
+    "universities": [
+      {
+        "name": "University of Engineering and Technology (UET Lahore)",
+        "link": "https://uet.edu.pk",
+        "icon": "https://uet.edu.pk/.galleries/Slider/uetnewlogo.png?__scale=w:458,h:84,t:2,q:90",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "FAST National University of Computer and Emerging Sciences (FAST-NUCES)",
+        "link": "https://nu.edu.pk",
+        "icon": "https://www.nu.edu.pk/Content/images/NU-logo.jpg",
+        "location": "Islamabad/Lahore/Karachi, Pakistan"
+      },
+      {
+        "name": "Bahria University",
+        "link": "https://bahria.edu.pk",
+        "icon": "https://www.bahria.edu.pk/Content/images/bu_logo.png",
+        "location": "Islamabad/Karachi, Pakistan"
+      },
+      {
+        "name": "Ghulam Ishaq Khan Institute (GIKI)",
+        "link": "https://giki.edu.pk",
+        "icon": "https://giki.edu.pk/wp-content/uploads/2025/02/giki-logo-1.png",
+        "location": "Topi, Khyber Pakhtunkhwa, Pakistan"
+      },
+      {
+        "name": "National Textile University (NTU)",
+        "link": "https://ntu.edu.pk",
+        "icon": "https://www.ntu.edu.pk/assets/img/logo.png",
+        "location": "Faisalabad, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Soil Science",
+    "universities": [
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      },
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      },
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Bahauddin Zakariya University (BZU)",
+        "link": "https://bzu.edu.pk",
+        "icon": "https://bzu.edu.pk/img/logo-final.png",
+        "location": "Multan, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Space Science",
+    "universities": [
+      {
+        "name": "University of Karachi",
+        "link": "https://uok.edu.pk",
+        "icon": "https://uok.edu.pk/images/logo.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      },
+      {
+        "name": "Bahauddin Zakariya University (BZU)",
+        "link": "https://bzu.edu.pk",
+        "icon": "https://bzu.edu.pk/img/logo-final.png",
+        "location": "Multan, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Statistics",
+    "universities": [
+      {
+        "name": "University of the Punjab",
+        "link": "https://pu.edu.pk",
+        "icon": "https://pu.edu.pk/temp1/img/logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "University of Karachi",
+        "link": "https://uok.edu.pk",
+        "icon": "https://uok.edu.pk/images/logo.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Structural Engineering",
+    "universities": [
+      {
+        "name": "National Textile University (NTU)",
+        "link": "https://ntu.edu.pk",
+        "icon": "https://www.ntu.edu.pk/assets/img/logo.png",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "NED University of Engineering and Technology",
+        "link": "https://www.neduet.edu.pk",
+        "icon": "https://www.neduet.edu.pk/sites/default/files/LOGONEDUET2LOGO_1.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "COMSATS University Islamabad",
+        "link": "https://www.comsats.edu.pk",
+        "icon": "https://www.comsats.edu.pk/assets/img/COMSATS-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "National University of Sciences and Technology (NUST)",
+        "link": "https://nust.edu.pk",
+        "icon": "https://nust.edu.pk/wp-content/themes/nust-main/assets/img/Header-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "University of Engineering and Technology (UET Lahore)",
+        "link": "https://uet.edu.pk",
+        "icon": "https://uet.edu.pk/.galleries/Slider/uetnewlogo.png?__scale=w:458,h:84,t:2,q:90",
+        "location": "Lahore, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Sustainability Studies",
+    "universities": [
+      {
+        "name": "University of Engineering and Technology (UET Lahore)",
+        "link": "https://uet.edu.pk",
+        "icon": "https://uet.edu.pk/.galleries/Slider/uetnewlogo.png?__scale=w:458,h:84,t:2,q:90",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "National Textile University (NTU)",
+        "link": "https://ntu.edu.pk",
+        "icon": "https://www.ntu.edu.pk/assets/img/logo.png",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "Khwaja Fareed University of Engineering and IT (KFUEIT)",
+        "link": "https://kfueit.edu.pk",
+        "icon": "https://www.kfueit.edu.pk/uploads/4/ueit-logo-r.png",
+        "location": "Rahim Yar Khan, Pakistan"
+      },
+      {
+        "name": "NED University of Engineering and Technology",
+        "link": "https://www.neduet.edu.pk",
+        "icon": "https://www.neduet.edu.pk/sites/default/files/LOGONEDUET2LOGO_1.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Bahria University",
+        "link": "https://bahria.edu.pk",
+        "icon": "https://www.bahria.edu.pk/Content/images/bu_logo.png",
+        "location": "Islamabad/Karachi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Sustainable Engineering",
+    "universities": [
+      {
+        "name": "Mehran University of Engineering and Technology (MUET)",
+        "link": "https://muet.edu.pk",
+        "icon": "https://site.muet.edu.pk/sites/default/files/muet_logo.png",
+        "location": "Jamshoro, Pakistan"
+      },
+      {
+        "name": "National Textile University (NTU)",
+        "link": "https://ntu.edu.pk",
+        "icon": "https://www.ntu.edu.pk/assets/img/logo.png",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "Bahria University",
+        "link": "https://bahria.edu.pk",
+        "icon": "https://www.bahria.edu.pk/Content/images/bu_logo.png",
+        "location": "Islamabad/Karachi, Pakistan"
+      },
+      {
+        "name": "Ghulam Ishaq Khan Institute (GIKI)",
+        "link": "https://giki.edu.pk",
+        "icon": "https://giki.edu.pk/wp-content/uploads/2025/02/giki-logo-1.png",
+        "location": "Topi, Khyber Pakhtunkhwa, Pakistan"
+      },
+      {
+        "name": "University of Management and Technology (UMT)",
+        "link": "https://umt.edu.pk",
+        "icon": "https://www.umt.edu.pk/images/mobile-logo-umt.png",
+        "location": "Lahore, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Systems Engineering",
+    "universities": [
+      {
+        "name": "Air University",
+        "link": "https://au.edu.pk",
+        "icon": "https://www.au.edu.pk/AU_New_Assets/images/logo/au.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "University of Management and Technology (UMT)",
+        "link": "https://umt.edu.pk",
+        "icon": "https://www.umt.edu.pk/images/mobile-logo-umt.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "FAST National University of Computer and Emerging Sciences (FAST-NUCES)",
+        "link": "https://nu.edu.pk",
+        "icon": "https://www.nu.edu.pk/Content/images/NU-logo.jpg",
+        "location": "Islamabad/Lahore/Karachi, Pakistan"
+      },
+      {
+        "name": "COMSATS University Islamabad",
+        "link": "https://www.comsats.edu.pk",
+        "icon": "https://www.comsats.edu.pk/assets/img/COMSATS-logo.png",
+        "location": "Islamabad, Pakistan"
+      },
+      {
+        "name": "Bahria University",
+        "link": "https://bahria.edu.pk",
+        "icon": "https://www.bahria.edu.pk/Content/images/bu_logo.png",
+        "location": "Islamabad/Karachi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Tourism Management",
+    "universities": [
+      {
+        "name": "Lahore University of Management Sciences (LUMS)",
+        "link": "https://lums.edu.pk",
+        "icon": "https://lums.edu.pk/sites/default/files/inline-images/LUMS%20Logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Government College University (GCU Lahore)",
+        "link": "https://gcu.edu.pk",
+        "icon": "https://gcu.edu.pk/components/assets/img/gc-logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Iqra University",
+        "link": "https://iqra.edu.pk",
+        "icon": "https://iqra.edu.pk/wp-content/uploads/2024/03/LOGO-IU-01-1536x371.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Institute of Business Administration (IBA Karachi)",
+        "link": "https://iba.edu.pk",
+        "icon": "https://www.iba.edu.pk/images/logo-iba-70years.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "SZABIST",
+        "link": "https://szabist.edu.pk",
+        "icon": "https://admissions.szabist.edu.pk/images/nl.png",
+        "location": "Karachi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Toxicology",
+    "universities": [
+      {
+        "name": "University of Sargodha",
+        "link": "https://su.edu.pk",
+        "icon": "https://su.edu.pk/images/final-logo-1.png?v=1.0.1.2",
+        "location": "Sargodha, Pakistan"
+      },
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "User Experience Design",
+    "universities": [
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      },
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      },
+      {
+        "name": "University of Karachi",
+        "link": "https://uok.edu.pk",
+        "icon": "https://uok.edu.pk/images/logo.png",
+        "location": "Karachi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Veterinary Medicine",
+    "universities": [
+      {
+        "name": "Fatima Jinnah Medical University (FJMU)",
+        "link": "https://fjmu.edu.pk",
+        "icon": "https://www.fjmu.edu.pk/wp-content/uploads/2022/09/logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Aga Khan University (AKU)",
+        "link": "https://aku.edu",
+        "icon": "https://www.aku.edu/Style%20Library/Images/AKU_logo.gif",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Khyber Medical University (KMU)",
+        "link": "https://kmu.edu.pk",
+        "icon": "https://www.fjmu.edu.pk/wp-content/uploads/2022/09/logo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "Liaquat University of Medical and Health Sciences (LUMHS)",
+        "link": "https://lumhs.edu.pk",
+        "icon": "https://www.lumhs.edu.pk/home/images/logo2.png",
+        "location": "Jamshoro, Pakistan"
+      },
+      {
+        "name": "University of Health Sciences (UHS)",
+        "link": "https://uhs.edu.pk",
+        "icon": "https://ubas.edu.pk/wp-content/uploads/2025/01/UBAS-Logo.png",
+        "location": "Lahore, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Water Resources Engineering",
+    "universities": [
+      {
+        "name": "National Textile University (NTU)",
+        "link": "https://ntu.edu.pk",
+        "icon": "https://www.ntu.edu.pk/assets/img/logo.png",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "Khwaja Fareed University of Engineering and IT (KFUEIT)",
+        "link": "https://kfueit.edu.pk",
+        "icon": "https://www.kfueit.edu.pk/uploads/4/ueit-logo-r.png",
+        "location": "Rahim Yar Khan, Pakistan"
+      },
+      {
+        "name": "University of Management and Technology (UMT)",
+        "link": "https://umt.edu.pk",
+        "icon": "https://www.umt.edu.pk/images/mobile-logo-umt.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Ghulam Ishaq Khan Institute (GIKI)",
+        "link": "https://giki.edu.pk",
+        "icon": "https://giki.edu.pk/wp-content/uploads/2025/02/giki-logo-1.png",
+        "location": "Topi, Khyber Pakhtunkhwa, Pakistan"
+      },
+      {
+        "name": "COMSATS University Islamabad",
+        "link": "https://www.comsats.edu.pk",
+        "icon": "https://www.comsats.edu.pk/assets/img/COMSATS-logo.png",
+        "location": "Islamabad, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Web Design",
+    "universities": [
+      {
+        "name": "University of Karachi",
+        "link": "https://uok.edu.pk",
+        "icon": "https://uok.edu.pk/images/logo.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Bahauddin Zakariya University (BZU)",
+        "link": "https://bzu.edu.pk",
+        "icon": "https://bzu.edu.pk/img/logo-final.png",
+        "location": "Multan, Pakistan"
+      },
+      {
+        "name": "University of the Punjab",
+        "link": "https://pu.edu.pk",
+        "icon": "https://pu.edu.pk/temp1/img/logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Web Development",
+    "universities": [
+      {
+        "name": "Bahauddin Zakariya University (BZU)",
+        "link": "https://bzu.edu.pk",
+        "icon": "https://bzu.edu.pk/img/logo-final.png",
+        "location": "Multan, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "University of Karachi",
+        "link": "https://uok.edu.pk",
+        "icon": "https://uok.edu.pk/images/logo.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Wildlife Biology",
+    "universities": [
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      },
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of the Punjab",
+        "link": "https://pu.edu.pk",
+        "icon": "https://pu.edu.pk/temp1/img/logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Wildlife Conservation",
+    "universities": [
+      {
+        "name": "University of Sargodha",
+        "link": "https://su.edu.pk",
+        "icon": "https://su.edu.pk/images/final-logo-1.png?v=1.0.1.2",
+        "location": "Sargodha, Pakistan"
+      },
+      {
+        "name": "Sindh Agriculture University",
+        "link": "https://sau.edu.pk",
+        "icon": "https://sau.edu.pk/wp-content/uploads/2021/03/logo-5.png",
+        "location": "Tandojam, Pakistan"
+      },
+      {
+        "name": "University of the Punjab",
+        "link": "https://pu.edu.pk",
+        "icon": "https://pu.edu.pk/temp1/img/logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "University of Agriculture Faisalabad (UAF)",
+        "link": "https://uaf.edu.pk",
+        "icon": "https://web.uaf.edu.pk/MainSite/img/agriloader.gif",
+        "location": "Faisalabad, Pakistan"
+      },
+      {
+        "name": "University of Karachi",
+        "link": "https://uok.edu.pk",
+        "icon": "https://uok.edu.pk/images/logo.png",
+        "location": "Karachi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Wildlife Management",
+    "universities": [
+      {
+        "name": "University of Management and Technology (UMT)",
+        "link": "https://umt.edu.pk",
+        "icon": "https://www.umt.edu.pk/images/mobile-logo-umt.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Institute of Business Administration (IBA Karachi)",
+        "link": "https://iba.edu.pk",
+        "icon": "https://www.iba.edu.pk/images/logo-iba-70years.png",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "name": "Institute of Management Sciences (IMS Peshawar)",
+        "link": "https://imsciences.edu.pk",
+        "icon": "https://admissions.imsciences.edu.pk/AdminLTE/TopicListing/images/logo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "Lahore University of Management Sciences (LUMS)",
+        "link": "https://lums.edu.pk",
+        "icon": "https://lums.edu.pk/sites/default/files/inline-images/LUMS%20Logo.png",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "SZABIST",
+        "link": "https://szabist.edu.pk",
+        "icon": "https://admissions.szabist.edu.pk/images/nl.png",
+        "location": "Karachi, Pakistan"
+      }
+    ]
+  },
+  {
+    "program": "Zoology",
+    "universities": [
+      {
+        "name": "Bahauddin Zakariya University (BZU)",
+        "link": "https://bzu.edu.pk",
+        "icon": "https://bzu.edu.pk/img/logo-final.png",
+        "location": "Multan, Pakistan"
+      },
+      {
+        "name": "University of Peshawar",
+        "link": "http://uop.edu.pk",
+        "icon": "http://www.uop.edu.pk/images/nlogo.png",
+        "location": "Peshawar, Pakistan"
+      },
+      {
+        "name": "University of Sargodha",
+        "link": "https://su.edu.pk",
+        "icon": "https://su.edu.pk/images/final-logo-1.png?v=1.0.1.2",
+        "location": "Sargodha, Pakistan"
+      },
+      {
+        "name": "Superior University",
+        "link": "https://superior.edu.pk",
+        "icon": "https://www.superior.edu.pk/wp-content/uploads/2025/05/Superior-University-Logo.svg",
+        "location": "Lahore, Pakistan"
+      },
+      {
+        "name": "Arid Agriculture University",
+        "link": "https://uaar.edu.pk",
+        "icon": "https://www.uaar.edu.pk/images/logo.png",
+        "location": "Rawalpindi, Pakistan"
+      }
+    ]
+  }
+]

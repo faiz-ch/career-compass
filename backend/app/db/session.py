@@ -13,7 +13,17 @@ if not DATABASE_URL:
     raise ValueError("DATABASE_URL environment variable is required")
 
 engine = create_async_engine(DATABASE_URL, echo=True)
-
+# Simplified configuration for Session Mode (no prepared statement issues)
+"""engine = create_async_engine(
+    DATABASE_URL, 
+    echo=True,  # Set to False in production
+    # Basic pool settings for Session Mode
+    pool_size=10,
+    max_overflow=20,
+    pool_pre_ping=True,
+    pool_recycle=3600,  # 1 hour
+)
+"""
 AsyncSessionLocal = sessionmaker(
     bind=engine,
     class_=AsyncSession,

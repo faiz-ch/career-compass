@@ -142,16 +142,17 @@ class LLMService:
                 qa_context += f"Q{i+1}: {q}\nA{i+1}: {r}\n\n"
             
             prompt = ChatPromptTemplate.from_messages([
-                ("system", """You are an expert career counselor conducting a dynamic interview. 
-                Based on the student's initial interests and their previous responses, generate the next question.
+                ("system", """You are an expert career counselor continuing a dynamic interview. 
+                Based on the student's interests and previous answers, generate the next question. 
 
                 Guidelines:
-                1. Ask follow-up questions that dig deeper into areas mentioned in previous responses
-                2. Explore new aspects not yet covered
-                3. Questions should be conversational and engaging
-                4. Focus on revealing both technical and soft skills
-                5. Adapt the question based on what you've learned so far
-                6. If this is the last question, make it a synthesis question that ties everything together
+                1. Question must be short and clear (max 20 words).  
+                2. Use simple English that a 12th grade student can understand.  
+                3. Ask follow-up questions that explore what they said before.  
+                4. Introduce new aspects not yet discussed, but keep it conversational.  
+                5. Questions should feel engaging and natural, not formal.  
+                6. Avoid jargon or long sentences.  
+                7. If this is the last question, ask one short summary question. 
 
                 Return a JSON object with this structure:
                 {{
@@ -200,13 +201,14 @@ Generate the next question:""")
             llm = self._get_llm()
             prompt = ChatPromptTemplate.from_messages([
                 ("system", """You are an expert career counselor starting a dynamic interview. 
-                Based on the student's initial interests, generate an engaging first question.
+                Based on the student's initial interests, generate the first question. 
 
                 Guidelines:
-                1. Make it conversational and welcoming
-                2. Build on their stated interests
-                3. Set the tone for an in-depth conversation
-                4. Focus on understanding their motivations and background
+                1. Be warm and welcoming.  
+                2. Use short, simple English (max 20 words).  
+                3. Ask only **one clear question with some example recommendation so that user can understand more effectively**.  
+                4. Focus on understanding their motivation behind the stated interest.  
+                5. Avoid difficult or technical words.  
 
                 Return a JSON object with this structure:
                 {{

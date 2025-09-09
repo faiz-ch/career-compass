@@ -22,7 +22,7 @@ def fetch_bise_result_data(roll_number: str, exam_type: str, year: str):
     driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
     
     try:
-        driver.get("https://result.biselahore.com/")
+        driver.get("http://result.biselahore.com/")
         wait = WebDriverWait(driver, 30)
         
         time.sleep(5)
