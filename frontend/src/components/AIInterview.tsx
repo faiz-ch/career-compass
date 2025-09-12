@@ -21,6 +21,7 @@ interface CareerRecommendation {
   confidence_score: number;
   required_skills: string[];
   learning_path: string;
+  market_job_analysis_pakistan?: string;
 }
 
 const AIInterview: React.FC = () => {
@@ -535,6 +536,13 @@ const AIInterview: React.FC = () => {
                     </div>
                   </div>
                   
+                  {career.market_job_analysis_pakistan && (
+                    <div className="mb-4">
+                      <h4 className="font-medium text-cyber-300 mb-2">Pakistan Market & Job Outlook:</h4>
+                      <p className="text-dark-400 text-sm whitespace-pre-wrap">{career.market_job_analysis_pakistan}</p>
+                    </div>
+                  )}
+
                   <div>
                     <h4 className="font-medium text-cyber-300 mb-2">Suggested Learning Path:</h4>
                     <p className="text-dark-400 text-sm">{career.learning_path}</p>

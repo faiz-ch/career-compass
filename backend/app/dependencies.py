@@ -37,3 +37,8 @@ async def get_current_user(
         )
     
     return user 
+
+def admin_required(current_user: Student = Depends(get_current_user)) -> Student:
+    if getattr(current_user, "role", None) != "admin":
+        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Admins only")
+    return current_user

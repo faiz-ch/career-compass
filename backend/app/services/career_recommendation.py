@@ -180,6 +180,7 @@ Vector Score: {career['score']}
                 3. Consider the vector similarity scores but don't rely solely on them
                 4. Provide reasoning for each recommendation
                 5. Rank careers from most suitable to least suitable
+                6. Additionally, include a concise current market and job outlook for Pakistan for each career (demand trends, key cities/sectors hiring, typical entry-level roles, indicative salary ranges in PKR when possible, and short note on growth outlook). Keep it factual and brief.
 
                 Return a JSON object with this structure:
                 {{
@@ -190,7 +191,8 @@ Vector Score: {career['score']}
                             "match_reason": "Why this career matches the student",
                             "confidence_score": 0.95,
                             "required_skills": ["skill1", "skill2"],
-                            "learning_path": "Suggested learning path"
+                            "learning_path": "Suggested learning path",
+                            "market_job_analysis_pakistan": "Concise Pakistan-specific market and job analysis"
                         }}
                     ]
                 }}"""),

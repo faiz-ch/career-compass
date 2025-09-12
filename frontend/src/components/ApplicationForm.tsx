@@ -50,6 +50,7 @@ const ApplicationForm: React.FC = () => {
   const [scrapingData, setScrapingData] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState<string | null>(null);
+  const [fieldErrors, setFieldErrors] = useState<Record<string, string>>({});
   
   const [formData, setFormData] = useState<FormData>({
     firstName: '',
@@ -102,6 +103,12 @@ const ApplicationForm: React.FC = () => {
 
   const handleInputChange = (field: keyof FormData, value: string | boolean) => {
     setFormData(prev => ({ ...prev, [field]: value }));
+    // Clear field error on change
+    setFieldErrors(prev => {
+      const next = { ...prev };
+      delete next[String(field)];
+      return next;
+    });
   };
 
   const handleScraperFormChange = (field: string, value: string) => {
@@ -184,6 +191,13 @@ const ApplicationForm: React.FC = () => {
     setError(null);
 
     try {
+      // Validate all steps before submitting
+      const allValid = validateAllSteps();
+      if (!allValid) {
+        setIsLoading(false);
+        setError('Please fill all required fields before submitting.');
+        return;
+      }
       const response = await admissionsAPI.submitApplicationForm(formData);
       setSuccess('Application form submitted successfully!');
       console.log('Form submission response:', response);
@@ -195,7 +209,14 @@ const ApplicationForm: React.FC = () => {
   };
 
   const nextStep = () => {
+    // Validate current step before proceeding
+    const isValid = validateStep(currentStep);
+    if (!isValid) {
+      setError('Please fill in the required fields to continue.');
+      return;
+    }
     if (currentStep < steps.length - 1) {
+      setError(null);
       setCurrentStep(currentStep + 1);
     }
   };
@@ -204,6 +225,46 @@ const ApplicationForm: React.FC = () => {
     if (currentStep > 0) {
       setCurrentStep(currentStep - 1);
     }
+  };
+
+  // Validation helpers
+  const requiredFieldsByStep: Record<number, (keyof FormData)[]> = {
+    0: ['firstName', 'lastName', 'fatherName', 'cnic', 'dateOfBirth', 'gender'],
+    1: ['phoneNumber', 'permanentAddress', 'city', 'province'],
+    2: ['fatherOccupation', 'fatherIncome', 'motherName', 'motherOccupation'],
+    3: ['interYear', 'interRollNumber', 'interTotalMarks', 'interObtainedMarks', 'interPercentage'],
+    4: ['preferredProgram1']
+  };
+
+  const validateStep = (stepIndex: number): boolean => {
+    const fields = requiredFieldsByStep[stepIndex] || [];
+    const newErrors: Record<string, string> = {};
+    fields.forEach((f) => {
+      const val = String(formData[f] ?? '').trim();
+      if (!val) {
+        newErrors[String(f)] = 'This field is required';
+      }
+    });
+    setFieldErrors((prev) => ({ ...prev, ...newErrors }));
+    return Object.keys(newErrors).length === 0;
+  };
+
+  const validateAllSteps = (): boolean => {
+    let valid = true;
+    const aggregateErrors: Record<string, string> = {};
+    Object.keys(requiredFieldsByStep).forEach((key) => {
+      const stepKey = Number(key);
+      const fields = requiredFieldsByStep[stepKey];
+      fields.forEach((f) => {
+        const val = String(formData[f] ?? '').trim();
+        if (!val) {
+          valid = false;
+          aggregateErrors[String(f)] = 'This field is required';
+        }
+      });
+    });
+    if (!valid) setFieldErrors((prev) => ({ ...prev, ...aggregateErrors }));
+    return valid;
   };
 
   const renderStepContent = () => {
@@ -321,6 +382,9 @@ const ApplicationForm: React.FC = () => {
                   className="cyber-input w-full"
                   placeholder="Enter first name"
                 />
+                {fieldErrors.firstName && (
+                  <p className="text-red-400 text-xs mt-1">{fieldErrors.firstName}</p>
+                )}
               </div>
               <div>
                 <label className="block text-sm font-medium text-dark-300 mb-2">Last Name</label>
@@ -331,6 +395,9 @@ const ApplicationForm: React.FC = () => {
                   className="cyber-input w-full"
                   placeholder="Enter last name"
                 />
+                {fieldErrors.lastName && (
+                  <p className="text-red-400 text-xs mt-1">{fieldErrors.lastName}</p>
+                )}
               </div>
               <div>
                 <label className="block text-sm font-medium text-dark-300 mb-2">Father's Name</label>
@@ -341,6 +408,9 @@ const ApplicationForm: React.FC = () => {
                   className="cyber-input w-full"
                   placeholder="Enter father's name"
                 />
+                {fieldErrors.fatherName && (
+                  <p className="text-red-400 text-xs mt-1">{fieldErrors.fatherName}</p>
+                )}
               </div>
               <div>
                 <label className="block text-sm font-medium text-dark-300 mb-2">CNIC</label>
@@ -351,6 +421,9 @@ const ApplicationForm: React.FC = () => {
                   className="cyber-input w-full"
                   placeholder="00000-0000000-0"
                 />
+                {fieldErrors.cnic && (
+                  <p className="text-red-400 text-xs mt-1">{fieldErrors.cnic}</p>
+                )}
               </div>
               <div>
                 <label className="block text-sm font-medium text-dark-300 mb-2">Date of Birth</label>
@@ -360,6 +433,9 @@ const ApplicationForm: React.FC = () => {
                   onChange={(e) => handleInputChange('dateOfBirth', e.target.value)}
                   className="cyber-input w-full"
                 />
+                {fieldErrors.dateOfBirth && (
+                  <p className="text-red-400 text-xs mt-1">{fieldErrors.dateOfBirth}</p>
+                )}
               </div>
               <div>
                 <label className="block text-sm font-medium text-dark-300 mb-2">Gender</label>
@@ -373,6 +449,9 @@ const ApplicationForm: React.FC = () => {
                   <option value="Female">Female</option>
                   <option value="Other">Other</option>
                 </select>
+                {fieldErrors.gender && (
+                  <p className="text-red-400 text-xs mt-1">{fieldErrors.gender}</p>
+                )}
               </div>
             </div>
           </div>
@@ -392,6 +471,9 @@ const ApplicationForm: React.FC = () => {
                   className="cyber-input w-full"
                   placeholder="03XX-XXXXXXX"
                 />
+                {fieldErrors.phoneNumber && (
+                  <p className="text-red-400 text-xs mt-1">{fieldErrors.phoneNumber}</p>
+                )}
               </div>
               <div>
                 <label className="block text-sm font-medium text-dark-300 mb-2">WhatsApp Number</label>
@@ -411,6 +493,9 @@ const ApplicationForm: React.FC = () => {
                   className="cyber-input w-full h-24 resize-none"
                   placeholder="Enter permanent address"
                 />
+                {fieldErrors.permanentAddress && (
+                  <p className="text-red-400 text-xs mt-1">{fieldErrors.permanentAddress}</p>
+                )}
               </div>
               <div>
                 <label className="block text-sm font-medium text-dark-300 mb-2">City</label>
@@ -421,6 +506,9 @@ const ApplicationForm: React.FC = () => {
                   className="cyber-input w-full"
                   placeholder="Enter city"
                 />
+                {fieldErrors.city && (
+                  <p className="text-red-400 text-xs mt-1">{fieldErrors.city}</p>
+                )}
               </div>
               <div>
                 <label className="block text-sm font-medium text-dark-300 mb-2">Province</label>
@@ -436,6 +524,9 @@ const ApplicationForm: React.FC = () => {
                   <option value="Balochistan">Balochistan</option>
                   <option value="Islamabad">Islamabad</option>
                 </select>
+                {fieldErrors.province && (
+                  <p className="text-red-400 text-xs mt-1">{fieldErrors.province}</p>
+                )}
               </div>
             </div>
           </div>
@@ -455,6 +546,9 @@ const ApplicationForm: React.FC = () => {
                   className="cyber-input w-full"
                   placeholder="Enter father's occupation"
                 />
+                {fieldErrors.fatherOccupation && (
+                  <p className="text-red-400 text-xs mt-1">{fieldErrors.fatherOccupation}</p>
+                )}
               </div>
               <div>
                 <label className="block text-sm font-medium text-dark-300 mb-2">Father's Monthly Income</label>
@@ -465,6 +559,9 @@ const ApplicationForm: React.FC = () => {
                   className="cyber-input w-full"
                   placeholder="Enter monthly income"
                 />
+                {fieldErrors.fatherIncome && (
+                  <p className="text-red-400 text-xs mt-1">{fieldErrors.fatherIncome}</p>
+                )}
               </div>
               <div>
                 <label className="block text-sm font-medium text-dark-300 mb-2">Mother's Name</label>
@@ -475,6 +572,9 @@ const ApplicationForm: React.FC = () => {
                   className="cyber-input w-full"
                   placeholder="Enter mother's name"
                 />
+                {fieldErrors.motherName && (
+                  <p className="text-red-400 text-xs mt-1">{fieldErrors.motherName}</p>
+                )}
               </div>
               <div>
                 <label className="block text-sm font-medium text-dark-300 mb-2">Mother's Occupation</label>
@@ -485,6 +585,9 @@ const ApplicationForm: React.FC = () => {
                   className="cyber-input w-full"
                   placeholder="Enter mother's occupation"
                 />
+                {fieldErrors.motherOccupation && (
+                  <p className="text-red-400 text-xs mt-1">{fieldErrors.motherOccupation}</p>
+                )}
               </div>
             </div>
           </div>
@@ -506,6 +609,9 @@ const ApplicationForm: React.FC = () => {
                     className="cyber-input w-full"
                     placeholder="e.g., 2024"
                   />
+                  {fieldErrors.interYear && (
+                    <p className="text-red-400 text-xs mt-1">{fieldErrors.interYear}</p>
+                  )}
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-dark-300 mb-2">Roll Number</label>
@@ -516,6 +622,9 @@ const ApplicationForm: React.FC = () => {
                     className="cyber-input w-full"
                     placeholder="Enter roll number"
                   />
+                  {fieldErrors.interRollNumber && (
+                    <p className="text-red-400 text-xs mt-1">{fieldErrors.interRollNumber}</p>
+                  )}
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-dark-300 mb-2">Total Marks</label>
@@ -526,6 +635,9 @@ const ApplicationForm: React.FC = () => {
                     className="cyber-input w-full"
                     placeholder="e.g., 1100"
                   />
+                  {fieldErrors.interTotalMarks && (
+                    <p className="text-red-400 text-xs mt-1">{fieldErrors.interTotalMarks}</p>
+                  )}
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-dark-300 mb-2">Obtained Marks</label>
@@ -536,6 +648,9 @@ const ApplicationForm: React.FC = () => {
                     className="cyber-input w-full"
                     placeholder="e.g., 950"
                   />
+                  {fieldErrors.interObtainedMarks && (
+                    <p className="text-red-400 text-xs mt-1">{fieldErrors.interObtainedMarks}</p>
+                  )}
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-dark-300 mb-2">Percentage</label>
@@ -546,6 +661,9 @@ const ApplicationForm: React.FC = () => {
                     className="cyber-input w-full"
                     placeholder="e.g., 86.36%"
                   />
+                  {fieldErrors.interPercentage && (
+                    <p className="text-red-400 text-xs mt-1">{fieldErrors.interPercentage}</p>
+                  )}
                 </div>
               </div>
             </div>
@@ -566,6 +684,9 @@ const ApplicationForm: React.FC = () => {
                   className="cyber-input w-full"
                   placeholder="Enter preferred program"
                 />
+                {fieldErrors.preferredProgram1 && (
+                  <p className="text-red-400 text-xs mt-1">{fieldErrors.preferredProgram1}</p>
+                )}
               </div>
               <div>
                 <label className="block text-sm font-medium text-dark-300 mb-2">Second Preference</label>
