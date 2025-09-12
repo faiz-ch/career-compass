@@ -6,17 +6,21 @@ import RegisterForm from './components/RegisterForm';
 import Dashboard from './components/Dashboard';
 import AIInterview from './components/AIInterview';
 import ApplicationForm from './components/ApplicationForm';
+import ProgramPage from './components/ProgramPage';
 import './App.css';
 
 // Protected Route Component
 const ProtectedRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const { isAuthenticated } = useAuth();
+  const { isAuthenticated, isLoading } = useAuth();
+  if (isLoading) return null;
   return isAuthenticated ? <>{children}</> : <Navigate to="/login" />;
 };
 
 // Main App Component
 const AppContent: React.FC = () => {
-  const { isAuthenticated } = useAuth();
+  const { isAuthenticated, isLoading } = useAuth();
+
+  if (isLoading) return null;
 
   return (
     <Router
@@ -33,7 +37,7 @@ const AppContent: React.FC = () => {
           />
           <Route 
             path="/register" 
-            element={isAuthenticated ? <Navigate to="/login" /> : <RegisterForm />} 
+            element={isAuthenticated ? <Navigate to="/dashboard" /> : <RegisterForm />} 
           />
           <Route 
             path="/dashboard" 
@@ -58,6 +62,14 @@ const AppContent: React.FC = () => {
                 <ApplicationForm />
               </ProtectedRoute>
             } 
+          />
+          <Route
+            path="/programs/:name"
+            element={
+              <ProtectedRoute>
+                <ProgramPage />
+              </ProtectedRoute>
+            }
           />
           <Route 
             path="/" 

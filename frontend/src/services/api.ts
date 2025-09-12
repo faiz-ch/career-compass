@@ -205,3 +205,21 @@ export const dashboardAPI = {
     return apiRequest('/careers/recommended/me');
   },
 };
+
+// Programs API
+export const programsAPI = {
+  getByName: async (name: string) => {
+    // Encode name to be URL safe
+    const encoded = encodeURIComponent(name);
+    return apiRequest(`/programs/${encoded}`);
+  },
+};
+
+// Applications API
+export const applicationsAPI = {
+  forward: async () => {
+    return apiRequest('/applications/forward', {
+      method: 'GET',
+    });
+  },
+};

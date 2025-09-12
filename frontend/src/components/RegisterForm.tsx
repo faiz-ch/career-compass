@@ -32,6 +32,7 @@ const RegisterForm: React.FC = () => {
 
     try {
       await register(formData);
+      navigate('/login');
     } catch (err: any) {
       setError(err.message || 'Registration failed');
     } finally {

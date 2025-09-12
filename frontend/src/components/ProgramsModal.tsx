@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import { Program } from '../types/models';
 
@@ -24,6 +25,7 @@ const ProgramsModal: React.FC<ProgramsModalProps> = ({
   error
 }) => {
   if (!isOpen) return null;
+  const navigate = useNavigate();
 
   return (
     <div className="fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center z-50 p-4">
@@ -95,7 +97,8 @@ const ProgramsModal: React.FC<ProgramsModalProps> = ({
               {programs.map((program, index) => (
                 <div
                   key={index}
-                  className="bg-dark-800/50 border border-cyber-500/20 rounded-lg p-5 hover:border-cyber-400/40 transition-all duration-300 transform hover:scale-[1.02]"
+                  className="bg-dark-800/50 border border-cyber-500/20 rounded-lg p-5 hover:border-cyber-400/40 transition-all duration-300 transform hover:scale-[1.02] cursor-pointer"
+                  onClick={() => navigate(`/programs/${encodeURIComponent(program.title)}`)}
                 >
                   <div className="flex items-start justify-between mb-3">
                     <h3 className="text-lg font-semibold text-white mb-2">{program.title}</h3>

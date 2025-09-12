@@ -65,3 +65,12 @@ class Application(Base):
     student_id = Column(Integer, ForeignKey("students.id"), nullable=False, unique=True, index=True)
     data = Column(JSON, nullable=False)
     created_at = Column(DateTime, default=datetime.utcnow)
+
+
+class Program(Base):
+    __tablename__ = "programs"
+
+    id = Column(Integer, primary_key=True, index=True)
+    name = Column(String(256), unique=True, nullable=False, index=True)
+    data = Column(JSON, nullable=False)
+    created_at = Column(DateTime, default=datetime.utcnow)

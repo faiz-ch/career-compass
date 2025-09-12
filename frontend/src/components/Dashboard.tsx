@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import { dashboardAPI, aiAPI, careersAPI, admissionsAPI } from '../services/api';
+import { dashboardAPI, aiAPI, careersAPI, admissionsAPI, applicationsAPI } from '../services/api';
 import AIResults from './AIResults';
 import ProgramsModal from './ProgramsModal';
+import ApplyModal from './ApplyModal';
 
 interface DashboardData {
   careers: any[];
@@ -25,6 +26,12 @@ const Dashboard: React.FC = () => {
     isLoading: false,
     error: ''
   });
+
+  // Apply modal state
+  const [isApplyModalOpen, setIsApplyModalOpen] = useState(false);
+  const [applyLoading, setApplyLoading] = useState(false);
+  const [applyError, setApplyError] = useState<string | null>(null);
+  const [applySuccess, setApplySuccess] = useState<string | null>(null);
 
 
   useEffect(() => {
@@ -77,6 +84,35 @@ const Dashboard: React.FC = () => {
 
   const handleApplicationForm = () => {
     navigate('/application');
+  };
+
+  // Forward application flow
+  const openApplyModal = () => {
+    setApplyError(null);
+    setApplySuccess(null);
+    setIsApplyModalOpen(true);
+  };
+
+  const closeApplyModal = () => {
+    setIsApplyModalOpen(false);
+  };
+
+  const handleApply = async () => {
+    try {
+      setApplyError(null);
+      setApplySuccess(null);
+      setApplyLoading(true);
+      const resp = await applicationsAPI.forward();
+      setApplySuccess(resp?.message || 'Application forwarded successfully');
+      // Optionally close after short delay
+      setTimeout(() => {
+        setIsApplyModalOpen(false);
+      }, 1000);
+    } catch (e: any) {
+      setApplyError(e?.message || 'Failed to forward application');
+    } finally {
+      setApplyLoading(false);
+    }
   };
 
 
@@ -243,6 +279,15 @@ const Dashboard: React.FC = () => {
                   <p className="text-xs text-dark-400">Submitted on {new Date(application.created_at).toLocaleString()}</p>
                 </div>
               </div>
+              <button
+                onClick={openApplyModal}
+                className="ml-4 bg-gradient-to-r from-cyber-500 to-cyber-600 hover:from-cyber-600 hover:to-cyber-700 text-white font-medium px-4 py-2 rounded-lg text-sm whitespace-nowrap transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center space-x-2"
+              >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+                <span>Forward Application</span>
+              </button>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
               <div><span className="text-dark-400">Name:</span> <span className="text-white">{application.data.firstName} {application.data.lastName}</span></div>
@@ -365,6 +410,16 @@ const Dashboard: React.FC = () => {
         careerName={programsModal.careerName}
         isLoading={programsModal.isLoading}
         error={programsModal.error}
+      />
+
+      {/* Apply Modal */}
+      <ApplyModal
+        isOpen={isApplyModalOpen}
+        onClose={closeApplyModal}
+        onApply={handleApply}
+        loading={applyLoading}
+        error={applyError}
+        success={applySuccess}
       />
 
     </div>

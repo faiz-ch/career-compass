@@ -69,7 +69,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
           last_name: '',
           email: credentials.email,
           created_at: new Date().toISOString(),
-          roll_number: null
+          roll_number: undefined
         });
       }
     } catch (error) {
@@ -80,8 +80,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
 
   const register = async (studentData: StudentCreate) => {
     try {
-      const response = await authAPI.register(studentData);
-      setUser(response);
+      await authAPI.register(studentData);
     } catch (error) {
       console.error('Registration failed:', error);
       throw error;

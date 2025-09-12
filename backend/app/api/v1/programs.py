@@ -1,10 +1,9 @@
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Depends
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
 from typing import List, Dict, Any
 from app.db.session import get_async_session
-from app.db.models import Career
-from fastapi import Depends
+from app.db.models import Career, Program
 
 router = APIRouter()
 
@@ -41,4 +40,21 @@ async def get_all_programs_from_careers(session: AsyncSession = Depends(get_asyn
         "programs": all_programs,
         "total_count": len(all_programs),
         "message": "Programs extracted from all careers"
+    }
+
+
+@router.get("/{program_name}")
+async def get_program_by_name(program_name: str, session: AsyncSession = Depends(get_async_session)):
+    """Fetch a program by name from the programs table."""
+    stmt = select(Program).where(Program.name == program_name)
+    result = await session.execute(stmt)
+    program = result.scalar_one_or_none()
+    if not program:
+        raise HTTPException(status_code=404, detail="Program not found")
+
+    return {
+        "name": program.name,
+        "data": program.data,
+        "created_at": program.created_at,
+        "id": program.id,
     }
