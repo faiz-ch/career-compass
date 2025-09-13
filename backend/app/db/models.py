@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, DateTime, Text, ForeignKey, JSON, Float, UniqueConstraint
+from sqlalchemy import Column, Integer, String, DateTime, Text, ForeignKey, JSON, Float, UniqueConstraint, Boolean
 from sqlalchemy.ext.declarative import declarative_base
 from datetime import datetime
 
@@ -13,6 +13,8 @@ class Student(Base):
     last_name = Column(String(64), nullable=False)
     email = Column(String(128), unique=True, nullable=False, index=True)
     hashed_password = Column(String(256), nullable=False)
+    is_admin = Column(String(5), default="no", nullable=False)    # yes or no
+    admin_level = Column(String(20), default="none", nullable=False)  # none, admin, super_admin
     created_at = Column(DateTime, default=datetime.utcnow)
 
 

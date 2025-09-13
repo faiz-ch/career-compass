@@ -7,6 +7,7 @@ import Dashboard from './components/Dashboard';
 import AIInterview from './components/AIInterview';
 import ApplicationForm from './components/ApplicationForm';
 import ProgramPage from './components/ProgramPage';
+import AdminApp from './components/AdminApp';
 import './App.css';
 
 // Protected Route Component
@@ -70,6 +71,10 @@ const AppContent: React.FC = () => {
                 <ProgramPage />
               </ProtectedRoute>
             }
+          />
+          <Route 
+            path="/admin" 
+            element={<AdminApp />} 
           />
           <Route 
             path="/" 

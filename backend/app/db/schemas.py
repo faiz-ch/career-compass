@@ -160,3 +160,19 @@ class ApplicationRead(BaseModel):
     created_at: datetime
 
     model_config = ConfigDict(from_attributes=True)
+
+# Admin schemas
+class AdminLogin(BaseModel):
+    email: EmailStr
+    password: str
+
+class UserStats(BaseModel):
+    total_users: int
+    new_users_today: int
+
+class AdminCreate(BaseModel):
+    first_name: str
+    last_name: str
+    email: EmailStr
+    password: str
+    admin_level: str = "admin"

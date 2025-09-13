@@ -61,6 +61,8 @@ from app.api.v1 import scraper
 app.include_router(scraper.router, prefix="/api/v1/scraper", tags=["scraper"])
 from app.api.v1 import applications
 app.include_router(applications.router, prefix="/api/v1/applications", tags=["applications"])
+from app.api.v1 import admin
+app.include_router(admin.router, prefix="/api/v1/admin", tags=["admin"])
 
 @app.get("/")
 def root():
